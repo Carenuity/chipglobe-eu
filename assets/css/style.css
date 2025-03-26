@@ -600,8 +600,18 @@ h6 {
 
 .container {
   padding: 20px 26px;}
-
-  
+/*--------------------------------------------------------------
+# privacy
+--------------------------------------------------------------*/
+  .policy {
+  margin-bottom: 20px;
+  }
+  .bg {
+background-color: #00815a;
+color: #ffffff;
+padding: 20px;
+height: 800px;
+  }
 /*--------------------------------------------------------------
 # Management
 --------------------------------------------------------------*/
@@ -1432,8 +1442,14 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 100%;
-  background: #fff;
+  width: 400px;
+  color: #fff;
+  background-color: #00815a;
+  padding: 5px;
+  margin-top: 10px;
+}
+.text {
+color: #ffffff;
 }
 
 .contact .info i {
@@ -1462,7 +1478,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #080808;
+  color: #fffefe;
 }
 
 .contact .info .email,
