@@ -961,7 +961,7 @@ section {
 .box .lorem-ipsum-dolor {
   position: absolute;
   height: 174px;
-  top: 100px;
+  top: 50px;
   left: 44px;
  
   
@@ -973,8 +973,8 @@ section {
 
 .box .text-wrapper {
   position: absolute;
-  height: 39px;
-  top: 31px;
+  height: 10px;
+  top: 10px;
   left: 44px;
   
   font-weight: 700;
