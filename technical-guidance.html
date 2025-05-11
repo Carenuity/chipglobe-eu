@@ -28,7 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   
 </head>
 
@@ -85,7 +86,9 @@
             </ul>
           </li>
           
-          <li><a class="nav-link scrollto" href="#contact">EN|DE</a></li>
+          <li><a  href="#" onclick="changeLanguage('en')">En</a></li>
+          <li><a class="nav-link scrollto" href="#">|</a></li>
+          <li><a  href="#" onclick="changeLanguage('de')">De</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -96,16 +99,79 @@
   </header>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero2" class="d-flex align-items-center">
+  <!-- <section id="hero2" class="d-flex align-items-center">
     <div class="container">
       <h1>Your project is our project<br>  your issue is our issue.
        </h1>
       <h2> Effective remedies can only be applied once the <br>issues and root causes have been identified.</h2>
       
     </div>
+  </section> -->
+  <section id="hero2" class="d-flex align-items-center">
+    <div class="container">
+      <h1 data-i18n="hero2_title"></h1>
+      <h2 data-i18n="hero2_subtitle"></h2>
+    </div>
   </section>
 
   <main id="main">
+    <section class="container">
+      <div class="section-title">
+        <h2 data-i18n="challenge1_title"></h2>
+      </div>
+      <div>
+        <p data-i18n="challenge1_point1"></p>
+        <h5><strong data-i18n="challenge1_point2"></strong></h5>
+        <ul>
+          <li data-i18n="solution1"></li>
+          <li data-i18n="solution2"></li>
+          <li data-i18n="solution3"></li>
+          <li data-i18n="solution4"></li>
+          <li data-i18n="solution5"></li>
+        </ul>
+      </div>
+  
+      <div class="section-title">
+        <h2 data-i18n="challenge2_title"></h2>
+      </div>
+      <div>
+        <p data-i18n="challenge2_point1"></p>
+        <h5><strong data-i18n="challenge2_point2"></strong></h5>
+        <ul>
+          <li data-i18n="solution6"></li>
+          <li data-i18n="solution7"></li>
+          <li data-i18n="solution8"></li>
+        </ul>
+      </div>
+  
+      <div class="section-title">
+        <h2 data-i18n="challenge3_title"></h2>
+      </div>
+      <div>
+        <ul>
+          <li data-i18n="challenge3_point1"></li>
+          <li data-i18n="challenge3_point2"></li>
+          <li data-i18n="challenge3_point3"></li>
+          <li data-i18n="challenge3_point4"></li>
+        </ul>
+        <h5><strong data-i18n="solution"></strong></h5>
+        <ul>
+         
+          <li data-i18n="solution9"></li>
+          <li data-i18n="solution10"></li>
+          <li data-i18n="solution11"></li>
+          <li data-i18n="solution12"></li>
+          <li data-i18n="solution13"></li>
+          <li data-i18n="solution14"></li>
+          <li data-i18n="solution15"></li>
+          <li data-i18n="solution16"></li>
+        </ul>
+        <p data-i18n="closing_remark"></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- <main id="main">
     <section class="container">
     <div class="section-title">
         <h2> Challenge #1: Competence & resources</h2>
@@ -242,7 +308,7 @@
 
     </section>
      
-    </main>
+    </main> -->
     <footer id="footer">
 
       <div class="footer-top">
@@ -340,4 +406,43 @@
     
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
+
+       <!-- Translate -->
+
+
+  <script>
+    i18next
+      .use(i18nextHttpBackend)
+      .init({
+        lng: 'en',
+        fallbackLng: 'de',
+        backend: {
+          loadPath: '/locales/{{lng}}/technical-guidance.json'
+        }
+      }, function(err, t) {
+        updateContent();
+      });
+  
+    function updateContent() {
+      document.querySelectorAll('[data-i18n]').forEach(function(el) {
+        const key = el.getAttribute('data-i18n');
+        el.textContent = i18next.t(key);
+      });
+    }
+  
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, updateContent);
+    }
+  </script>
+  
+
+
+  
+  <script>
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, function() {
+        updateContent();
+      });
+    }
+  </script>
     </body>

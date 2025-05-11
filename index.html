@@ -29,6 +29,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- Translate -->
+  <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   
 </head>
 
@@ -84,8 +87,12 @@
               
             </ul>
           </li>
+          <li><a  href="#" onclick="changeLanguage('en')">En</a></li>
+          <li><a class="nav-link scrollto" href="#">|</a></li>
+          <li><a  href="#" onclick="changeLanguage('de')">De</a></li>
           
-          <li><a class="nav-link scrollto" href="#contact">EN|DE</a></li>
+         
+          
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -98,12 +105,12 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>What can we do to make</br> 
+      <h1 data-i18n="hero.title">What can we do to make</br> 
         you successful?</h1>
-      <h2>Comprehensive chip design and verification 
+      <h2 data-i18n="hero.subtitle">Comprehensive chip design and verification 
         management as </br> well as embedded system 
         development for the future.</h2>
-      <a href="about-us.html" class="btn-get-started scrollto">Find out more</a>
+      <a href="about-us.html" class="btn-get-started scrollto" data-i18n="hero.cta">Find out more</a>
     </div>
   </section>
 
@@ -116,7 +123,7 @@
         <div class="row">
           <div class="col-lg-3 ">
             <div class="content">
-              <h3>Our Services</h3>
+              <h3 data-i18n="services.title">Our Services</h3>
             </div>
           </div>
           <div class="col-lg-9 ">
@@ -159,14 +166,14 @@
                         <img src="assets/img/image1.png" class="img-fluid" alt="">
                         
                         
-                          <h3>ChipGlobe Design </h3>
+                          <h3 data-i18n="services.design.title">ChipGlobe Design </h3>
                         
-                        <p>
+                        <p data-i18n="services.design.description">
                           ChipGlobe specializes in a comprehensive range of chip design services that support 
                           projects from the concept phase through to final prototyping and implementation. 
                         </p>
                         <a href="chipglobe-design.html" >
-                          <u> Learn more </u></a>
+                          <u data-i18n="services.learn_more"> Learn more </u></a>
                       </div>
                     </div><!-- End testimonial item -->
         
@@ -175,14 +182,14 @@
                         <img src="assets/img/image2.png" class="img-fluid" alt="">
                         
                        
-                          <h3> Embedded Systems </h3>
-                           <p>
+                          <h3 data-i18n="services.embeddedSystems.title"> Embedded Systems </h3>
+                           <p data-i18n="services.embeddedSystems.description">
                           ChipGlobe offers a comprehensive range of embedded systems services that meet the needs 
                           of various industries, including automotive, industrial automation...
                           
                         </p>
                         <a href="embeded-system.html" >
-                          <u> Learn more </u></a>
+                          <u data-i18n="services.embeddedSystems.link"> Learn more </u></a>
                       </div>
                     </div><!-- End testimonial item -->
         
@@ -190,14 +197,14 @@
                       <div class="testimonial-item">
                         <img src="assets/img/image3.png" class="img-fluid" alt="">
                         
-                        <h3>RTL2GDS Implementation </h3>
+                        <h3 data-i18n="services.rtl2gds.title">RTL2GDS Implementation </h3>
                         
-                        <p>
+                        <p data-i18n="services.rtl2gds.description">
                           ChipGlobe specializes in the RTL2GDS implementation, 
                           which covers the entire backend flow of chip design, from the digital logic...
                         </p>
                         <a href="implimentation.html" >
-                          <u> Learn more </u></a>
+                          <u data-i18n="services.rtl2gds.link"> Learn more </u></a>
                       </div>
                     </div><!-- End testimonial item -->
         
@@ -205,30 +212,30 @@
                       <div class="testimonial-item">
                         <img src="assets/img/image1.png" class="img-fluid" alt="">
                         
-                        <h3>Verification Service</h3>
+                        <h3 data-i18n="services.verification.title">Verification Service</h3>
 
-                        <p>
+                        <p data-i18n="services.verification.description">
                           ChipGlobe specializes in a comprehensive range of verification services, 
                           including Functional Verification, Mixed Signal Verification, and SoC/IP 
                           Verification...
                         </p>
                         <a href="verification.html" >
-                          <u> Learn more </u></a>
+                          <u data-i18n="services.verification.link"> Learn more </u></a>
                       </div>
                     </div><!-- End  -->
         
                     <div class="swiper-slide">
                       <div class="testimonial-item">
                         <img src="assets/img/image2.png" class="img-fluid" alt="">
-                        <h3>Success Through Co-working</h3>
+                        <h3 data-i18n="services.coWorking.title">Success Through Co-working</h3>
                         
-                        <p>
+                        <p data-i18n="services.coWorking.description">
                           It's often preferable to accumulate information in groups rather than 
                           rely on solutions proposed by only one individual. 
                           We know that, so ...
                         </p>
                         <a href="co-working.html" >
-                          <u> Learn more </u></a>
+                          <u data-i18n="services.coWorking.link"> Learn more </u></a>
                       </div>
                     </div>
         
@@ -255,20 +262,20 @@
         
         <div class="box">
           <div class="section-title">
-            <h2> About us</h2>
+            <h2 data-i18n="about.title"> About us</h2>
         
           </div>
           <div class="group">
           <div class="overlap">
           <div class="rectangle">
-            <p class="lorem-ipsum-dolor">
+            <p class="lorem-ipsum-dolor" data-i18n="about.description">
               ChipGlobe GmbH has been founded in the beginning of 2014 by Volker Frisch,</br> 
               one of the initiators and key executive members of frobas GmbH, whose team</br>
                of experts had been active in global projects
               since 2003.</br> ChipGlobe is an independent entity dedicated to help customers in developing</br> 
               comprehensive chips (ASICS, FPGAs and Embedded Systems (Firmware)) </br> from idea and initial spec
               to prototype, benefiting from senior experts </br>expertise throughout the flow.
-              <a href="about-us.html" >
+              <a data-i18n="about.learn_more" href="about-us.html" >
                 Learn more</a>
             </p>
            
@@ -290,90 +297,90 @@
   </main>
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+   <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Mail Address Only:</h4>
-            <p>
-              ChipGlobe GmbH<br>
-              Cincinnatistrasse 60<br>
-              81549 Munich, Germany <br><br>
-              <strong>Phone:</strong> +49 89 1222 469 00<br>
-              <strong>Fax:</strong> +49 89 1222 469 69<br>
-            </p>
-            
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Office Address:</h4>
-            <p>
-              ChipGlobe GmbH<br>
-              Professor-Messerschmitt-Strasse 1, 3rd floor<br>
-              85579 Neubiberg / Munich<br>
-              Germany<br>
-              <strong>Email:</strong> info@chipglobe.com<br>
-              
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>CEO / overall responsible for<br>
-              this website and its content:</h4>
-           
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+  
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Mail Address Only:</h4>
               <p>
-                Volker Frisch<br>
-                CEO <br><br>
+                ChipGlobe GmbH<br>
+                Cincinnatistrasse 60<br>
+                81549 Munich, Germany <br><br>
                 <strong>Phone:</strong> +49 89 1222 469 00<br>
-                <strong>Email:</strong> volker.frisch@chipglobe.com<br>
+                <strong>Fax:</strong> +49 89 1222 469 69<br>
               </p>
               
-          </div>
-
-          
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py- " >
-
-      <div class="me-md-auto text-center text-md-start ">
-        <div class="copyright">© 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp;   ChipGlobe is a registered Trademark ® of ChipGlobe GmbH
-           
-          <div class="row">
-            <div class="col-lg-3 ">
-                <a href="legal.html"><u>Legal notice</u></a>
             </div>
-            <div class="col-lg-4 ">
-                <a href="privacy.html"><u>Privacy policy</u></a>
-            </div>
-            
-            
-        </div>
-        </div>
-        <div class="credits">
-           
-          
-        </div>
-      </div>
-      
   
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://www.linkedin.com/company/chipglobe-gmbh" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
-        <a href="https://www.instagram.com/carenuity" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.youtube.com/@carenuity" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100086691917641" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>Office Address:</h4>
+              <p>
+                ChipGlobe GmbH<br>
+                Professor-Messerschmitt-Strasse 1, 3rd floor<br>
+                85579 Neubiberg / Munich<br>
+                Germany<br>
+                <strong>Email:</strong> info@chipglobe.com<br>
+                
+              </p>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 footer-links">
+              <h4>CEO / overall responsible for<br>
+                this website and its content:</h4>
+             
+                <p>
+                  Volker Frisch<br>
+                  CEO <br><br>
+                  <strong>Phone:</strong> +49 89 1222 469 00<br>
+                  <strong>Email:</strong> volker.frisch@chipglobe.com<br>
+                </p>
+                
+            </div>
+  
+            
+  
+          </div>
+        </div>
+      </div>
+  
+      <div class="container d-md-flex py- " >
+  
+        <div class="me-md-auto text-center text-md-start ">
+          <div class="copyright">© 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp;   ChipGlobe is a registered Trademark ® of ChipGlobe GmbH
+             
+            <div class="row">
+              <div class="col-lg-3 ">
+                  <a href="legal.html"><u>Legal notice</u></a>
+              </div>
+              <div class="col-lg-4 ">
+                  <a href="privacy.html"><u>Privacy policy</u></a>
+              </div>
+              
+              
+          </div>
+          </div>
+          <div class="credits">
+             
+            
+          </div>
+        </div>
         
+    
+        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="https://www.linkedin.com/company/chipglobe-gmbh" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
+          <a href="https://www.instagram.com/carenuity" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+          <a href="https://www.youtube.com/@carenuity" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100086691917641" class="facebook"><i class="bx bxl-facebook"></i></a>
+          
+          
+        </div>
+  
         
       </div>
-
-      
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
@@ -388,6 +395,46 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- Translate -->
+
+
+  <script>
+    i18next
+      .use(i18nextHttpBackend)
+      .init({
+        lng: 'en',
+        fallbackLng: 'de',
+        backend: {
+          loadPath: '/locales/{{lng}}/index.json'
+        }
+      }, function(err, t) {
+        updateContent();
+      });
+  
+    function updateContent() {
+      document.querySelectorAll('[data-i18n]').forEach(function(el) {
+        const key = el.getAttribute('data-i18n');
+        el.textContent = i18next.t(key);
+      });
+    }
+  
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, updateContent);
+    }
+  </script>
+  
+
+
+  
+  <script>
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, function() {
+        updateContent();
+      });
+    }
+  </script>
+  
 
 </body>
 

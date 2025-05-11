@@ -28,7 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   
 </head>
 
@@ -80,7 +81,9 @@
               </ul>
             </li>
             
-            <li><a class="nav-link scrollto" href="#contact">EN|DE</a></li>
+            <li><a  href="#" onclick="changeLanguage('en')">En</a></li>
+            <li><a class="nav-link scrollto" href="#">|</a></li>
+            <li><a  href="#" onclick="changeLanguage('de')">De</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -97,7 +100,7 @@
       <h2>Comprehensive chip design and verification 
         management as </br> well as embedded system 
         development for the future.</h2>
-      <a href="#about" class="btn-get-started scrollto">Find out more</a>
+      <!-- <a href="#about" class="btn-get-started scrollto">Find out more</a> -->
     </div>
   </section><!-- End Hero -->
 
@@ -108,7 +111,7 @@
       <div class="row">
         <div class="col-lg-3 ">
           <div class="content">
-            <h3>Our Services</h3>
+            <h3 data-i18n="services.title">Our Services</h3>
           </div>
         </div>
         <div class="col-lg-9 ">
@@ -151,14 +154,14 @@
                       <img src="assets/img/image1.png" class="img-fluid" alt="">
                       
                       
-                        <h3>ChipGlobe Design </h3>
+                        <h3 data-i18n="services.design.title">ChipGlobe Design </h3>
                       
-                      <p>
+                      <p data-i18n="services.design.description">
                         ChipGlobe specializes in a comprehensive range of chip design services that support 
                         projects from the concept phase through to final prototyping and implementation. 
                       </p>
                       <a href="chipglobe-design.html" >
-                        <u> Learn more </u></a>
+                        <u data-i18n="services.learn_more"> Learn more </u></a>
                     </div>
                   </div><!-- End testimonial item -->
       
@@ -167,14 +170,14 @@
                       <img src="assets/img/image2.png" class="img-fluid" alt="">
                       
                      
-                        <h3> Embedded Systems </h3>
-                         <p>
+                        <h3 data-i18n="services.embeddedSystems.title"> Embedded Systems </h3>
+                         <p data-i18n="services.embeddedSystems.description">
                         ChipGlobe offers a comprehensive range of embedded systems services that meet the needs 
                         of various industries, including automotive, industrial automation...
                         
                       </p>
                       <a href="embeded-system.html" >
-                        <u> Learn more </u></a>
+                        <u data-i18n="services.embeddedSystems.link"> Learn more </u></a>
                     </div>
                   </div><!-- End testimonial item -->
       
@@ -182,14 +185,14 @@
                     <div class="testimonial-item">
                       <img src="assets/img/image3.png" class="img-fluid" alt="">
                       
-                      <h3>RTL2GDS Implementation </h3>
+                      <h3 data-i18n="services.rtl2gds.title">RTL2GDS Implementation </h3>
                       
-                      <p>
+                      <p data-i18n="services.rtl2gds.description">
                         ChipGlobe specializes in the RTL2GDS implementation, 
                         which covers the entire backend flow of chip design, from the digital logic...
                       </p>
                       <a href="implimentation.html" >
-                        <u> Learn more </u></a>
+                        <u data-i18n="services.rtl2gds.link"> Learn more </u></a>
                     </div>
                   </div><!-- End testimonial item -->
       
@@ -197,30 +200,30 @@
                     <div class="testimonial-item">
                       <img src="assets/img/image1.png" class="img-fluid" alt="">
                       
-                      <h3>Verification Service</h3>
+                      <h3 data-i18n="services.verification.title">Verification Service</h3>
 
-                      <p>
+                      <p data-i18n="services.verification.description">
                         ChipGlobe specializes in a comprehensive range of verification services, 
                         including Functional Verification, Mixed Signal Verification, and SoC/IP 
                         Verification...
                       </p>
                       <a href="verification.html" >
-                        <u> Learn more </u></a>
+                        <u data-i18n="services.verification.link"> Learn more </u></a>
                     </div>
                   </div><!-- End  -->
       
                   <div class="swiper-slide">
                     <div class="testimonial-item">
                       <img src="assets/img/image2.png" class="img-fluid" alt="">
-                      <h3>Success Through Co-working</h3>
+                      <h3 data-i18n="services.coWorking.title">Success Through Co-working</h3>
                       
-                      <p>
+                      <p data-i18n="services.coWorking.description">
                         It's often preferable to accumulate information in groups rather than 
                         rely on solutions proposed by only one individual. 
                         We know that, so ...
                       </p>
                       <a href="co-working.html" >
-                        <u> Learn more </u></a>
+                        <u data-i18n="services.coWorking.link"> Learn more </u></a>
                     </div>
                   </div>
       
@@ -633,4 +636,42 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  
+  <!-- Translate -->
+
+  <script>
+    i18next
+      .use(i18nextHttpBackend)
+      .init({
+        lng: 'en',
+        fallbackLng: 'de',
+        backend: {
+          loadPath: '/locales/{{lng}}/translation.json'
+        }
+      }, function(err, t) {
+        updateContent();
+      });
+  
+    function updateContent() {
+      document.querySelectorAll('[data-i18n]').forEach(function(el) {
+        const key = el.getAttribute('data-i18n');
+        el.textContent = i18next.t(key);
+      });
+    }
+  
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, updateContent);
+    }
+  </script>
+  
+
+
+  
+  <script>
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, function() {
+        updateContent();
+      });
+    }
+  </script>
 </body>

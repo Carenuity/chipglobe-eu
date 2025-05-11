@@ -29,7 +29,8 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  
+  <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
 </head>
 
 <body>
@@ -85,7 +86,9 @@
             </ul>
           </li>
           
-          <li><a class="nav-link scrollto" href="#contact">EN|DE</a></li>
+          <li><a  href="#" onclick="changeLanguage('en')">En</a></li>
+          <li><a class="nav-link scrollto" href="#">|</a></li>
+          <li><a  href="#" onclick="changeLanguage('de')">De</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -94,7 +97,57 @@
 
     </div>
   </header>
+
   <section id="hero2" class="d-flex align-items-center">
+    <div class="container">
+      <h1 data-i18n="title">Industry Solutions.</h1>
+    </div>
+  </section>
+  
+  <main id="main">
+    <section class="container">
+      <div class="section-title">
+        <h2 data-i18n="title1">Automotive Industry</h2>
+      </div>
+      <div>
+        <p data-i18n="description">
+          <!-- Automotive industry paragraph -->
+        </p>
+      </div>
+  
+      <div class="section-title">
+        <h2 data-i18n="title2">Medical Technology</h2>
+      </div>
+      <div>
+        <p data-i18n="description2">
+          <!-- Medical technology paragraph -->
+        </p>
+      </div>
+  
+      <div class="section-title">
+        <h2 data-i18n="title3">Telecommunications</h2>
+      </div>
+      <div>
+        <p data-i18n="description3">
+          <!-- Telecommunications paragraph -->
+        </p>
+      </div>
+  
+      <div class="section-title">
+        <h2 data-i18n="title4">Consumer Goods</h2>
+      </div>
+      <div>
+        <p data-i18n="description4">
+          <!-- Consumer goods paragraph 1 -->
+        </p>
+        <p data-i18n="description5">
+          <!-- Consumer goods paragraph 2 -->
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <!-- <section id="hero2" class="d-flex align-items-center">
     <div class="container">
       <h1>industry Solutions.
        </h1>
@@ -173,7 +226,7 @@
             collaborate to drive the future of technology together.</p>
       </div>
 </section> 
-</main>  
+</main>   -->
 <footer id="footer">
 
   <div class="footer-top">
@@ -272,5 +325,44 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 
+
+   <!-- Translate -->
+
+
+   <script>
+    i18next
+      .use(i18nextHttpBackend)
+      .init({
+        lng: 'en',
+        fallbackLng: 'de',
+        backend: {
+          loadPath: '/locales/{{lng}}/industry-solutions.json'
+        }
+      }, function(err, t) {
+        updateContent();
+      });
+  
+    function updateContent() {
+      document.querySelectorAll('[data-i18n]').forEach(function(el) {
+        const key = el.getAttribute('data-i18n');
+        el.textContent = i18next.t(key);
+      });
+    }
+  
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, updateContent);
+    }
+  </script>
+  
+
+
+  
+  <script>
+    function changeLanguage(lang) {
+      i18next.changeLanguage(lang, function() {
+        updateContent();
+      });
+    }
+  </script>
   </body>
 </html>

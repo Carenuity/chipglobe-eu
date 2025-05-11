@@ -205,12 +205,12 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 10
       },
 
       1200: {
         slidesPerView: 2,
-        spaceBetween: 20
+        spaceBetween: 10
       }
     }
   });

@@ -1,0 +1,53 @@
+
+  
+
+
+
+{
+
+
+    "_comment": "home",
+
+    "hero": {
+      "title": "What can we do to make you successful?",
+      "subtitle": "Comprehensive chip design and verification management as well as embedded system development for the future.",
+      "cta": "Find out more"
+    },
+    "services": {
+      "title": "Our Services",
+      "design": {
+        "title": "ChipGlobe Design",
+        "description": "ChipGlobe specializes in a comprehensive range of chip design services that support projects from the concept phase through to final prototyping and implementation...."
+      },
+      "learn_more": "Learn more",
+     
+          "embeddedSystems": {
+            "title": "Embedded Systems",
+            "description": "ChipGlobe offers a comprehensive range of embedded systems services that meet the needs of various industries, including automotive, industrial automation...",
+            "link": "Learn more"
+          },
+          "rtl2gds": {
+            "title": "RTL2GDS Implementation",
+            "description": "ChipGlobe specializes in the RTL2GDS implementation, which covers the entire backend flow of chip design, from the digital logic...",
+            "link": "Learn more"
+          },
+          "verification": {
+            "title": "Verification Service",
+            "description": "ChipGlobe specializes in a comprehensive range of verification services, including Functional Verification, Mixed Signal Verification, and SoC/IP Verification...",
+            "link": "Learn more"
+          },
+          "coWorking": {
+      "title": "Success Through Co-working",
+      "description": "It's often preferable to accumulate information in groups rather than rely on solutions proposed by only one individual. We know that, so ...",
+      "link": "Learn more"
+    }
+      
+      
+    },
+    "about": {
+      "title": "About us",
+      "description": " ChipGlobe GmbH has been founded in the beginning of 2014 by Volker Frisch, one of the initiators and key executive members of frobas GmbH, whose team of experts had been active in global projects since 2003. ChipGlobe is an independent entity dedicated to help customers in developing comprehensive chips (ASICS, FPGAs and Embedded Systems (Firmware)) from idea and initial spec to prototype, benefiting from senior experts expertise throughout the flow.",
+      "learn_more": "Learn more"
+    }
+  }
+  

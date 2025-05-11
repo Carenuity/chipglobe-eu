@@ -1,0 +1,53 @@
+
+
+{
+
+    "_comment": "home",
+
+    "hero": {
+      "title": "Was können wir tun, um Sie erfolgreich zu machen?",
+      "subtitle": "Umfassendes Chipdesign und Verifikationsmanagement sowie die Entwicklung eingebetteter Systeme für die Zukunft.",
+      "cta": "Mehr erfahren"
+    },
+    "services": {
+      "title": "Unsere Dienstleis- tungen",
+      "design": {
+        "title": "ChipGlobe Design",
+        "description": "ChipGlobe bietet ein umfassendes Spektrum an Chipdesign-Dienstleistungen, die Projekte von der Konzeptphase bis zur Prototyperstellung und der  ..."
+      },
+      "learn_more": "Mehr erfahren",
+      
+          "embeddedSystems": {
+            "title": "Eingebettete Systeme",
+            "description": "ChipGlobe ist auf ein umfassendes Angebot an unterstützenden Chip-Design-Dienstleistungen spezialisiert Projekte von der Konzeptphase bis zum endgültigen Prototyping und der ....",
+            "link": "Mehr erfahren"
+          },
+          "rtl2gds": {
+            "title": "RTL2GDS-Implementierung",
+            "description": "ChipGlobe ist auf die RTL2GDS-Implementierung spezialisiert, die den gesamten Backend-Prozess des Chip-Designs abdeckt, beginnend mit der digitalen Logik...",
+            "link": "Mehr erfahren"
+          },
+          "verification": {
+            "title": "Verifikationsdienstlei-stungen",
+            "description": "ChipGlobe bietet ein umfassendes Spektrum an Verifikationsdienstleistungen, einschließlich funktionaler Verifikation, Mixed-Signal-Verifikation und SoC/IP-Verifikation...",
+            "link": "Mehr erfahren"
+          },
+          "coWorking": {
+            "title": "Erfolg durch Zusammenarbeit",
+            "description": "Es ist oft besser, Informationen in Gruppen zu sammeln, anstatt sich auf Lösungen zu verlassen, die nur von einer Person vorgeschlagen wurden. Das wissen wir, also ...",
+            "link": "Mehr erfahren"
+            }
+        
+      
+    },
+    
+        
+      
+      
+    "about": {
+      "title": "Über uns",
+      "description": "Die ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und leitenden Mitglieder der frobas GmbH, deren Expertenteam seit 2003 an globalen Projekten beteiligt war. ChipGlobe ist ein unabhängiges Unternehmen, das Kunden bei der Entwicklung umfassender Chips (ASICs, FPGAs und Embedded Systems (Firmware)) vom Konzept bis zum Prototypen unterstützt – mit der Erfahrung von Senior-Experten über den gesamten Ablauf hinweg.",
+      "learn_more": "Mehr erfahren"
+    }
+  }
+  
