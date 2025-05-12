@@ -28,7 +28,8 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+<script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   
 </head>
 
@@ -36,66 +37,108 @@
 
   
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
+   <!-- ======= Navbar ======= -->
 
-      <!-- <h1 class="logo me-auto"><a href="index.html">Medilab</a></h1> -->
-      
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+<div id="navbar-container"></div>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          
-          
-          <li class="dropdown"><a href="#"><span>Customer</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="co-working.html">Co-working</a></li>
-              <li><a href="industry-solutions.html">Industry Solutions</a></li>
-              
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>References</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="case-study.html">Case Study</a></li>
-              
-            </ul>
-          </li>
-          <li class="dropdown "><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="embeded-system.html"> Embedded System</a></li>
-              <li><a href="verification.html">Verification</a></li>
-              <li><a href="implementation.html">RTL2GDS Implementation</a></li>
-              <li><a href="chip-design.html">Chip Design</a></li>
-              <li><a href="methodology.html">First Time Right Methodology</a></li>
-            </ul>
-          </li>
-  
-          
-          <li class="dropdown "><a href="#"><span>Contact</span> <i class="bi bi-chevron-down "></i></a>
-            <ul>
-              <li><a href="contact-us.html">Contact us</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="partners.html">Partners</a></li>
-              <li><a href="chipglobe-shop.html">ChipGlobe Shop</a></li>
-              <li><a href="about-us.html">About us</a></li>
-              
-            </ul>
-          </li>
-          
-          <li><a class="nav-link scrollto" href="#contact">EN|DE</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="careers.html" class="appointment-btn scrollto"><span class="d-none d-md-inline">Careers</a>
-
-    </div>
-  </header>
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar-container').innerHTML = data;
+    });
+</script>
 
   <!-- ======= Hero Section ======= -->
+
   <section id="hero2" class="d-flex align-items-center">
+  <div class="container">
+    <h1 data-i18n="hero.title">We ensure our designs<br> are optimized for</h1>
+    <h2 data-i18n="hero.subtitle">power, performance and area</h2>
+  </div>
+</section>
+
+<main id="main">
+  <section class="container">
+    <div class="section-title">
+      <h2 data-i18n="section.introTitle">ChipGlobe RTL2GDS Implementation, Layout, and Verification Services</h2>
+    </div>
+    <div>
+      <p data-i18n="section.introText">
+        Welcome to ChipGlobe's RTL2GDS services page...
+      </p>
+    </div>
+
+    <div class="section-title2">
+      <img src="assets/img/services/implementation.jpeg" alt="" class="img-fluid">
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.expertiseTitle">Our Expertise in RTL2GDS Implementation</h2>
+    </div>
+    <div class="mb-6">
+      <p data-i18n="section.expertiseIntro">ChipGlobe specializes in RTL2GDS...</p>
+      <ul>
+        <li><strong data-i18n="section.frontendBackend.title"></strong> <span data-i18n="section.frontendBackend.text"></span></li>
+        <li><strong data-i18n="section.synthesisLayout.title"></strong> <span data-i18n="section.synthesisLayout.text"></span></li>
+        <li><strong data-i18n="section.timingClosure.title"></strong> <span data-i18n="section.timingClosure.text"></span></li>
+        <li><strong data-i18n="section.powerIntegrity.title"></strong> <span data-i18n="section.powerIntegrity.text"></span></li>
+      </ul>
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.verificationTitle">Functional Verification and Quality Assurance</h2>
+    </div>
+    <div>
+      <p data-i18n="section.verificationIntro">Our functional verification process...</p>
+      <ul>
+        <li><strong data-i18n="section.verificationEnv.title"></strong> <span data-i18n="section.verificationEnv.text"></span></li>
+        <li><strong data-i18n="section.lowPower.title"></strong> <span data-i18n="section.lowPower.text"></span></li>
+        <li><strong data-i18n="section.isoCompliance.title"></strong> <span data-i18n="section.isoCompliance.text"></span></li>
+      </ul>
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.toolsTitle">Tools and Technologies We Use</h2>
+    </div>
+    <div>
+      <ul>
+        <li><strong data-i18n="section.edaTools.title"></strong> <span data-i18n="section.edaTools.text"></span></li>
+        <li><strong data-i18n="section.languages.title"></strong> <span data-i18n="section.languages.text"></span></li>
+        <li><strong data-i18n="section.methodologies.title"></strong> <span data-i18n="section.methodologies.text"></span></li>
+      </ul>
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.presenceTitle">Our Global Presence</h2>
+    </div>
+    <div>
+      <p data-i18n="section.presenceText">ChipGlobe has a truly global presence...</p>
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.whyChooseTitle">Why Choose ChipGlobe?</h2>
+    </div>
+    <div>
+      <p data-i18n="section.whyChooseIntro">At ChipGlobe, our RTL2GDS implementation...</p>
+      <ul>
+        <li><strong data-i18n="section.expertise.title"></strong> <span data-i18n="section.expertise.text"></span></li>
+        <li><strong data-i18n="section.scalability.title"></strong> <span data-i18n="section.scalability.text"></span></li>
+        <li><strong data-i18n="section.quality.title"></strong> <span data-i18n="section.quality.text"></span></li>
+        <li><strong data-i18n="section.client.title"></strong> <span data-i18n="section.client.text"></span></li>
+      </ul>
+    </div>
+
+    <div class="section-title">
+      <h2 data-i18n="section.contactTitle">Contact Us</h2>
+    </div>
+    <div>
+      <p data-i18n="section.contactText">Ready to bring your chip design from concept to silicon?</p>
+    </div>
+  </section>
+</main>
+
+  <!-- <section id="hero2" class="d-flex align-items-center">
     <div class="container">
       <h1> We ensure our designs<br> are optimized for </h1>
       <h2>power, performance and area </h2>
@@ -280,91 +323,18 @@
 
     </section>
      
-    </main>
-    <footer id="footer">
+    </main> -->
+    <!-- footer -->
+    <div id="footer-container"></div> 
 
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-  
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Mail Address Only:</h4>
-              <p>
-                ChipGlobe GmbH<br>
-                Cincinnatistrasse 60<br>
-                81549 Munich, Germany <br><br>
-                <strong>Phone:</strong> +49 89 1222 469 00<br>
-                <strong>Fax:</strong> +49 89 1222 469 69<br>
-              </p>
-              
-            </div>
-  
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Office Address:</h4>
-              <p>
-                ChipGlobe GmbH<br>
-                Professor-Messerschmitt-Strasse 1, 3rd floor<br>
-                85579 Neubiberg / Munich<br>
-                Germany<br>
-                <strong>Email:</strong> info@chipglobe.com<br>
-                
-              </p>
-            </div>
-  
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>CEO / overall responsible for<br>
-                this website and its content:</h4>
-             
-                <p>
-                  Volker Frisch<br>
-                  CEO <br><br>
-                  <strong>Phone:</strong> +49 89 1222 469 00<br>
-                  <strong>Email:</strong> volker.frisch@chipglobe.com<br>
-                </p>
-                
-            </div>
-  
-            
-  
-          </div>
-        </div>
-      </div>
-  
-      <div class="container d-md-flex py- " >
-  
-        <div class="me-md-auto text-center text-md-start ">
-          <div class="copyright">© 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp;   ChipGlobe is a registered Trademark ® of ChipGlobe GmbH
-             
-            <div class="row">
-              <div class="col-lg-3 ">
-                  <a href="legal.html"><u>Legal notice</u></a>
-              </div>
-              <div class="col-lg-4 ">
-                  <a href="privacy.html"><u>Privacy policy</u></a>
-              </div>
-              
-              
-          </div>
-          </div>
-          <div class="credits">
-             
-            
-          </div>
-        </div>
-        
-    
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="https://www.linkedin.com/company/chipglobe-gmbh" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
-          <a href="https://www.instagram.com/carenuity" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-          <a href="https://www.youtube.com/@carenuity" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
-          <a href="https://www.facebook.com/profile.php?id=100086691917641" class="facebook"><i class="bx bxl-facebook"></i></a>
-          
-          
-        </div>
-  
-        
-      </div>
-    </footer><!-- End Footer -->
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    });
+</script>
+
       <div id="preloader"></div>
       <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
         <i class="bi bi-arrow-up-short"></i></a>
@@ -378,4 +348,52 @@
     
       <!-- Template Main JS File -->
       <script src="assets/js/main.js"></script>
+
+      
+     <!-- Translate -->
+
+      <script>
+        i18next
+          .use(i18nextHttpBackend)
+          .init({
+            lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
+            fallbackLng: 'de',
+            backend: {
+              loadPath: '/locales/{{lng}}/implementation.json'
+            }
+          }, function(err, t) {
+            updateContent();
+            setActiveLang(i18next.language);
+          });
+
+        function updateContent() {
+          document.querySelectorAll('[data-i18n]').forEach(function(el) {
+            const key = el.getAttribute('data-i18n');
+            el.textContent = i18next.t(key);
+          });
+        }
+
+        function setActiveLang(lang) {
+          document.getElementById('lang-en').classList.remove('active');
+          document.getElementById('lang-de').classList.remove('active');
+          const langElement = document.getElementById('lang-' + lang);
+          if (langElement) {
+            langElement.classList.add('active');
+          }
+        }
+
+        function changeLanguage(lang) {
+          i18next.changeLanguage(lang, function() {
+            updateContent();
+            setActiveLang(lang);
+            localStorage.setItem('selectedLanguage', lang);
+          });
+        }
+
+        // Optional: re-set on page load
+        document.addEventListener('DOMContentLoaded', function () {
+          const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+          changeLanguage(savedLang);
+        });
+      </script>
     </body>

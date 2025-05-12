@@ -250,108 +250,52 @@
 
       <!-- Translate -->
 
-<script>
-  i18next
-    .use(i18nextHttpBackend)
-    .init({
-      lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
-      fallbackLng: 'de',
-      backend: {
-        loadPath: '/locales/{{lng}}/co-working.json'
-      }
-    }, function(err, t) {
-      updateContent();
-      setActiveLang(i18next.language);
-    });
-
-  function updateContent() {
-    document.querySelectorAll('[data-i18n]').forEach(function(el) {
-      const key = el.getAttribute('data-i18n');
-      el.textContent = i18next.t(key);
-    });
-  }
-
-  function setActiveLang(lang) {
-    document.getElementById('lang-en').classList.remove('active');
-    document.getElementById('lang-de').classList.remove('active');
-    const langElement = document.getElementById('lang-' + lang);
-    if (langElement) {
-      langElement.classList.add('active');
-    }
-  }
-
-  function changeLanguage(lang) {
-    i18next.changeLanguage(lang, function() {
-      updateContent();
-      setActiveLang(lang);
-      localStorage.setItem('selectedLanguage', lang);
-    });
-  }
-
-  // Optional: re-set on page load
-  document.addEventListener('DOMContentLoaded', function () {
-    const savedLang = localStorage.getItem('selectedLanguage') || 'en';
-    changeLanguage(savedLang);
-  });
-</script>
-
-
-      <!-- <script>
+      <script>
         i18next
           .use(i18nextHttpBackend)
           .init({
-            lng: 'en',
+            lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
             fallbackLng: 'de',
             backend: {
               loadPath: '/locales/{{lng}}/co-working.json'
             }
           }, function(err, t) {
             updateContent();
+            setActiveLang(i18next.language);
           });
-      
+
         function updateContent() {
           document.querySelectorAll('[data-i18n]').forEach(function(el) {
             const key = el.getAttribute('data-i18n');
             el.textContent = i18next.t(key);
           });
         }
-      
-        function changeLanguage(lang) {
-          i18next.changeLanguage(lang, updateContent);
+
+        function setActiveLang(lang) {
+          document.getElementById('lang-en').classList.remove('active');
+          document.getElementById('lang-de').classList.remove('active');
+          const langElement = document.getElementById('lang-' + lang);
+          if (langElement) {
+            langElement.classList.add('active');
+          }
         }
-      </script>
-      
-    
-    
-      
-      <script>
+
         function changeLanguage(lang) {
           i18next.changeLanguage(lang, function() {
             updateContent();
+            setActiveLang(lang);
+            localStorage.setItem('selectedLanguage', lang);
           });
         }
+
+        // Optional: re-set on page load
+        document.addEventListener('DOMContentLoaded', function () {
+          const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+          changeLanguage(savedLang);
+        });
       </script>
 
-     <script>
-  function changeLanguage(lang) {
-    // Save selected language to localStorage
-    localStorage.setItem('selectedLanguage', lang);
 
-    // Update the language (your translation logic goes here)
-    // e.g., i18next.changeLanguage(lang);
-
-    // Update active class
-    document.getElementById('lang-en').classList.remove('active');
-    document.getElementById('lang-de').classList.remove('active');
-    document.getElementById('lang-' + lang).classList.add('active');
-  }
-
-  // On page load, set the active language from localStorage or default to 'en'
-  document.addEventListener('DOMContentLoaded', function () {
-    const savedLang = localStorage.getItem('selectedLanguage') || 'de';
-    changeLanguage(savedLang);
-  });
-</script> -->
-
+     
 
     </body>

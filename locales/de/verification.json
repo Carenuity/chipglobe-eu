@@ -1,0 +1,50 @@
+{
+  "hero.title": "Umfassendes Chip-Verifikationsmanagement",
+  "hero.subtitle": "Alles, was Sie sich vorstellen können – effektive und erfolgreiche Chip-Verifikation",
+
+  "section1.title": "ChipGlobe Verifikationsdienste",
+  "section1.text": "Willkommen auf der Seite für funktionale Verifikationsdienste von ChipGlobe, wo Zuverlässigkeit, Präzision und Effizienz im Mittelpunkt stehen...",
+
+  "section2.title": "Unsere Expertise im Chipdesign",
+  "section2.text1": "ChipGlobe ist auf ein umfassendes Spektrum an Verifikationsdiensten spezialisiert, darunter funktionale Verifikation...",
+  "section2.text2": "Ob Sie Unterstützung beim Aufbau einer Testbench-Architektur benötigen oder eine Top-Level-Verifikation...",
+
+  "section3.title": "Unsere Verifikationskategorien",
+  "section3.item1.title": "Modul- bis SoC-Verifikation: ",
+  "section3.item1.text": "Von einzelnen Modulen bis zur vollständigen SoC-Verifikation...",
+  "section3.item2.title": "Testentwicklung und Methodentransition: ",
+  "section3.item2.text": "Wir unterstützen beim Aufbau, der Umstellung und der Optimierung von Verifikationsmethoden...",
+  "section3.item3.title": "Entwicklung von Verifikationsumgebungen: ",
+  "section3.item3.text": "Neu erstellt oder auf bestehenden Umgebungen basierend...",
+  "section3.item4.title": "Power-Aware-Verifikation: ",
+  "section3.item4.text": "Wir integrieren Leistungsverifikation in Ihren Flow...",
+  "section3.item5.title": "Abdeckung und metrisch gesteuerte Verifikation: ",
+  "section3.item5.text": "Wir nutzen fortschrittliche Techniken zur vollständigen Abdeckung...",
+
+  "section4.title": "Werkzeuge und Technologien",
+  "section4.text": "Wir arbeiten mit verschiedenen führenden Tools und Methoden...",
+  "section4.lang": "Verifikationssprachen: SystemVerilog, Specman e, VHDL, Verilog...",
+  "section4.meth": "Verifikationsmethoden: UVM/OVM, Constraint Random Verification...",
+  "section4.tools": "EDA-Tools: Cadence, Synopsys, Mentor, JIRA...",
+
+  "section5.title": "Globale Präsenz von ChipGlobe",
+  "section5.text": "Mit Designzentren weltweit – u.a. in München, Dresden, Belgrad – ist ChipGlobe überall für Sie da...",
+
+  "section6.title": "Unser Verifikationsansatz",
+  "section6.text": "Unser Ansatz berücksichtigt die individuellen Herausforderungen unserer Kunden...",
+  "section6.item1.title": "End-to-End-Unterstützung: ",
+  "section6.item1.text": "Von Modul- bis SoC-Ebene bieten wir strukturierte Projektumsetzungen...",
+  "section6.item2.title": "Integration mit Kundenteams: ",
+  "section6.item2.text": "Unsere Experten arbeiten vor Ort oder per ODC-Modelle nahtlos integriert...",
+  "section6.item3.title": "Flexible und skalierbare Lösungen: ",
+  "section6.item3.text": "Wir passen unsere Lösungen flexibel an Ihre Anforderungen an...",
+  "section6.item4.title": "Qualitätssicherung: ",
+  "section6.item4.text": "Zertifiziert nach ISO 9001:2015, legen wir Wert auf höchste Qualität...",
+
+  "section7.title": "Warum ChipGlobe für Verifikationsdienste wählen?",
+  "section7.text1": "Unsere Experten sind hochqualifiziert und leidenschaftlich...",
+  "section7.text2": "Ziel ist es, Risiken zu minimieren, Effizienz zu steigern und Qualitätsprodukte auf den Markt zu bringen...",
+
+  "section8.title": "Kontaktieren Sie uns",
+  "section8.text": "Möchten Sie mehr über unsere funktionalen Verifikationsdienste erfahren? Kontaktieren Sie uns noch heute..."
+}
