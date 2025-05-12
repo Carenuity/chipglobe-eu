@@ -22,6 +22,21 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
+/*--------------------------------------------------------------
+# TRANSLATION
+--------------------------------------------------------------*/
+#language-selector a {
+  color: grey;
+  text-decoration: none;
+}
+
+#language-selector a.active {
+  color: green;
+  font-weight: bold;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Preloader
