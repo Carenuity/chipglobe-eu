@@ -1,0 +1,9 @@
+{
+  "hero": {
+    "title": "ChipGlobe Shop"
+  },
+  "shop": {
+    "title": "ChipGlobe Shop",
+    "description": "In unserem ChipGlobe Webshop finden Sie alles, was Sie für den schnellen Aufbau eines Embedded-Prototyps benötigen. Von Sensoren über den Aufbau einer sicheren Verbindung bis hin zur Übertragung in die Amazon Cloud (AWS = Amazon Web Services), einschließlich Zugriff auf Anwendungsartikel. ChipGlobe ist 'Preferred Infineon Partner' im Infineon ISPN-Netzwerk. Weitere Informationen zum ISPN sind verfügbar. Beim Infineon IoT Security Circle Europe am 28. Mai 2019 stellte ChipGlobe einen Demonstrator aus und zeigte, wie Hardware-Verschlüsselung Übertragungen sicherer macht. Der Demonstrator verwendet Bausteine aus unserem Prototyping."
+  }
+}

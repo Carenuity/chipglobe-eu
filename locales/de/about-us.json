@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "headline": "Was können wir tun, um Ihren Erfolg zu sichern?",
+    "subheadline": "Umfassendes Chipdesign- und Verifikationsmanagement sowie Embedded-System-Entwicklung für die Zukunft."
+  },
+  "services": {
+    "title": "Unsere Dienstleis-tungen",
+    "design": {
+      "title": "ChipGlobe Design",
+      "description": "ChipGlobe bietet ein umfassendes Spektrum an Chipdesign-Dienstleistungen, die Projekte von der Konzeptphase bis zum finalen Prototyp und der ...",
+      "link": "Mehr erfahren"
+    },
+    "embeddedSystems": {
+      "title": "Embedded Systems",
+      "description": "ChipGlobe bietet ein umfassendes Portfolio an Embedded-System-Dienstleistungen für verschiedene Branchen, darunter Automobil und industrielle ...",
+      "link": "Mehr erfahren"
+    },
+    "rtl2gds": {
+      "title": "RTL2GDS Implementierung",
+      "description": "ChipGlobe ist auf die RTL2GDS-Implementierung spezialisiert, die den gesamten Backend-Flow des Chipdesigns abdeckt, von der digitalen Logik...",
+      "link": "Mehr erfahren"
+    },
+    "verification": {
+      "title": "Verifikationsdienstlei-stung",
+      "description": "ChipGlobe bietet ein umfassendes Spektrum an Verifikationsdienstleistungen, einschließlich funktionaler Verifikation, Mixed-Signal-Verifikation und SoC/IP-...",
+      "link": "Mehr erfahren"
+    },
+    "coWorking": {
+      "title": "Erfolg durch Zusammenarbeit",
+      "description": "Es ist oft besser, Informationen in Gruppen zu sammeln, als sich nur auf eine Einzelmeinung zu verlassen. Wir wissen das, und deshalb ...",
+      "link": "Mehr erfahren"
+    }
+  },
+
+  
+  "whatWeDo": {
+    "title": "Was machen wir?",
+    "text": "Die ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch, einem der Initiatoren und leitenden Mitglieder der frobas GmbH, gegründet, dessen Expertenteam seit 2003 in globalen Projekten aktiv ist. ChipGlobe ist ein unabhängiges Unternehmen, das sich der Aufgabe widmet, Kunden bei der Entwicklung umfassender Chips (ASICS, FPGAs und eingebettete Systeme (Firmware)) zu unterstützen – von der Idee über die erste Spezifikation bis zum Prototypen und dabei von der Expertise erfahrener Experten während des gesamten Prozesses zu profitieren.",
+    "text2":"ChipGlobe konzentriert sich auf Design und Verifizierung, Tester und Beratung zu Firmware/eingebetteten Systemen mit Arbeitsmodellen sowohl für Insourcing (beim Kunden vor Ort) als auch Outsourcing (Chipglobe Design Center). Ihre Teams arbeiten in einer globalen Struktur mit ASIC-Design- und Verifizierungsteams in großen Halbleiterunternehmen zusammen und konzentrieren sich dabei auf Märkte in den Bereichen Automobil, Telekommunikation, Sicherheit und Netzwerke.",
+     "text3":"Im Verifizierungsbereich verfügen sie über Schlüsselkompetenz in der Funktionsverifizierung und Mixed-Signal-Verifizierung mit Schwerpunkt auf SystemVerilog und UVM, Constraint-Random-Driven-Verification, Metrik-Driven-Verifikation und Coverage-Driven-Verifikation. Im Implementierungsbereich sind sie Experten von RTL bis GDS-Implementierung, Layout und Verifikation für digitale und Mixed-Signal-Designs, die die neuesten Submikrometer-Technologien unterstützen."  
+},
+  "visionMission": {
+  "title": "Warum ChipGlobe?",
+  "vision": {
+    "title": "Visionär und kreativ:",
+    "text": "Licht und Geist sind die höchsten unteilbaren Energien, die wir uns vorstellen können. (Goethe) Wenn etwas wirklich beeindruckend ist, dann ist es auf mehreren Ebenen entstanden. Ideen und Inspiration ergänzen die Erfahrung, die wir über viele Jahre hinweg gesammelt haben."
+  },
+  "community": {
+    "title": "Kooperativ/Gemeinschaf-tlich:",
+    "text": "Die Weisheit der Vielen. Es ist bewiesen, dass wir mehr erreichen können, wenn wir gemeinsam arbeiten."
+  },
+  "open": {
+    "title": "Offen:",
+    "text": "Transparenz, Klarheit und Ehrlichkeit helfen, unnötige Umwege zu vermeiden, den besten Weg zu finden und ihn konsequent zu verfolgen. Sie sind das Fundament unserer gemeinsamen Arbeit."
+  },
+  "joy": {
+    "title": "Freude/Glück:",
+    "text": "Wenn es keinen Spaß macht, ist es nicht der Mühe wert. (John Croft) Freude ist der beste Antrieb – und auch ein entscheidender Erfolgsfaktor. Vieles wird einfacher, wenn ein Projekt Spaß macht. Unser Leitsatz lautet: Wir lieben, was wir tun – und wir tun, was wir lieben. Freude und Flow sind die Folge."
+  },
+  "confidence": {
+    "title": "Vertrauen:",
+    "text": "Unsere Senior-Experten vertrauen ihrer Arbeitsweise und ihrer Erfahrung. Sie wissen, dass sie in Projekten konstruktiv und erfolgreich arbeiten. Dieses innere Vertrauen schafft Projektsicherheit und Zielerreichung."
+  },
+  "harmony": {
+    "title": "Harmonie:",
+    "text": "Ein reibungsloses Projekt bedeutet nicht, Konflikte oder Diskussionen zu vermeiden. Harmonie ist eine treibende Kraft im Projekt, sie richtet den Fokus auf das gemeinsame Ziel und fördert eine ausgewogene Zusammenarbeit."
+  },
+  "helpfullness": {
+    "title": "Hilfsbereitschaft:",
+    "text": "Im Team zu arbeiten heißt, andere Mitglieder dort zu unterstützen, wo sie Hilfe benötigen. Das ermöglicht eine gemeinsame Bündelung von Kräften und stärkt den persönlichen Zusammenhalt."
+  }
+},
+
+  
+"ispn": {
+    "title": "Vision, Mission, Werte",
+    "description": "ChipGlobe und sein gesamtes Team verkörpern umfassende, anspruchsvolle, und zukunftsorientiertes Chipdesignmanagement. Wir sind entschlossen Für jeden Beteiligten den optimalen Weg finden, sich zusammenschließen und Überführen Sie die ursprüngliche Idee – und das Projekt als Ganzes – in die Umsetzung. Was uns auszeichnet, ist die Art und Weise, wie wir verstehen und leben Chip-Design-Management. In einer hochtechnologisierten Umgebung geprägt von Klarheit und Logik, der menschliche Faktor ist der größte Herausforderung, vor der wir stehen. Wir sind uns dessen und unseres großen Erfahrungsschatzes bewusst bedeutet, dass wir mit plötzlichen oder unerwarteten Ereignissen nur allzu vertraut sind Trotz aller Bemühungen können scheinbar unlösbare Probleme auftreten.",
+    "drives": "Das treibt uns an: Umfassendes Chipmanagement"
+
+},
+
+  "management": {
+    "title": "Unsere Geschäftsführung",
+    "volker": "Volker Frisch, Geschäftsführer",
+    "roland": "Roland Klemt, Geschäftsführer"
+  },
+
+
+  "focusLabel": "Fokus:",
+  "locations": {
+    "title": "Designzentren",
+    "munich": {
+      "title": "Chipglobe GmbH (ODC) München / Deutschland",
+      "address": "Professor-Messerschmitt-Strasse 1, 1. Stock, 85579 Neubiberg / München, Deutschland",
+      "focus": "RTL2GDS, RTL Design, Funktionale Verifikation, Firmware/Embedded Systems, Analog Layout, DFT, Programmmanagement, FMEA; ISO26262-Experte"
+    },
+    "greece": {
+      "title": "Design Center (ODC) Chipglobe Greece Monoprosopi IKE Griechenland / Thessaloniki",
+      "address": "Karatasou 7, 54626 Thessaloniki, Griechenland"
+    },
+    "serbia": {
+      "title": "Design Center Chipglobe d.o.o. (ODC) Serbien / Belgrad",
+      "address": "Milutina Milankovića 11v, 11070 Belgrad, Serbien, GREEN HEART Gebäude N3, 5. Stock",
+      "focus": "Funktionale Verifikation, RTL Design, Firmware, TLM, Programmmanagement, FPGA-Entwicklung, Applikationsboards, Prototyping von Embedded Systems, Hardware-Verschlüsselung"
+    },
+    "singapore": {
+      "title": "Design Center (ODC) Singapur",
+      "focus": "RTL2GDS, Funktionale Verifikation, Embedded Systems, Firmware, Programmmanagement"
+    },
+    "vietnam": {
+      "title": "Design Center (ODC) Ho-Chi-Minh-Stadt / Vietnam",
+      "focus": "RTL2GDS, DFT, Funktionale Verifikation, TLM, Firmware, Embedded Systems"
+    }
+  }
+
+
+}

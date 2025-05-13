@@ -965,6 +965,7 @@ section {
   top: 0;
   left: 0;
   background-color: #00815a;
+  
 }
 
 .box .people-in-an-office {
@@ -981,7 +982,7 @@ section {
   height: 174px;
   top: 50px;
   left: 44px;
- 
+ padding-right: 80px;
   
   color: #ffffff;
   font-size: 18px;

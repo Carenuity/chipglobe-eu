@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "title": "Our Partners",
+    "subtitle": "The promotion of young people and talent is the key to the success of future generations."
+  },
+  "ispn": {
+    "title": "ISPN Partner in the Infineon Secure Partner Network",
+    "description": "ChipGlobe and its entire team embody comprehensive, sophisticated, and future-oriented chip design management. We are determined to find the optimal way for every stakeholder, joining together and transferring the initial idea—and the project as a whole—to realisation. What distinguishes us is the way in which we understand and embody chip design management. In a highly technologized environment characterized by clarity and logic, the human factor is the greatest challenge we face. We're aware of that, and our wealth of experience means we're familiar with sudden or unexpected events which—despite your best endeavors—can present seemingly intractable problems.",
+    "drives": "This drives us: Comprehensive Chip management"
+  },
+  "thd": {
+    "title": "Cooperation partner TH Deggendorf - European Campus Rottal-Inn",
+    "text1": "ChipGlobe GmbH was founded at the beginning of 2014 by Volker Frisch, one of the initiators and key executive members of frobas GmbH, whose expert team had been active in global projects since 2003. ChipGlobe is an independent entity dedicated to helping customers develop comprehensive chips (ASICS, FPGAs, and Embedded Systems (Firmware)) — from idea and initial spec to prototype, benefiting from senior experts' expertise throughout the flow.",
+    "text2": "ChipGlobe focuses on Design and Verification, Tester and Firmware/Embedded Systems Consulting with both Insourcing (at customer premises) and Outsourcing (ChipGlobe Design Center) working models. Their teams work in a global setup with ASIC design and verification teams in major semiconductor companies, focusing on markets in automotive, telecommunications, security, and networking.",
+    "text3": "In the verification domain, they have key expertise in functional and mixed-signal verification, focusing on SystemVerilog and UVM, constraint-random driven verification, metric-driven verification, and coverage-driven verification. In the implementation domain, they are experts from RTL to GDS Implementation, Layout, and Verification for digital and mixed-signal designs supporting the latest submicron technologies."
+  },
+  "industry": {
+    "title": "Industry Partnerships in the semiconductor and embedded ecosystem",
+    "infineon": "Infineon Design House: ChipGlobe has been working together with Infineon for over 15 years, sustainably and with high-quality standards. At the end of 2018, we received the Infineon Supplier Award and are a preferred supplier for Infineon. THANK YOU Infineon!",
+    "stands_for": "This stands for:",
+    "qor": "Top QoR (quality of results)",
+    "ontime": "Excellent on-time delivery",
+    "sustainability": "Proven sustainability",
+    "teamwork": "Excellent teamwork",
+    "flexibility": "High flexibility",
+    "years": "More than 15 years of proven partnership",
+    "mentor": "Mentor Questa Vanguard Partner: SystemVerilog, UVM, AMS verification are important components in ASIC verification. Due to our many years of experience with Mentor tools and methodologies, we can pass these on effectively supported by our partnership with Mentor. Our experts focus on defining the test bench architecture and performing the necessary tests based on constraint random and coverage-driven verification.",
+    "dmc": "Partnership with dmc-smartsystems GmbH: dmc-smartsystems GmbH has been a service provider in embedded systems for decades, including firmware development for BMCs for Fujitsu and embedded automotive solutions. Recently, they have expanded into intelligent image processing and artificial intelligence. Together with ChipGlobe, they offer clear, holistic, and modern solutions — from sensor to cloud — and conduct joint cross-divisional practical workshops. This setup is a win-win for customers, ChipGlobe, and dmc-smartsystems."
+  }
+}

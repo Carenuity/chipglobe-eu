@@ -34,75 +34,39 @@
 </head>
 
 <body>
-     <!-- ======= Header ======= -->
-     <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center">
-  
-        <!-- <h1 class="logo me-auto"><a href="index.html">Medilab</a></h1> -->
-        
-        <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-  
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-            
-            
-            <li class="dropdown"><a href="#"><span>Customer</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="co-working.html">Co-working</a></li>
-                <li><a href="technical-guidance.html">Technical guidance</a></li>
-                
-              </ul>
-            </li>
-            <li class="dropdown"><a href="#"><span>References</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="case-study.html">Case Study</a></li>
-                <li><a href="industry-solutions.html">Industry-solutions</a></li>
-                
-              </ul>
-            </li><li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="embeded-system.html"> Embedded System</a></li>
-                <li><a href="verification.html">Verification</a></li>
-                <li><a href="implementation.html">RTL2GDS Implementation</a></li>
-                <li><a href="chip-design.html">Chip Design</a></li>
-                <li><a href="methodology.html">First Time Right Methodology</a></li>
-              </ul>
-            </li>
-  
-            
-            <li class="dropdown"><a href="#"><span>Contact</span> <i class="bi bi-chevron-down"></i></a>
-              <ul>
-                <li><a href="contact-us.html">Contact us</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="partners.html">Partners</a></li>
-                <li><a href="chipglobe-shop.html">ChipGlobe Shop</a></li>
-                <li><a href="about-us.html">About us</a></li>
-              </ul>
-            </li>
-            
-            <li><a  href="#" onclick="changeLanguage('en')">En</a></li>
-            <li><a class="nav-link scrollto" href="#">|</a></li>
-            <li><a  href="#" onclick="changeLanguage('de')">De</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-  
-        <a href="careers.html" class="appointment-btn scrollto"><span class="d-none d-md-inline">Careers</a>
-  
-      </div>
-    </header>
+    
+<!-- ======= Navbar ======= -->
+
+<div id="navbar-container"></div>
+
+<script>
+  fetch('navbar.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('navbar-container').innerHTML = data;
+    });
+</script>
+
+<section id="hero" class="d-flex align-items-center">
+  <div class="container">
+    <h1 data-i18n="hero.headline"></h1>
+    <h2 data-i18n="hero.subheadline"></h2>
+  </div>
+</section>
+
+
+
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <!-- <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <h1>What can we do to make</br> 
         you successful?</h1>
       <h2>Comprehensive chip design and verification 
         management as </br> well as embedded system 
         development for the future.</h2>
-      <!-- <a href="#about" class="btn-get-started scrollto">Find out more</a> -->
+      
     </div>
-  </section><!-- End Hero -->
+  </section> -->
 
   <!-- ======= Why Us Section ======= -->
   <section class="why-us">
@@ -163,7 +127,7 @@
                       <a href="chipglobe-design.html" >
                         <u data-i18n="services.learn_more"> Learn more </u></a>
                     </div>
-                  </div><!-- End testimonial item -->
+                  </div>
       
                   <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -179,7 +143,7 @@
                       <a href="embeded-system.html" >
                         <u data-i18n="services.embeddedSystems.link"> Learn more </u></a>
                     </div>
-                  </div><!-- End testimonial item -->
+                  </div>
       
                   <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -194,7 +158,7 @@
                       <a href="implimentation.html" >
                         <u data-i18n="services.rtl2gds.link"> Learn more </u></a>
                     </div>
-                  </div><!-- End testimonial item -->
+                  </div>
       
                   <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -210,7 +174,7 @@
                       <a href="verification.html" >
                         <u data-i18n="services.verification.link"> Learn more </u></a>
                     </div>
-                  </div><!-- End  -->
+                  </div>
       
                   <div class="swiper-slide">
                     <div class="testimonial-item">
@@ -233,8 +197,7 @@
       
             </div>
       
-          </section><!-- /Testimonials Section -->
-        </div>
+          </section>
 
       
   </div>
@@ -242,10 +205,190 @@
      
   </section>
 
+<section class="what-we-do">
+  <div class="container section-title">
+    <h2 data-i18n="whatWeDo.title"></h2>
+    <p data-i18n="whatWeDo.text"></p>
+    
+    <p data-i18n="whatWeDo.text2"></p>
+    <p data-i18n="whatWeDo.text3"></p>
+  </div>
+</section>
+
+<section>
+    <div class="container">
+      <div class="box">
+        <div class="section-title">
+          <h2 data-i18n="ispn.title"></h2>
+        </div>
+        <div class="group">
+          <div class="overlap">
+            <div class="rectangle">
+            
+            <p class="lorem-ipsum-dolor" data-i18n="ispn.description"></p>
+            <div class="text-wrapper" data-i18n="ispn.drives"></div>
+             
+          </div>
+          <img class="people-in-an-office" src="assets/img/team.jpeg" />
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- why us -->
+
+<section id="services" class="services container">
+  <div class="section-title">
+    <h2 data-i18n="visionMission.title"></h2>
+      <!-- <p data-i18n="visionMission.text"></p> -->
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.vision.title"></h4>
+      <p data-i18n="visionMission.vision.text"></p>
+    </div>
+    </div>
+    
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.community.title"></h4>
+      <p data-i18n="visionMission.community.text"></p>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.open.title"></h4>
+      <p data-i18n="visionMission.open.text"></p>
+    </div>
+    </div>
+   <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.joy.title"></h4>
+      <p data-i18n="visionMission.joy.text"></p>
+    </div>
+    </div>
+   <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.confidence.title"></h4>
+      <p data-i18n="visionMission.confidence.text"></p>
+    </div>
+    </div>
+   <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.harmony.title"></h4>
+      <p data-i18n="visionMission.harmony.text"></p>
+    </div>
+    </div>
+   <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 ">
+      <div class="icon-box">
+      <h4 data-i18n="visionMission.helpfullness.title"></h4>
+      <p data-i18n="visionMission.helpfullness.text"></p>
+    </div>
+    </div>
+   
+   
+  </div>
+</section>
+
+<!-- management -->
+<section>
+  <div class="container">
+    <div class="section-title">
+      <h2 data-i18n="management.title">Our Management</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-1"></div>
+      
+      <div class="col-lg-4">
+        <div class="img">
+          <img src="assets/img/volker.png" alt="Volker Frisch" class="img-fluid">
+        </div>
+        <h5 style="background-color: #00815a;" data-i18n="management.volker">Volker Frisch, CEO</h5>
+      </div>
+
+      <div class="col-lg-1"></div>
+
+      <div class="col-lg-4">
+        <div class="post-img">
+          <img src="assets/img/ronald.png" alt="Roland Klemt" class="img-fluid">
+        </div>
+        <h5 style="background-color: #00815a;" data-i18n="management.roland">Roland Klemt, Managing Director</h5>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- locations -->
+
+<section id="testimonials" class="testimonials">
+  <div class="container">
+    <div class="section-title">
+      <h2 data-i18n="locations.title">Design Centers</h2>
+    </div>
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/location/location.png" class="img-fluid" alt="">
+            <p><strong data-i18n="locations.munich.title"></strong></p>
+            <p data-i18n="locations.munich.address"></p>
+            <p><strong data-i18n="focusLabel"></strong>
+              <span data-i18n="locations.munich.focus"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/location/location2.jpg" class="img-fluid" alt="">
+            <p><strong data-i18n="locations.greece.title"></strong></p>
+            <p data-i18n="locations.greece.address"></p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/location/location3.jpg" class="img-fluid" alt="">
+            <p><strong data-i18n="locations.serbia.title"></strong></p>
+            <p data-i18n="locations.serbia.address"></p>
+            <p><strong data-i18n="focusLabel"></strong>
+              <span data-i18n="locations.serbia.focus"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/location/location4.jpg" class="img-fluid" alt="">
+            <p><strong data-i18n="locations.singapore.title"></strong></p>
+            <p><strong data-i18n="focusLabel"></strong>
+              <span data-i18n="locations.singapore.focus"></span>
+            </p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <img src="assets/img/location/location.jpg" class="img-fluid" alt="">
+            <p><strong data-i18n="locations.vietnam.title"></strong></p>
+            <p><strong data-i18n="focusLabel"></strong>
+              <span data-i18n="locations.vietnam.focus"></span>
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
 
 
 <!-- ======= What do we do? ======= -->
-  <section  >
+
+  <!-- <section  >
     <div class="container">
         <div class="section-title">
             <h2> What do we do?</h2>
@@ -269,11 +412,11 @@
             coverage driven verification.In the implementation domain they are experts from RTL to GDS Implementation, Layout and Verification
             for digital and mixed signal designs supporting latest sub micron technologies.</p>
         </div>
-        </section>
+        </section> -->
 
 
   <!-- =======about u ======= -->
-  <section  >
+  <!-- <section  >
     <div class="container">
       <div class="box">
         <div class="section-title">
@@ -308,11 +451,11 @@
         </div>
         </div>
   </div>
-  </section>
+  </section> -->
 
 
   <!-- =======  ======= -->
-  <section id="services" class="services">
+  <!-- <section id="services" class="services">
     <div class="container">
 
       <div class="section-title">
@@ -387,10 +530,10 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- ======= Management ======= -->
-   <section>
+   <!-- <section>
     <div class="container">
       <div class="section-title">
         <h2>Our Management</h2>
@@ -419,10 +562,10 @@
       <h5 style="background-color: #00815a; ">Roland Klemt, Managing Director</h5>
 
 </div></div>
-   </section>
+   </section> -->
 
    <!-- ======= Testimonials Section ======= -->
-   <section id="testimonials" class="testimonials">
+   <!-- <section id="testimonials" class="testimonials">
     <div class="container">
 
       <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -446,7 +589,7 @@
               </p>
               </div>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
           <div class="swiper-slide">
             <div class="">
               <div class="testimonial-item">
@@ -462,7 +605,7 @@
                 </p>
               </div>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
           <div class="swiper-slide">
             <div class="">
               <div class="testimonial-item">
@@ -482,7 +625,7 @@
                 </p>
               </div>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
           
           <div class="swiper-slide">
             <div class="">
@@ -502,7 +645,7 @@
                 </p>
               </div>
             </div>
-          </div><!-- End testimonial item -->
+          </div>
 
           <div class="swiper-slide">
             <div class="">
@@ -522,8 +665,7 @@
                 </p>
               </div>
             </div>
-          </div><!-- End testimonial item -->
-          
+          </div>
 
          
 
@@ -536,92 +678,19 @@
       </div>
 
     </div>
-  </section><!-- End Testimonials Section -->
+  </section> -->
 
-  <footer id="footer">
+  <!-- footer -->
+    <div id="footer-container"></div>
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+<script>
+  fetch('footer.html')
+    .then(response => response.text())
+    .then(data => {
+      document.getElementById('footer-container').innerHTML = data;
+    });
+</script>
 
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Mail Address Only:</h4>
-            <p>
-              ChipGlobe GmbH<br>
-              Cincinnatistrasse 60<br>
-              81549 Munich, Germany <br><br>
-              <strong>Phone:</strong> +49 89 1222 469 00<br>
-              <strong>Fax:</strong> +49 89 1222 469 69<br>
-            </p>
-            
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Office Address:</h4>
-            <p>
-              ChipGlobe GmbH<br>
-              Professor-Messerschmitt-Strasse 1, 3rd floor<br>
-              85579 Neubiberg / Munich<br>
-              Germany<br>
-              <strong>Email:</strong> info@chipglobe.com<br>
-              
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>CEO / overall responsible for<br>
-              this website and its content:</h4>
-           
-              <p>
-                Volker Frisch<br>
-                CEO <br><br>
-                <strong>Phone:</strong> +49 89 1222 469 00<br>
-                <strong>Email:</strong> volker.frisch@chipglobe.com<br>
-              </p>
-              
-          </div>
-
-          
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py- " >
-
-      <div class="me-md-auto text-center text-md-start ">
-        <div class="copyright">© 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp;   ChipGlobe is a registered Trademark ® of ChipGlobe GmbH
-           
-          <div class="row">
-            <div class="col-lg-3 ">
-                <a href="legal.html"><u>Legal notice</u></a>
-            </div>
-            <div class="col-lg-4 ">
-                <a href="privacy.html"><u>Privacy policy</u></a>
-            </div>
-            
-            
-        </div>
-        </div>
-        <div class="credits">
-           
-          
-        </div>
-      </div>
-      
-  
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://www.linkedin.com/company/chipglobe-gmbh" class="linkedin" target="_blank"><i class="bx bxl-linkedin" ></i></a>
-        <a href="https://www.instagram.com/carenuity" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
-        <a href="https://www.youtube.com/@carenuity" class="youtube" target="_blank"><i class="bx bxl-youtube"></i></a>
-        <a href="https://www.facebook.com/profile.php?id=100086691917641" class="facebook"><i class="bx bxl-facebook"></i></a>
-        
-        
-      </div>
-
-      
-    </div>
-  </footer><!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
@@ -639,39 +708,48 @@
   
   <!-- Translate -->
 
-  <script>
-    i18next
-      .use(i18nextHttpBackend)
-      .init({
-        lng: 'en',
-        fallbackLng: 'de',
-        backend: {
-          loadPath: '/locales/{{lng}}/translation.json'
+      <script>
+        i18next
+          .use(i18nextHttpBackend)
+          .init({
+            lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
+            fallbackLng: 'de',
+            backend: {
+              loadPath: '/locales/{{lng}}/about-us.json'
+            }
+          }, function(err, t) {
+            updateContent();
+            setActiveLang(i18next.language);
+          });
+
+        function updateContent() {
+          document.querySelectorAll('[data-i18n]').forEach(function(el) {
+            const key = el.getAttribute('data-i18n');
+            el.textContent = i18next.t(key);
+          });
         }
-      }, function(err, t) {
-        updateContent();
-      });
-  
-    function updateContent() {
-      document.querySelectorAll('[data-i18n]').forEach(function(el) {
-        const key = el.getAttribute('data-i18n');
-        el.textContent = i18next.t(key);
-      });
-    }
-  
-    function changeLanguage(lang) {
-      i18next.changeLanguage(lang, updateContent);
-    }
-  </script>
-  
 
+        function setActiveLang(lang) {
+          document.getElementById('lang-en').classList.remove('active');
+          document.getElementById('lang-de').classList.remove('active');
+          const langElement = document.getElementById('lang-' + lang);
+          if (langElement) {
+            langElement.classList.add('active');
+          }
+        }
 
-  
-  <script>
-    function changeLanguage(lang) {
-      i18next.changeLanguage(lang, function() {
-        updateContent();
-      });
-    }
-  </script>
+        function changeLanguage(lang) {
+          i18next.changeLanguage(lang, function() {
+            updateContent();
+            setActiveLang(lang);
+            localStorage.setItem('selectedLanguage', lang);
+          });
+        }
+
+        // Optional: re-set on page load
+        document.addEventListener('DOMContentLoaded', function () {
+          const savedLang = localStorage.getItem('selectedLanguage') || 'en';
+          changeLanguage(savedLang);
+        });
+      </script>
 </body>

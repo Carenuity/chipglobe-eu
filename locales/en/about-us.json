@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "headline": "What can we do to make you successful?",
+    "subheadline": "Comprehensive chip design and verification management as well as embedded system development for the future."
+  },
+  "services": {
+    "title": "Our Services",
+    "design": {
+      "title": "ChipGlobe Design",
+      "description": "ChipGlobe specializes in a comprehensive range of chip design services that support projects from the concept phase through to final prototyping and implementation.",
+      "link": "Learn more"
+    },
+    "embeddedSystems": {
+      "title": "Embedded Systems",
+      "description": "ChipGlobe offers a comprehensive range of embedded systems services that meet the needs of various industries, including automotive, industrial automation...",
+      "link": "Learn more"
+    },
+    "rtl2gds": {
+      "title": "RTL2GDS Implementation",
+      "description": "ChipGlobe specializes in the RTL2GDS implementation, which covers the entire backend flow of chip design, from the digital logic...",
+      "link": "Learn more"
+    },
+    "verification": {
+      "title": "Verification Service",
+      "description": "ChipGlobe specializes in a comprehensive range of verification services, including Functional Verification, Mixed Signal Verification, and SoC/IP Verification...",
+      "link": "Learn more"
+    },
+    "coWorking": {
+      "title": "Success Through Co-working",
+      "description": "It's often preferable to accumulate information in groups rather than rely on solutions proposed by only one individual. We know that, so ...",
+      "link": "Learn more"
+    }
+  },
+  
+  "whatWeDo": {
+    "title": "What Do We Do?",
+    "text": "ChipGlobe GmbH has been founded in the beginning of 2014 by Volker Frisch, one of the initiators and key executive members of frobas GmbH, whose team of experts had been active in global projects since 2003. ChipGlobe is an independent entity dedicated to help customers in developing comprehensive chips (ASICS, FPGAs and Embedded Systems (Firmware)) — from idea and initial spec to prototype, benefiting from senior experts expertise throughout the flow.",
+  "text2":"ChipGlobe is focusing on Design and Verification, Tester and Firmware/Embedded Systems Consulting with both Insourcing (at Customer premises) and Outsourcing (Chipglobe Design Center) working models.Their teams work in a global setup with ASIC design and verification teams in major semiconductor companies, focusing on markets in automotive, telecommunications, security and networking.",
+  "text3":"In the verification domain they have key expertise in functional verification and mixed signal verification, focusing on SystemVerilog and UVM, constraint random driven verification, metric driven verification and coverage driven verification.In the implementation domain they are experts from RTL to GDS Implementation, Layout and Verification for digital and mixed signal designs supporting latest sub micron technologies."
+
+},
+  "visionMission": {
+    "title": "Why ChipGlobe?",
+    "vision": {
+      "title": "Visionary and creative:",
+      "text": "Light and the spirit are the highest indivisible energies we are capable of conceiving. (Goethe) If something is truly awesome, you can be sure it has emerged at more than one level. Ideas and inspiration complement the experience we've gathered over many years."
+    },
+    "community": {
+      "title": "Collaborative/Community:",
+      "text": "The wisdom of the crowd. It's been proven that we can achieve more if we work together."
+    },
+    "open": {
+      "title": "Open:",
+      "text": "Transparency, clarity, and honesty help to avoid any unnecessary detours, to find the best route and then pursue it. They're the foundation of our joint working."
+    },
+     "joy": {
+      "title": "Joyful/Happiness:",
+      "text": "If it's no fun, it's not worth doing it. (John Croft) Enjoyment is the best motivator, and an essential success factor too. Lots of things will become much easier if a project is fun. Our driving theme is: We love what we do and we do what we love. Joy and flow are the consequence."
+    },
+     "confidence": {
+      "title": "Confidence:",
+      "text": "Our senior experts trust their way of working and their experience. They know that they work constructive and successful in the projects. This confidence from within enables project security and meeting project targets."
+    },
+     "harmony": {
+      "title": "Harmon:",
+      "text": "Working smooth in a project is not equivalent to avoiding conflicts or discussions. Harmony is a driving power in the project focusing on the common goal and highlighting a balanced working mode."
+    },
+    "helpfullness": {
+      "title": "Helpfullness:",
+      "text": "Working in a team translates to support other team members in areas they need help. This enables a mutual joining of forces and glueing together personally"
+    }
+  },
+  
+"ispn": {
+    "title": "Vision, Mission, Values",
+    "description": "ChipGlobe and its entire team embody comprehensive, sophisticated, and future-oriented chip designmanagement. We are determined to find the optimal way for every stakeholder, joining together and transfer the initial idea—and the project as a whole—to realisation. What distinguishes us is the way in which we understand and embody chip design management. In a highly technologized environment which is characterized by clarity and logic,the human factor is the greatest challenge we face. We're aware of that,and our wealth of experience means we're all too familiar with sudden or unexpected events which despite your best endeavors—can present seemingly intractable problems.",
+    "drives": "This drives us: Comprehensive Chip management"
+
+},
+
+  "management": {
+    "title": "Our Management",
+    "volker": "Volker Frisch, CEO",
+    "roland": "Roland Klemt, Managing Director"
+  },
+
+
+  "focusLabel": "Focus:",
+  "locations": {
+     "title": "Design Centers",
+    "munich": {
+      "title": "Chipglobe GmbH (ODC) Munich / Germany",
+      "address": "Professor-Messerschmitt-Strasse 1, 1st floor, 85579 Neubiberg / Munich, Germany",
+      "focus": "RTL2GDS, RTL Design, Functional Verification, Firmware/Embedded Systems, Analog Layout, DFT, Program Management, FMEA; ISO26262 expert"
+    },
+    "greece": {
+      "title": "Design Center (ODC) Chipglobe Greece Monoprosopi IKE Greece / Thessaloniki",
+      "address": "Karatasou 7, 54626 Thessaloniki, Greece"
+    },
+    "serbia": {
+      "title": "Design Center Chipglobe d.o.o. (ODC) Serbia / Belgrade",
+      "address": "Milutina Milankovića 11v, 11070 Belgrade, Serbia, GREEN HEART Building N3, 5th floor",
+      "focus": "Functional Verification, RTL Design, Firmware, TLM, Program Management, FPGA developments, Application Boards, Prototyping Embedded Systems, Hardware Encryption"
+    },
+    "singapore": {
+      "title": "Design Center (ODC) Singapore",
+      "focus": "RTL2GDS, Functional Verification, Embedded Systems, Firmware, Program Management"
+    },
+    "vietnam": {
+      "title": "Design Center (ODC) Ho Chi Minh City / Vietnam",
+      "focus": "RTL2GDS, DFT, Functional Verification, TLM, Firmware, Embedded Systems"
+    }
+  }
+
+
+}
