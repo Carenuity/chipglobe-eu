@@ -54,7 +54,7 @@
    <section id="hero2" class="d-flex align-items-center">
   <div class="container">
     <h1 data-i18n="hero.title"></h1>
-     <h2 data-i18n="hero.subtitle"></h2>
+    
   </div>
 </section>
   <!-- <section id="hero" class="d-flex align-items-center">
@@ -420,7 +420,7 @@
             lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
             fallbackLng: 'de',
             backend: {
-              loadPath: '/locales/{{lng}}/blog.json'
+              loadPath: '/locales/{{lng}}/news-room.json'
             }
           }, function(err, t) {
             updateContent();
