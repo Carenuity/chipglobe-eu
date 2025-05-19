@@ -707,7 +707,7 @@ select:focus {
   border: none;
   border-radius: 8px 0 0 8px;
   outline: none;
-  width: 250px;
+  width: 350px;
 } 
 
 #search-button {
@@ -719,6 +719,7 @@ select:focus {
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   transition: background-color 0.3s ease;
+ 
 }
 
 #search-button:hover {
