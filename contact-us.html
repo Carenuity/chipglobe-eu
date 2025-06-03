@@ -58,6 +58,8 @@
         <div class="container">
           <div class="row mt-5">
 
+           
+
             <div class="col-lg-6 mt-5 mt-lg-0">
               <form id="sharepointForm">
                 <div class="row">
@@ -89,14 +91,20 @@
                   <textarea class="form-control" name="message" rows="5" placeholder="Message" data-i18n-placeholder="message" required></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading" data-i18n=""></div>
+                  
+                   <div class="loading">Sending...</div>
+        <div class="error-message"></div>
+        <div class="sent-message"></div>
+                  <!-- <div class="loading" data-i18n=""></div>
                   <div class="error-message"></div>
-                  <div class="sent-message" data-i18n=""></div>
+                  <div class="sent-message" data-i18n=""></div> -->
                 </div>
+                 <div id="popup-message"></div>
                 <div class="text-center ">
                   <button type="submit " class=" button" data-i18n="send_message"></button>
                 </div>
               </form>
+              
             </div>
 
             
