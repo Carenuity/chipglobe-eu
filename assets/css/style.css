@@ -1733,21 +1733,24 @@ color: #ffffff;
   position: fixed;
   top: 20px;
   right: 20px;
-  
-  background-color: #f2f3f2;
-  color: white;
+  background-color: white;
+  color: green; /* default text color (success) */
+  border: 1px solid #ccc;
   padding: 15px 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   z-index: 1000;
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
+  font-weight: bold;
 }
 
 .popup-message.hide {
   opacity: 0;
 }
-
+.popup-message.error {
+  color: red;
+}
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
