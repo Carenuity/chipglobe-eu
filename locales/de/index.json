@@ -46,7 +46,12 @@
       
     "about": {
       "title": "Über uns",
-      "description": "Die ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und leitenden Mitglieder der frobas GmbH, deren Expertenteam seit 2003 an globalen Projekten beteiligt war. ChipGlobe ist ein unabhängiges Unternehmen, das Kunden bei der Entwicklung umfassender Chips (ASICs, FPGAs und Embedded Systems (Firmware)) vom Konzept bis zum Prototypen unterstützt – mit der Erfahrung von Senior-Experten über den gesamten Ablauf hinweg.",
+"description1": "Die ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und geschäftsführenden Mitglieder der frobas GmbH, deren Expertenteam seit 2003 in globalen Projekten aktiv ist. ChipGlobe ist ein unabhängiges Unternehmen, das sich der Aufgabe widmet, Kunden bei der Entwicklung umfassender Chips (ASICS, FPGAs und eingebettete Systeme (Firmware)) von der Idee über die erste Spezifikation bis zum Prototyp zu unterstützen und dabei von der Expertise hochrangiger Experten während des gesamten Prozesses zu profitieren.      ",
+"description": " ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und führenden Mitglieder der frobas GmbH. Gemeinsam mit einem erfahrenen Team, das bereits seit 2003 an internationalen Halbleiterprojekten beteiligt war, legte er den Grundstein für das heutige Unternehmen. Aufbauend auf diesem umfassenden Know-how entstand ChipGlobe als unabhängige, hochspezialisierte Organisation mit dem Ziel, Kunden weltweit bei der Entwicklung innovativer und zuverlässiger Halbleiterlösungen zu unterstützen.",
+      "description2":"ChipGlobe ist auf die Entwicklung komplexer Chips spezialisiert – darunter ASICs, FPGAs und Embedded Systems (Firmware). Das Unternehmen bietet umfassende Unterstützung über den gesamten Produktlebenszyklus hinweg: von der ersten Idee und Spezifikation über Design, Prototyping und Verifikation bis hin zur Produktionsreife. Kunden profitieren dabei nicht nur von einer strukturierten technischen Methodik, sondern insbesondere von der direkten Einbindung erfahrener Experten, die mit ihrer Fachkenntnis jeden Schritt des Entwicklungsprozesses begleiten.",
+      "description3":"Dank der Kombination aus tiefgreifendem technischem Wissen, einem partnerschaftlichen Ansatz und hoher Qualitätsorientierung liefert ChipGlobe maßgeschneiderte Lösungen, die exakt auf die Anforderungen seiner Kunden abgestimmt sind – und ermöglicht so eine schnellere und effizientere Markteinführung ihrer Produkte.",
+     
+      
       "learn_more": "Mehr erfahren"
     }
   }

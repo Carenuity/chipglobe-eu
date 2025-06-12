@@ -81,8 +81,11 @@
 
   "management": {
     "title": "Unsere Geschäftsführung",
-    "volker": "Volker Frisch, Geschäftsführer",
-    "roland": "Roland Klemt, Geschäftsführer"
+    "volker": "Volker Frisch",
+    "volker2": "CEO",
+    "roland": "Roland Klemt",
+    "roland2":"Geschäftsführer"
+    
   },
 
 

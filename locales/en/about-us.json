@@ -80,8 +80,10 @@
 
   "management": {
     "title": "Our Management",
-    "volker": "Volker Frisch, CEO",
-    "roland": "Roland Klemt, Managing Director"
+    "volker":"Volker Frisch",
+    "volker2": "CEO",
+    "roland": "Roland Klemt",
+    "roland2":"Managing Director"
   },
 
 
