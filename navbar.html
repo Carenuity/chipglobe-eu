@@ -1,4 +1,6 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <body>
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
@@ -55,8 +57,34 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-
-      <a href="careers.html" class="appointment-btn scrollto"><span class="d-none d-md-inline">Careers</a>
+ <!-- <a href="job-application.html" class="button2">Careers</a> -->
+      <a href="careers.html" class="appointment-btn scrollto"><span class=" d-md-inline">Careers</a>
 
     </div>
   </header>
+
+  <!-- <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggle = document.querySelector('.mobile-nav-toggle');
+    const navbar = document.querySelector('#navbar');
+
+    toggle.addEventListener('click', function () {
+      navbar.classList.toggle('navbar-mobile');
+      toggle.classList.toggle('bi-list');
+      toggle.classList.toggle('bi-x');
+    });
+    // Handle dropdowns on mobile
+    document.querySelectorAll(".navbar .dropdown > a").forEach(el => {
+      el.addEventListener("click", function (e) {
+        if (navbar.classList.contains("navbar-mobile")) {
+          e.preventDefault(); // Prevent link from navigating
+          this.nextElementSibling.classList.toggle("dropdown-active");
+        }
+      });
+    });
+  });
+</script> -->
+
+
+</body>
+</html>

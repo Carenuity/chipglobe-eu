@@ -212,7 +212,20 @@ h6 {
   font-size: 14px;
   display: inline-block;
 }
-
+.button2 {
+  background-color: #00815a;
+  border: none;
+  margin-left: 25px;
+  white-space: nowrap;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  /* height: 20px; */
+  border-radius: 30px;
+}
 .appointment-btn:hover {
   background: #00815a;
   color: #fff;
@@ -594,6 +607,20 @@ h6 {
    border-radius: 30px;
 }
 
+.button2 {
+  background-color: #00815a;
+  border: none;
+  color: white;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  /* height: 20px; */
+  margin: 4px 2px;
+ 
+   border-radius: 30px;
+}
 
 
 select {
@@ -626,13 +653,13 @@ select:focus {
 
 
 
-.col-lg-4 {
-  flex: 0 0 32%;
-}
+/* .col-lg-4 {
+  flex: 0 0 100%;
+} */
 
 .custom-select-container {
   position: relative;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
 }
 
 .custom-select-trigger {
@@ -640,6 +667,7 @@ select:focus {
   border: 2px solid #00815a;
   border-radius: 8px;
   padding: 10px 12px;
+ 
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -659,6 +687,7 @@ select:focus {
 
 .custom-select-container.open .dropdown-icon {
   transform: rotate(180deg);
+   padding-top: 20px;
 }
 
 .custom-options {
@@ -729,9 +758,9 @@ select:focus {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 40%;
-margin-top: 60px;
-margin-left: 0px;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 0px;
   
 }
 
@@ -788,7 +817,7 @@ section {
 }
 
 .section-title {
-  padding-top:60px;
+  padding-top:20px;
   padding-bottom: 10px;
 }
 
@@ -1041,9 +1070,10 @@ section {
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   padding: 40px 30px;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   width: 100%;
+  height: 600px;
 }
 
 
@@ -1099,13 +1129,16 @@ section {
   flex: 1 1 400px;
   min-width: 300px;
   overflow: hidden;
+  padding-top: 10px;
+  align-items: center;    
+  justify-content: center;
    
 }
 .container-image {
   display: flex;
   align-items: center;    
   justify-content: center;
-  padding: "20px"; 
+  padding: "5px"; 
  
 }
 
@@ -1562,11 +1595,15 @@ section {
 # Contact
 --------------------------------------------------------------*/
 .contact .info {
-  width: 400px;
+  width: 100%;
   color: #fff;
   background-color: #00815a;
   padding: 5px;
   margin-top: 10px;
+}
+.map {
+  width: 100%;
+  
 }
 .text {
 color: #ffffff;
