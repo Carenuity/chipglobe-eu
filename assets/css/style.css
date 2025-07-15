@@ -1118,7 +1118,9 @@ section {
   border-bottom-left-radius: 16px; */
 }
 
-
+.banner {
+  padding-top: 20px;
+}
 
 .about-text p {
   font-size: 1.2rem;
@@ -1132,7 +1134,7 @@ section {
   padding-top: 10px;
   align-items: center;    
   justify-content: center;
-   
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 .container-image {
   display: flex;
