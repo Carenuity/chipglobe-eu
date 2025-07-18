@@ -1,70 +1,81 @@
-
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>ChipGlobe.eu</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>ChipGlobe.eu</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/logo.png" rel="logo" />
 
-  <!-- Favicons -->
-  <link href="assets/img/logo.png" rel="icon">
-  <link href="assets/img/logo.png" rel="logo">
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <!-- bootstrap -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
+  </head>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <body>
+    <!-- ======= Navbar ======= -->
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <div id="navbar-container"></div>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-<script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
-  <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
-  
-</head>
+    <script>
+      fetch("navbar.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("navbar-container").innerHTML = data;
+        });
+    </script>
 
-<body>
-
-  
-
-   <!-- ======= Navbar ======= -->
-
-<div id="navbar-container"></div>
-
-<script>
-  fetch('navbar.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('navbar-container').innerHTML = data;
-    });
-</script>
-
-
-  <!-- ======= Hero Section ======= -->
-   <section id="hero2" class="d-flex align-items-center">
-  <div class="container">
-    <h1 data-i18n="hero.title"></h1>
-    
-  </div>
-</section>
-  <!-- <section id="hero" class="d-flex align-items-center">
+    <!-- ======= Hero Section ======= -->
+    <section id="hero2" class="d-flex align-items-center">
+      <div class="container">
+        <h1 data-i18n="hero.title"></h1>
+      </div>
+    </section>
+    <!-- <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <h1>ChipGlobe Blogs</h1>
       <h2>Comprehensive chip design and verification 
@@ -74,262 +85,354 @@
     </div>
   </section> -->
 
-  <main id="main">
+    <main id="main">
+      <!-- ======= blog ======= -->
 
-    <!-- ======= blog ======= -->
+      <section id="blog-posts" class="blog-posts section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/blog1.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-    <section id="blog-posts" class="blog-posts section">
-
-      <div class="container">
-        <div class="row gy-4">
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog1.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/using-the-bgt60ltr11-radar-shield2go-with-esp32-for-ai-applications" target="_blank">
-                  <u>Using the BGT60LTR11 Radar Shield2Go with ESP32 for AI Applications</u></a>
-              </h5>
-              <p class="post-category">This guide will walk you through its features, setup, and integration with 
-                an ESP32 microcontroller, providing a ...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/sq-panel.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/introducing-the-sq-panel-your-smart-home-s-new-best-friend" target="_blank">
-                  <u>Introducing the SQ-Panel: Your Smart Home's New Best Friend</u></a>
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/using-the-bgt60ltr11-radar-shield2go-with-esp32-for-ai-applications"
+                    target="_blank"
+                  >
+                    <u
+                      >Using the BGT60LTR11 Radar Shield2Go with ESP32 for AI
+                      Applications</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  This guide will walk you through its features, setup, and
+                  integration with an ESP32 microcontroller, providing a ...
                 </p>
-              <h5 class="post-category">Are you ready to take your home monitoring to the next level? 
-                Chipglobe is excited to announce our latest innovation: the SQ-Panel...</p>
+              </article>
+            </div>
+            <!-- End post list item -->
 
-              
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/sq-panel.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/yaml.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/creating-your-first-yaml-file-in-home-assistant" target="_blank">
-                  <u>Creating Your First YAML File in Home Assistant</u></a>
-              </h5>
-              <p class="post-category">Home Assistant is a powerful open-source home automation platform that allows you to control
-                 and automate various ...  </p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/google.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/utilizing-google-sheets-in-home-assistant-a-comprehensive-guide" target="_blank">
-                  <u>Utilizing Google Sheets in Home Assistant: A Comprehensive Guide</u></a>
-              </h5>
-              <p class="post-category">Greetings, tech enthusiasts! Today, we're delving into the intricacies of 
-                incorporating Google Sheets into ...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/sensor.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/sensor-data-optimization-for-enhanced-ai-performance" target="_blank">
-                  <u>Sensor Data Optimization for Enhanced AI Performance</u></a>
-              </h5>
-              <p class="post-category">
-                Hello tech enthusiasts, In the realm of artificial intelligence, 
-                sensor data plays a crucial role in shaping the accuracy and...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/revolutionizing.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/revolutionizing-home-living-the-synergy-of-home-automation-and-embedded-ai" target="_blank">
-                  <u>Revolutionizing Home Living: The Synergy of Home Automation and embedded AI</u></a>
-              </h5>
-              <p class="post-category">
-                In the age of rapid technological advancement, our homes are becoming 
-                smarter and more intuitive than ...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/automating.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/beginner-s-guide-automating-lights-with-hlk-ld2410-and-home-assistant" target="_blank">
-                  <u>Beginner's Guide: Automating Lights with HLK-LD2410 and Home Assistant</u></a>
-              </h5>
-              <p class="post-category">Hello Tech Enthusiast! Welcome to today's tutorial where we embark on a journey into the realm of ...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/radar.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post-1" target="_blank">
-                  <u>A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</u></a>
-              </h5>
-              <p class="post-category">Hello tech enthusiasts! Today, let's delve into the fascinating world of 
-                the HLK-LD2410, a 24GHz Human Presence Radar Sensor. The...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/discovering.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/discovering-the-ld2410c-radar-sensor" target="_blank">
-                  <u>Discovering the LD2410C Radar Sensor
-                    </u></a>
-              </h5>
-              <p class="post-category">
-                What if you could see through walls, fog, and darkness, with accuracy and speed? 
-                This has been made possible thanks to the LD2410C radar...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/detecting.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/detecting-the-future-exploring-the-exciting-applications-of-object-detection" target="_blank">
-                  <u>A Detecting the Future: Exploring the Exciting Applications of Object Detection</u></a>
-              </h5>
-              <p class="post-category">
-                You might be wondering; where do I apply Object Detection? Well hold on to your hats because 
-                we&apos;re about ...</p>
-
-              
-
-            </article>
-          </div><!-- End post list item -->
-
-         
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/cam.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post" target="_blank">
-                  <u>Turning Your ESP32-CAM into a Smart Object Detector with Edge Impulse</u></a>
-              </h5>
-              <p class="post-category">
-                
-                Hello, tech enthusiasts, welcome to the AI Journal tutorial! In this blog post, we're 
-                diving into the exciting world of ...
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/introducing-the-sq-panel-your-smart-home-s-new-best-friend"
+                    target="_blank"
+                  >
+                    <u
+                      >Introducing the SQ-Panel: Your Smart Home's New Best
+                      Friend</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Are you ready to take your home monitoring to the next level?
+                  Chipglobe is excited to announce our latest innovation: the
+                  SQ-Panel...
                 </p>
+              </article>
+            </div>
+            <!-- End post list item -->
 
-              
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/yaml.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-            </article>
-          </div><!-- End post list item -->
-
-          <div class="col-lg-4">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/welcome.webp" alt="" class="img-fluid">
-              </div>
-
-              <h5 >
-                <a href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/your-title-what-s-your-blog-about" target="_blank">
-                  <u>Welcome to ChipGlobe's Embedded AI Journal!</u></a>
-              </h5>
-              <p class="post-category">
-                
-              Greetings, tech enthusiasts, innovators, and fellow explorers! We're 
-              Melina and Cynthia, Embedded AI Engineers at ChipGlobe, and we're...
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/creating-your-first-yaml-file-in-home-assistant"
+                    target="_blank"
+                  >
+                    <u>Creating Your First YAML File in Home Assistant</u></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Home Assistant is a powerful open-source home automation
+                  platform that allows you to control and automate various ...
                 </p>
+              </article>
+            </div>
+            <!-- End post list item -->
 
-              
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/google.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-            </article>
-          </div><!-- End post list item -->
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/utilizing-google-sheets-in-home-assistant-a-comprehensive-guide"
+                    target="_blank"
+                  >
+                    <u
+                      >Utilizing Google Sheets in Home Assistant: A
+                      Comprehensive Guide</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Greetings, tech enthusiasts! Today, we're delving into the
+                  intricacies of incorporating Google Sheets into ...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/sensor.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-        
-          
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/sensor-data-optimization-for-enhanced-ai-performance"
+                    target="_blank"
+                  >
+                    <u
+                      >Sensor Data Optimization for Enhanced AI Performance</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Hello tech enthusiasts, In the realm of artificial
+                  intelligence, sensor data plays a crucial role in shaping the
+                  accuracy and...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/revolutionizing.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
-          
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/revolutionizing-home-living-the-synergy-of-home-automation-and-embedded-ai"
+                    target="_blank"
+                  >
+                    <u
+                      >Revolutionizing Home Living: The Synergy of Home
+                      Automation and embedded AI</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  In the age of rapid technological advancement, our homes are
+                  becoming smarter and more intuitive than ...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/automating.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
 
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/beginner-s-guide-automating-lights-with-hlk-ld2410-and-home-assistant"
+                    target="_blank"
+                  >
+                    <u
+                      >Beginner's Guide: Automating Lights with HLK-LD2410 and
+                      Home Assistant</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Hello Tech Enthusiast! Welcome to today's tutorial where we
+                  embark on a journey into the realm of ...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/radar.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post-1"
+                    target="_blank"
+                  >
+                    <u
+                      >A Beginner's Guide to HLK-LD2410C 24GHz Radar Sensor</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Hello tech enthusiasts! Today, let's delve into the
+                  fascinating world of the HLK-LD2410, a 24GHz Human Presence
+                  Radar Sensor. The...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/discovering.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/discovering-the-ld2410c-radar-sensor"
+                    target="_blank"
+                  >
+                    <u>Discovering the LD2410C Radar Sensor </u></a
+                  >
+                </h5>
+                <p class="post-category">
+                  What if you could see through walls, fog, and darkness, with
+                  accuracy and speed? This has been made possible thanks to the
+                  LD2410C radar...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/detecting.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/detecting-the-future-exploring-the-exciting-applications-of-object-detection"
+                    target="_blank"
+                  >
+                    <u
+                      >A Detecting the Future: Exploring the Exciting
+                      Applications of Object Detection</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  You might be wondering; where do I apply Object Detection?
+                  Well hold on to your hats because we&apos;re about ...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/cam.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/template-how-to-write-a-tips-blog-post"
+                    target="_blank"
+                  >
+                    <u
+                      >Turning Your ESP32-CAM into a Smart Object Detector with
+                      Edge Impulse</u
+                    ></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Hello, tech enthusiasts, welcome to the AI Journal tutorial!
+                  In this blog post, we're diving into the exciting world of ...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img
+                    src="assets/img/blog/welcome.webp"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+
+                <h5>
+                  <a
+                    href="https://carenuityblog.wixsite.com/embedded-ai-journal/post/your-title-what-s-your-blog-about"
+                    target="_blank"
+                  >
+                    <u>Welcome to ChipGlobe's Embedded AI Journal!</u></a
+                  >
+                </h5>
+                <p class="post-category">
+                  Greetings, tech enthusiasts, innovators, and fellow explorers!
+                  We're Melina and Cynthia, Embedded AI Engineers at ChipGlobe,
+                  and we're...
+                </p>
+              </article>
+            </div>
+            <!-- End post list item -->
+          </div>
         </div>
-      </div>
+      </section>
 
-    </section>
-
-    <!-- <section id="why-us" class="why-us">
+      <!-- <section id="why-us" class="why-us">
       <div class="container">
 
         <div class="row">
@@ -392,79 +495,85 @@
       </div>
     </section> -->
     </main>
-    
+
     <!-- footer -->
     <div id="footer-container"></div>
 
-<script>
-  fetch('footer.html')
-    .then(response => response.text())
-    .then(data => {
-      document.getElementById('footer-container').innerHTML = data;
-    });
-</script>
-
-      <div id="preloader"></div>
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
-        <i class="bi bi-arrow-up-short"></i></a>
-    
-      <!-- Vendor JS Files -->
-      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-      <script src="assets/vendor/php-email-form/validate.js"></script>
-    
-      <!-- Template Main JS File -->
-      <script src="assets/js/main.js"></script>
-
-      <!-- mobile nav -->
-  <script src="assets/js/nav.js"></script>
-
-       <!-- Translate -->
-
-      <script>
-        i18next
-          .use(i18nextHttpBackend)
-          .init({
-            lng: localStorage.getItem('selectedLanguage') || 'en', // Load saved language or default to 'en'
-            fallbackLng: 'de',
-            backend: {
-              loadPath: '/locales/{{lng}}/news-room.json'
-            }
-          }, function(err, t) {
-            updateContent();
-            setActiveLang(i18next.language);
-          });
-
-        function updateContent() {
-          document.querySelectorAll('[data-i18n]').forEach(function(el) {
-            const key = el.getAttribute('data-i18n');
-            el.textContent = i18next.t(key);
-          });
-        }
-
-        function setActiveLang(lang) {
-          document.getElementById('lang-en').classList.remove('active');
-          document.getElementById('lang-de').classList.remove('active');
-          const langElement = document.getElementById('lang-' + lang);
-          if (langElement) {
-            langElement.classList.add('active');
-          }
-        }
-
-        function changeLanguage(lang) {
-          i18next.changeLanguage(lang, function() {
-            updateContent();
-            setActiveLang(lang);
-            localStorage.setItem('selectedLanguage', lang);
-          });
-        }
-
-        // Optional: re-set on page load
-        document.addEventListener('DOMContentLoaded', function () {
-          const savedLang = localStorage.getItem('selectedLanguage') || 'en';
-          changeLanguage(savedLang);
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-container").innerHTML = data;
         });
-      </script>
-    </body>
+    </script>
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+    >
+      <i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- mobile nav -->
+    <script src="assets/js/nav.js"></script>
+
+    <!-- Translate -->
+
+    <script>
+      i18next.use(i18nextHttpBackend).init(
+        {
+          lng: localStorage.getItem("selectedLanguage") || "en", // Load saved language or default to 'en'
+          fallbackLng: "de",
+          backend: {
+            loadPath: "/locales/{{lng}}/news-room.json",
+          },
+        },
+        function (err, t) {
+          updateContent();
+          setActiveLang(i18next.language);
+        }
+      );
+
+      function updateContent() {
+        document.querySelectorAll("[data-i18n]").forEach(function (el) {
+          const key = el.getAttribute("data-i18n");
+          el.textContent = i18next.t(key);
+        });
+      }
+
+      function setActiveLang(lang) {
+        document.getElementById("lang-en").classList.remove("active");
+        document.getElementById("lang-de").classList.remove("active");
+        const langElement = document.getElementById("lang-" + lang);
+        if (langElement) {
+          langElement.classList.add("active");
+        }
+      }
+
+      function changeLanguage(lang) {
+        i18next.changeLanguage(lang, function () {
+          updateContent();
+          setActiveLang(lang);
+          localStorage.setItem("selectedLanguage", lang);
+        });
+      }
+
+      // Optional: re-set on page load
+      document.addEventListener("DOMContentLoaded", function () {
+        const savedLang = localStorage.getItem("selectedLanguage") || "en";
+        changeLanguage(savedLang);
+      });
+    </script>
+  </body>
+</html>
