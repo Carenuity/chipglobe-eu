@@ -12,13 +12,13 @@
     "services": {
       "title": "Unsere Dienstleis- tungen",
       "design": {
-        "title": "ChipGlobe Design",
+        "title": "Chip Design",
         "description": "ChipGlobe bietet ein umfassendes Spektrum an Chipdesign-Dienstleistungen, die Projekte von der Konzeptphase bis zur Prototyperstellung und der  ..."
       },
       "learn_more": "Mehr erfahren",
       
           "embeddedSystems": {
-            "title": "Eingebettete Systeme",
+            "title": "Embedded Systems",
             "description": "ChipGlobe ist auf ein umfassendes Angebot an unterstützenden Chip-Design-Dienstleistungen spezialisiert Projekte von der Konzeptphase bis zum endgültigen Prototyping und der ....",
             "link": "Mehr erfahren"
           },
