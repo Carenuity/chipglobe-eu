@@ -828,6 +828,11 @@ h6 {
   cursor: pointer;
   border-radius: 30px;
 }
+.button:hover,
+.button:focus,
+.button:active {
+  color: white;
+}
 
 .button2 {
   background-color: #00815a;
