@@ -15,6 +15,19 @@
     "text2": "ChipGlobe konzentriert sich auf Design und Verifikation, Tester- sowie Firmware/Embedded Systems-Beratung mit sowohl Insourcing- (beim Kunden vor Ort) als auch Outsourcing-Modellen (ChipGlobe Design Center). Die Teams arbeiten global mit ASIC-Design- und Verifikationsteams führender Halbleiterunternehmen, mit Fokus auf die Bereiche Automotive, Telekommunikation, Sicherheit und Netzwerke.",
     "text3": "Im Bereich Verifikation besitzt das Unternehmen fundierte Erfahrung in funktionaler und Mixed-Signal-Verifikation, mit Schwerpunkt auf SystemVerilog und UVM, sowie Constraint Random-, Metric- und Coverage-Driven-Verifikation. Im Bereich Implementierung sind sie Experten für RTL-zu-GDS-Implementierung, Layout und Verifikation digitaler und Mixed-Signal-Designs mit neuesten Submikron-Technologien."
   },
+  "dit": {
+  "title": "Kooperation mit der Technischen Hochschule Deggendorf, insbesondere mit dem European Campus Rottal-Inn (ECRI)",
+  "text1": "ChipGlobe pflegt eine enge Zusammenarbeit mit der Technischen Hochschule Deggendorf, insbesondere mit dem European Campus Rottal-Inn (ECRI). Die wichtigsten Punkte dieser Kooperation sind:",
+  "text2a": "Strategische Partnerschaft:",
+  "text2": "ChipGlobe arbeitet in einer Dreierkooperation mit Infineon und der TH Deggendorf zusammen. Ziel ist die Entwicklung und Förderung sicherer IoT-Lösungen, insbesondere auf Basis des Infineon Optiga™ Trust X Systems.",
+  "text3a": "Fokus auf Embedded Systeme:",
+  "text3": "Die Zusammenarbeit konzentriert sich auf die ChipGlobe Sensorbox, ein prototypisches System für sichere, hardware-verschlüsselte Kommunikation in IoT-Umgebungen.",
+  "text4a": "Akademische Einbindung:",
+  "text4": "ChipGlobe bietet Studierenden der TH Deggendorf Praktika sowie Bachelor- und Masterarbeiten an, insbesondere in den Bereichen Embedded Systems und Digitalisierung.",
+  "text5a": "Veranstaltungen & Recruiting:",
+  "text5": "Gemeinsame Veranstaltungen wie Karrieremessen am Campus Rottal-Inn boten ChipGlobe die Möglichkeit, aktiv Studierende für Projekte und Abschlussarbeiten zu rekrutieren."
+},
+
   "industry": {
     "title": "Industriepartnerschaften im Halbleiter- und Embedded-Ökosystem",
     "infineon": "Infineon Design House: ChipGlobe arbeitet seit über 15 Jahren nachhaltig und qualitätsbewusst mit Infineon zusammen. Ende 2018 erhielten wir den Infineon Supplier Award und sind bevorzugter Lieferant. DANKE Infineon!",
