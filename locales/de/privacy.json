@@ -1,0 +1,124 @@
+{
+  "title": "Datenschutzerklärung",
+
+  "section1_title": "1. Datenschutz auf einen Blick",
+  "section1_intro": "Diese Datenschutzerklärung erläutert, wie die ChipGlobe GmbH („wir“, „uns“, „unser“) Ihre personenbezogenen Daten erhebt, verwendet und schützt, wenn Sie unsere Website besuchen oder unsere mobile App nutzen. Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+  "section1_definition": "Personenbezogene Daten sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen.",
+  "section1_responsible": "Wer ist für die Datenverarbeitung verantwortlich?",
+  "section1_company": "Carenuity GmbH",
+  "section1_company2": "Professor-Messerschmitt-Strasse 1a",
+  "section1_company3": "85579 Neubiberg, Deutschland",
+  "section1_company4": "E-Mail: info@carenuity.com",
+
+  "section1_collect": "Wie erfassen wir Ihre Daten?",
+  "section1_collect1": "Von Ihnen bereitgestellte Daten: Informationen, die Sie in ein Kontaktformular eingeben, bei der Registrierung eines Kontos, bei der Übermittlung von Anfragen oder bei der Nutzung der App.",
+  "section1_collect2": "Automatisch erhobene Daten: Technische Informationen wie IP-Adresse, Gerätetyp, Betriebssystem, Browser- oder App-Version sowie Zugriffszeit werden automatisch erfasst, wenn Sie unsere Website besuchen oder unsere App verwenden.",
+
+  "section1_use": "Wofür verwenden wir Ihre Daten?",
+  "section1_use1": "Um den ordnungsgemäßen Betrieb unserer Website und App sicherzustellen.",
+  "section1_use2": "Um unsere Dienste und die Nutzererfahrung bereitzustellen und zu verbessern.",
+  "section1_use3": "Um mit Ihnen zu kommunizieren (z. B. Support, Anfragen oder vertragliche Angelegenheiten).",
+  "section1_use4": "Um gesetzliche Verpflichtungen zu erfüllen.",
+
+  "section1_rights": "Ihre Rechte in Bezug auf Ihre Daten",
+  "section1_rights6": "Sie haben das Recht:",
+  "section1_rights1": "Ihre personenbezogenen Daten einzusehen, zu berichtigen oder zu löschen.",
+  "section1_rights2": "Die Verarbeitung Ihrer Daten einzuschränken oder ihr zu widersprechen.",
+  "section1_rights3": "Ihre Einwilligung jederzeit zu widerrufen.",
+  "section1_rights4": "Die Übertragbarkeit Ihrer Daten zu verlangen.",
+  "section1_rights5": "Eine Beschwerde bei einer Aufsichtsbehörde einzureichen.",
+
+
+  
+  "section2_title1": "2. Allgemeine Informationen und Rechtsgrundlagen",
+  "section2_how": "Engagement zum Datenschutz",
+  "section2_content": "Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Wir behandeln Ihre Informationen vertraulich und gemäß den geltenden Datenschutzgesetzen, einschließlich der EU-Datenschutz-Grundverordnung (DSGVO) und des Bundesdatenschutzgesetzes (BDSG).",
+
+  "section2_manual": "Rechtsgrundlagen der Verarbeitung",
+  "section2_purpose": "Die Datenverarbeitung erfolgt gemäß Artikel 6 Absatz 1 DSGVO:",
+  "section2_purpose1": "Mit Ihrer Einwilligung,",
+  "section2_purpose2": "Zur Erfüllung eines Vertrags oder zur Durchführung vorvertraglicher Maßnahmen,",
+  "section2_purpose3": "Zur Erfüllung gesetzlicher Verpflichtungen,",
+  "section2_purpose4": "Zur Wahrung berechtigter Interessen, wie z. B. der Serviceverbesserung und IT-Sicherheit.",
+
+  "section2_withdrawal_heading": "Widerruf der Einwilligung",
+  "section2_withdrawal_text": "Sie können eine erteilte Einwilligung jederzeit durch eine formlose E-Mail an uns widerrufen. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung bleibt unberührt.",
+
+  "section2_complaint_heading": "Beschwerderecht bei der Aufsichtsbehörde",
+  "section2_complaint_text": "Wenn Sie der Ansicht sind, dass Ihre Daten unrechtmäßig verarbeitet wurden, haben Sie das Recht, eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen. Eine Liste der Aufsichtsbehörden finden Sie unter:",
+  "section2_complaint_text1": "https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html",
+
+  "section2_portability_heading": "Datenübertragbarkeit",
+  "section2_portability_text": "Sie haben das Recht, die von Ihnen bereitgestellten personenbezogenen Daten in einem maschinenlesbaren Format zu erhalten oder, sofern technisch machbar, an einen anderen Verantwortlichen übertragen zu lassen.",
+
+  "section2_security_heading": "Verschlüsselung und Sicherheit",
+  "section2_security_text": "Unsere Website und App verwenden moderne Verschlüsselung (TLS 1.3) sowie zusätzliche Sicherheitsmaßnahmen zum Schutz der Datenübertragung. Zudem führen wir regelmäßige Sicherheitsüberprüfungen durch, um unbefugten Zugriff oder Datenverluste zu verhindern.",
+
+
+  
+  "section3_heading": "3. Datenerhebung auf unserer Website und in der App",
+
+  "section3_cookies_heading": "Cookies und Local Storage",
+  "section3_cookies_text": "Wir verwenden Cookies und ähnliche Technologien (z. B. Local Storage), um Sitzungsdaten, Präferenzen und Anmeldeinformationen zu speichern.",
+
+  "section3_cookie_choice_text": "Bei Ihrem ersten Besuch unserer Website oder beim Start der App können Sie auswählen, welche Kategorien von Cookies Sie zulassen möchten (notwendig, funktional, Analyse, Marketing).",
+
+  "section3_logs_heading": "Server-Logdateien",
+  "section3_logs_intro": "Jeder Zugriff auf unsere Website oder App erzeugt automatisch Protokolldaten, darunter:",
+  "section3_logs_list1": "Gerätetyp und Betriebssystem",
+  "section3_logs_list2": "Browsertyp oder App-Version",
+  "section3_logs_list3": "Referrer-URL",
+  "section3_logs_list4": "Hostname des zugreifenden Geräts",
+  "section3_logs_list5": "Zeitpunkt der Serveranfrage",
+  "section3_logs_list6": "Anonymisierte IP-Adresse",
+  "section3_logs_text": "Diese Daten sind für den technischen Betrieb, die Systemsicherheit und die Fehlerdiagnose unserer Dienste erforderlich.",
+
+  "section3_contact_heading": "Kontakt- und Supportformulare",
+  "section3_contact_text1": "Wenn Sie uns über ein Formular, per E-Mail oder über die App kontaktieren, verarbeiten wir Ihre Daten zur Bearbeitung Ihrer Anfrage.",
+  "section3_contact_text2": "Die Verarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) oder, sofern sie einen Vertrag betrifft, nach Art. 6 Abs. 1 lit. b DSGVO.",
+
+
+  
+  "section4_heading": "4. Analyse- und Tracking-Technologien",
+
+  "section4_google_heading": "Google Analytics 4",
+  "section4_google_text1": "Wir verwenden Google Analytics 4 mit IP-Anonymisierung, um die Nutzung zu analysieren und die Leistung zu verbessern. Daten können im Rahmen des EU-US Data Privacy Frameworks an Google LLC in den Vereinigten Staaten übertragen werden.",
+  "section4_google_text2": "Sie können der Datenerfassung mit dem Browser-Add-on widersprechen: https://tools.google.com/dlpage/gaoptout?hl=de",
+
+  "section4_firebase_heading": "Firebase Analytics (Mobile App)",
+  "section4_firebase_text": "Unsere mobile App verwendet Firebase Analytics (Google LLC), um anonyme Statistiken zur App-Nutzung, zu Abstürzen und zur Leistung zu erfassen, um die Benutzererfahrung zu verbessern. Diese Daten identifizieren Sie nicht persönlich.",
+
+  
+  "section5_heading": "5. Plugins und externe Dienste",
+
+  "youtube_heading": "YouTube",
+  "youtube_paragraph1": "Unsere Website und App können YouTube-Inhalte einbetten. Anbieter: YouTube LLC, 901 Cherry Ave., San Bruno, CA 94066, USA.",
+  "youtube_paragraph2": "Eine Datenübertragung an YouTube erfolgt erst, nachdem Sie darin eingewilligt haben (Art. 6 Abs. 1 lit. a DSGVO).",
+
+  "maps_heading": "Google Maps / Apple Maps",
+  "maps_paragraph1": "Für Standortfunktionen in unserer App verwenden wir Kartendienste wie Google Maps oder Apple Maps. Ihre IP-Adresse und Ihr Gerätestandort werden nur übermittelt, wenn Sie die entsprechende Berechtigung erteilt haben.",
+
+  "push_heading": "Push-Benachrichtigungen (App)",
+  "push_paragraph1": "Wenn Sie Push-Benachrichtigungen aktivieren, speichern wir ein anonymes Gerätetoken, um Ihnen relevante Informationen zu senden. Sie können Benachrichtigungen jederzeit in den App-Einstellungen deaktivieren.",
+
+
+  "section6_heading": "6. Speicherdauer von Daten",
+  "section6_paragraph1": "Wir speichern personenbezogene Daten nur so lange, wie es zur Erfüllung der oben beschriebenen Zwecke erforderlich ist oder wie es gesetzlich vorgeschrieben ist.",
+  "section6_paragraph2": "Sobald der Zweck entfällt oder gesetzliche Aufbewahrungsfristen ablaufen, werden die Daten gelöscht oder anonymisiert.",
+
+
+  
+  "section7_heading": "7. Aktualisierungen dieser Datenschutzrichtlinie",
+  "section7_paragraph1": "Wir können diese Datenschutzrichtlinie aktualisieren, um rechtliche Änderungen oder Verbesserungen unserer Dienste widerzuspiegeln.",
+  "section7_paragraph2": "Wesentliche Änderungen werden wir über unsere App oder auf unserer Website bekanntgeben.",
+
+  "section8_heading": "8. Kontakt in Datenschutzangelegenheiten",
+  "section8_paragraph1": "Wenn Sie Fragen oder Bedenken zum Datenschutz haben, kontaktieren Sie uns bitte:",
+  "company_name": "Chipglobe GmbH",
+  "company_contact1": "z. Hd.: Datenschutzbeauftragter",
+  "company_contact2": "Cincinnatistr. 60, 81549 München, Deutschland",
+  "company_contact3": "E-Mail: datenschutz@chipglobe.com",
+  "company_contact4": "Telefon: +49 89 1222 469 00"
+
+
+}
