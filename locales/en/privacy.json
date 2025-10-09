@@ -26,15 +26,15 @@
   "section1_rights4":"Request data portability.",
   "section1_rights5":"Lodge a complaint with a supervisory authority.",
 
-  "section2_title1": "2.General Information and Legal Basis",
+  "section2_title1": "2. General Information and Legal Basis",
   "section2_how": "Data Protection Commitment",
   "section2_content":"We take the protection of your personal data very seriously. We treat your information confidentially and in accordance with applicable data protection laws, including the EU General Data Protection Regulation (GDPR) and the German Federal Data Protection Act (BDSG).",
    "section2_manual": "Legal Basis for Processing",
   "section2_purpose": "Data processing is carried out in accordance with Article 6(1) GDPR:",
-   "section2_purpose1": "With your consent,",
-    "section2_purpose2":"For the performance of a contract or pre-contractual measures,",
-  "section2_purpose3":"To comply with legal obligations,",
-  "section2_purpose4":"For legitimate interests such as service improvement and IT security.",
+   "section2_purpose1": "(a) With your consent,",
+    "section2_purpose2":"(b) For the performance of a contract or pre-contractual measures,",
+  "section2_purpose3":"(c) To comply with legal obligations,",
+  "section2_purpose4":"(d) For legitimate interests such as service improvement and IT security.",
   "section2_withdrawal_heading": "Withdrawal of Consent",
   "section2_withdrawal_text": "You may withdraw any consent you have given at any time by sending us an informal email. The lawfulness of processing prior to withdrawal remains unaffected.",
   "section2_complaint_heading": "Right to Lodge a Complaint",
@@ -107,8 +107,31 @@
   "company_contact2": "Cincinnatistr. 60, ",
   "company_contact6": " 81549 Munich, Germany",
   "company_contact3": "E-mail: datenschutz@chipglobe.com",
-  "company_contact4": "Phone: +49 89 1222 469 00"
+  "company_contact4": "Phone: +49 89 1222 469 00",
 
  
+
+  "imprint_heading": "Information pursuant to Section 5 of the German Telemedia Act (TMG):",
+
+  "imprint_company_name": "CHIPGLOBE GmbH",
+  "imprint_address_line1": "Cincinnatistrasse 60",
+  "imprint_address_line2": "81549 Munich, Germany",
+  "imprint_tel": "Tel: +49 89 1222 469 00",
+  "imprint_fax": "Fax: +49 89 1222 469 69",
+  "imprint_email": "Email: info@chipglobe.com",
+
+  "imprint_register_heading": "Commercial Register Information",
+  "imprint_register_court": "Commercial register: District Court of Munich",
+  "imprint_register_number": "Commercial register number: HRB 209414",
+  "imprint_vat_number": "VAT Identification Number (Section 27a German VAT Act): DE293062415",
+  "imprint_weee_number": "Registered under WEEE reg. no.: DE 53301452",
+
+  "imprint_ceo_heading": "CEO / Person Responsible pursuant to the German Press Act",
+  "imprint_ceo_name": "Volker Frisch",
+  "imprint_ceo_phone": "Phone: +49 89 1222 469 00",
+  "imprint_ceo_email": "Email: volker.frisch@chipglobe.com",
+
+  "imprint_rstv_heading": "Responsible for Content pursuant to Section 55 para. 2 of the German Interstate Broadcasting Treaty (RStV):",
+  "imprint_rstv_person": "Volker Frisch"
 
 }
