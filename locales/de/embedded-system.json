@@ -2,14 +2,28 @@
   "hero_title": "Umfassende Embedded-System-Erfahrung",
   "hero_subtitle": "Alles rund um eine erfolgreiche und effektive Embedded-System-Entwicklung",
   "intro_heading": "ChipGlobe Embedded Systems Dienstleistungen",
-  "intro_paragraph": "Willkommen auf der Seite für Embedded Systems Dienstleistungen von ChipGlobe. Wir kombinieren tiefes Branchenwissen mit modernsten Technologien, um maßgeschneiderte Embedded-System-Lösungen für eine Vielzahl von Anwendungen bereitzustellen.",
+  "intro_paragraph": "ChipGlobe entwickelt und integriert komplette Embedded-Systeme, die Hardware und Software nahtlos miteinander verbinden. Unsere Dienstleistungen decken den gesamten Entwicklungszyklus ab – von Board-Design und Firmware über Systemintegration bis hin zu Test und Validierung – und gewährleisten dabei Leistung, Zuverlässigkeit und Effizienz.",
+"intro_paragraph2": "Wir unterstützen eine Vielzahl von Branchen, darunter Automotive, Industrieautomatisierung, Telekommunikation, Medizintechnik und Unterhaltungselektronik. ChipGlobe hilft seinen Kunden, intelligente, vernetzte und zuverlässige Produkte zu entwickeln, die schneller auf den Markt kommen und einwandfrei funktionieren.",
+
   "expertise_heading": "Unsere Expertise im Bereich Embedded Systems",
-  "expertise_paragraph": "ChipGlobe bietet ein umfassendes Spektrum an Embedded-System-Dienstleistungen für verschiedene Branchen wie Automotive, Industrieautomatisierung und IoT.",
+  
+  "servicetitle": "Fähigkeiten",
+"service1": "Inbetriebnahme von Boards und Hardware-Verifikation",
+"service2": "Firmware-Entwicklung (C/C++, RTOS)",
+"service3": "Integration von Sensoren, Kommunikationss- chnittstellen und Steuerungssystemen",
+"service4": "Funktionale und Leistungstests",
+
+  
+  "expertise_paragraph": "ChipGlobe bietet ein umfassendes Spektrum an Embedded-System-Dienstleistungen, die auf die Anforderungen verschiedener Branchen zugeschnitten sind – darunter Automotive, Industrieautomatisierung, IoT und mehr. Wir entwickeln kundenspezifische Softwarelösungen für Embedded-Systeme – einschließlich Low-Level-Treiber, Firmware und Middleware – mit besonderem Fokus auf Zuverlässigkeit, Skalierbarkeit und Effizienz. Unser Team entwirft Hardware- und Softwarekomponenten parallel, um eine optimale Integration und Funktionalität sicherzustellen.",
+"expertise_paragraph2": "Wir bieten sowohl die Entwicklung von Echtzeitbetriebssystemen (RTOS) als auch Bare-Metal-Lösungen an, je nach geschwindigkeits- und steuerungsspezifischen Anforderungen der Anwendung. Mit Schwerpunkt auf Energieeffizienz und Echtzeit-Performance optimieren wir Firmware für eine Vielzahl von Mikrocontrollern und Prozessoren. Von der Hardware bis zur Software übernehmen wir die vollständige Integration und führen umfassende Tests durch, einschließlich automatisierter Validierungs-Setups.",
+
+  
   "expertise_list_1": "Wir entwickeln individuelle Softwarelösungen für Embedded Systems, einschließlich Treiber, Firmware und Middleware mit Fokus auf Zuverlässigkeit und Effizienz.",
   "expertise_list_2": "Unser Team entwickelt Hard- und Software gemeinsam, um optimale Integration und Funktionalität sicherzustellen.",
   "expertise_list_3": "Wir bieten sowohl RTOS- als auch Bare-Metal-Lösungen – je nach Anforderung an Geschwindigkeit und Kontrolle.",
   "expertise_list_4": "Wir optimieren Firmware hinsichtlich Energieeffizienz und Echtzeitverhalten für verschiedene Mikrocontroller.",
   "expertise_list_5": "Wir übernehmen die Integration von Hard- bis Software sowie umfassende Tests inklusive automatisierter Verfahren.",
+  
   "tools_heading": "Werkzeuge und Technologien",
   "tools_paragraph": "Unser Team nutzt modernste Tools und Technologien, um optimale Lösungen zu liefern.",
   "tools_list_1": "Beherrschung von C, C++, Python und Assembler für spezifische Plattformen.",
@@ -17,11 +31,13 @@
   "tools_list_3": "Erfahren im Umgang mit MCUs und MPUs von STMicroelectronics, NXP, Microchip und Texas Instruments.",
   "presence_heading": "Globale Präsenz und lokale Expertise",
   "presence_paragraph": "Mit Designzentren weltweit ist ChipGlobe bestens aufgestellt, um Kunden überall zu unterstützen.",
+  
   "approach_heading": "Unser Entwicklungsansatz",
-  "approach_list_1": "Komplette Entwicklung von Embedded-Systemen – von der Idee bis zur Integration.",
+  "approach_list_1": "Wir bieten vollständige Embedded-System-Entwicklung – von Konzept und Architektur über Tests bis hin zur finalen Integration. Unsere Lösungen werden individuell auf die Anforderungen jedes Kunden zugeschnitten und bieten dabei Flexibilität und Skalierbarkeit in jeder Entwicklungsphase. Wir arbeiten eng mit unseren Kunden in allen Projektphasen zusammen, um eine nahtlose Integration und optimale Leistung sicherzustellen. Durch unsere nach ISO 9001:2015 zertifizierten Prozesse gewährleisten wir höchste Qualität und Zuverlässigkeit in jedem Aspekt unserer Arbeit.",
   "approach_list_2": "Maßgeschneiderte, flexible und skalierbare Lösungen für jede Kundenanforderung.",
   "approach_list_3": "Enge Zusammenarbeit mit Kunden in allen Projektphasen.",
   "approach_list_4": "Qualität garantiert durch ISO 9001:2015 zertifizierte Prozesse.",
+  
   "why_heading": "Warum ChipGlobe für Embedded Systems?",
   "why_paragraph": "Unsere Erfahrung geht über Technik hinaus – wir lösen reale Probleme mit innovativen Lösungen.",
   "why_list_1": "Mehr als 130 erfahrene Experten mit Erfolgsbilanz in Embedded-Projekten.",
