@@ -81,9 +81,12 @@
   "management": {
     "title": "Our Management",
     "volker":"Volker Frisch",
-    "volker2": "CEO",
+    "volker2": "Chief Executive Officer",
+        "volker3":"At ChipGlobe, we accelerate innovation by delivering reliable, efficient, and first-time-right engineering solutions.",
+
     "roland": "Roland Klemt",
-    "roland2":"Managing Director"
+    "roland2":"Managing Director",
+    "roland3":"Our commitment is simple: empower our customers to build world-class technology with confidence and speed."
   },
 
 
