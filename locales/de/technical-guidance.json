@@ -7,18 +7,32 @@
     "challenge1_point2": "Ihre Experten sind zu 100 % in anderen Projekten gebunden.",
     "challenge1_point3": "Spezialwissen ist kurzfristig in Ihrer F&E-Abteilung nicht verfügbar.",
     "solution_title": "Die Lösung:",
-    "solution1": "Status-quo-Analyse: Pragmatische und effektive Lösungen, die sofort umsetzbar sind.",
-    "solution2": "Wissensweitergabe: Wissensmanagement (teilen, dokumentieren, Know-how vervielfältigen)",
-    "solution3": "Inhouse-Unterstützung: Vor-Ort-Implantat (Insourcing) mit den passenden Fähigkeiten und der richtigen Expertise",
-    "solution4": "Spezialisierte Experten: können sofort integriert werden",
-    "solution5": "Chipglobe Design Center: Maßgeschneiderte Pakete passend zu Ihren Projektanforderungen. Wir arbeiten per VPN und mit sicheren Verbindungen auch mit Ihrer F&E-Infrastruktur und Design-Flow.",
+    "solution1": "Pragmatische und effektive Lösungen, die sofort umgesetzt werden können",
+    "solution1a": "Status-quo-Analyse",
+
+    "solution2": "Wissensmanagement (Weitergabe, Dokumentation und Übertragung von Know-how)",
+    "solution2a": "Kaskadierendes Know-how",
+
+    "solution3": "Direktes „Implantat“ (Insourcing) in Ihr F&E-Team durch Experten mit den passenden Fähigkeiten und der nötigen Erfahrung",
+    "solution3a": "Unterstützung vor Ort",
+
+    "solution4": "Kann sofort integriert werden",
+    "solution4a": "Spezialisierte Experten",
+
+    "solution5": "Sie benötigen maßgeschneiderte Pakete, die zu den Anforderungen Ihres Projekts passen? Wir helfen Ihnen gerne weiter. Wir arbeiten über VPN und sichere Verbindungen – auch innerhalb Ihrer F&E-Infrastruktur und Ihres Designflows.",
+    "solution5a": "Chipglobe Design Center",
 
     "challenge2_title": "Zeit",
     "challenge2_point1": "Nur begrenzte Umsetzungszeit",
     "challenge2_point2": "Projektverzögerungen",
-    "solution6": "Schnelle Abhilfe: Durch unsere langjährige Erfahrung helfen wir, kostspielige und zeitraubende Umwege zu vermeiden. Der Fokus liegt auf nachhaltigen und durchdachten Entscheidungen zur Lösung eskalierender Probleme.",
-    "solution7": "Schnelle Einarbeitung: Unsere Experten benötigen nicht lange, um sich in die Projektinhalte einzuarbeiten – das zeigt sofort Wirkung.",
-    "solution8": "Verlorene Zeit aufholen: Blocker werden schnell erkannt. So können Sie rasch wieder zum Zeitplan zurückkehren – mit mehr Effizienz und Produktivität.",
+    "solution6": "Schnelle Abhilfe",
+    "solution6a": "Dank unserer langjährigen Expertise können wir helfen, kostspielige und zeitraubende Umwege zu vermeiden. Der Fokus liegt darauf, eskalierende Probleme durch nachhaltige und gut durchdachte Entscheidungen zu lösen. Diese tragen dazu bei, weitere Herausforderungen zu bewältigen und den Design- und Verifikationsprozess zu optimieren.",
+
+    "solution7": "Schnelle Einarbeitung",
+    "solution7a": "Unsere Experten benötigen nicht lange, um sich in die Projektdetails einzuarbeiten – und genau das macht von Anfang an einen spürbaren Unterschied.",
+
+    "solution8": "Aufholen verlorener Zeit",
+    "solution8a": "Kritische Hindernisse werden schnell erkannt. Dadurch können Sie rasch wieder in den Zeitplan zurückkehren – mit gesteigerter Effizienz und Produktivität.",
 
     "challenge3_title": "Kosten & Zeit",
     "challenge3_point1": "Optimale Planung der Markteinführung",
@@ -26,14 +40,22 @@
     "challenge3_point3": "Qualität statt Quantität (Ressourcenoptimierung)",
     "challenge3_point4": "Reduzierung von Ausfallzeiten",
 
-    "solution9": "Identifikation: Wir kümmern uns um jeden Aspekt Ihres Projekts und sind uns der damit verbundenen Aufgaben und Herausforderungen voll bewusst.",
-    "solution10": "Informationsfluss: Informationsaustausch, Wissensmanagement und Dokumentation",
-    "solution11": "Ganzheitliches Management: Wir erleichtern Ihnen die Arbeit durch Unterstützung in allen Projektbereichen",
-    "solution12": "Flexibilität: Lösungen und Entscheidungen entstehen oft im Prozess – durch Wachsamkeit und Anpassungsfähigkeit vermeiden Sie Umwege.",
-    "solution13": "Pünktlichkeit: Zeitpläne und Meilensteine ermöglichen eine realistische Markteinführungsstrategie",
-    "solution14": "Schnelle Lösungen: Dank unserer Erfahrung vermeiden wir Umwege; Fokus auf aktuelle Probleme beseitigt gleichzeitig viele andere Hindernisse.",
-    "solution15": "Schnelle Einarbeitung: Unsere Experten verstehen das Projekt schnell und liefern sofort Mehrwert.",
-    "solution16": "Optimierung: Blockaden werden rasch erkannt und beseitigt – für effektives und produktives Arbeiten.",
+    "solution9": "Identifikation",
+    "solutiona": " Wir kümmern uns um jeden Aspekt Ihres Projekts und sind uns der damit verbundenen Aufgaben und Herausforderungen voll bewusst.",
+    "solution10": "Informationsfluss",
+    "solutionb": " Informationsaustausch, Wissensmanagement und Dokumentation",
+    "solution11": "Ganzheitliches Management",
+    "solutionc": " Wir erleichtern Ihnen die Arbeit durch Unterstützung in allen Projektbereichen",
+      "solution12": "Flexibilität",
+    "solutiond": " Lösungen und Entscheidungen entstehen oft im Prozess – durch Wachsamkeit und Anpassungsfähigkeit vermeiden Sie Umwege.",
+    "solution13": "Pünktlichkeit",
+    "solutione": " Zeitpläne und Meilensteine ermöglichen eine realistische Markteinführungsstrategie",
+      "solution14": "Schnelle Lösungen",
+    "solutionf": " Dank unserer Erfahrung vermeiden wir Umwege; Fokus auf aktuelle Probleme beseitigt gleichzeitig viele andere Hindernisse.",
+     "solution15": "Schnelle Einarbeitung",
+    "solutiong": "Schnelle Einarbeitung: Unsere Experten verstehen das Projekt schnell und liefern sofort Mehrwert.",
+     "solution16": "Optimierung",
+    "solutionh": " Blockaden werden rasch erkannt und beseitigt – für effektives und produktives Arbeiten.",
 
     "closing_remark": "Ihr Projekt ist unser Projekt, Ihr Problem ist unser Problem. Nur wenn wir uns mit Ihrem Anliegen identifizieren, können wir wirksame Lösungen finden. Ihr Projekt ist bei uns in sicheren Händen."
   }

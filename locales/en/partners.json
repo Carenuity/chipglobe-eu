@@ -17,14 +17,15 @@
 
   "dit": {
     "title": "Cooperation with Deggendorf Institute of Technology, in particular with the European Campus Rottal-Inn (ECRI)",
-    "text1": "ChipGlobe maintains a strong collaboration with the Deggendorf Institute of Technology, in particular with its European Campus Rottal-Inn (ECRI). The key points of this cooperation include:",
-    "text2a": "Strategic Partnership:",
+    "text1": "ChipGlobe has built a deeply rooted partnership with the Deggendorf Institute of Technology, particularly through its European Campus Rottal-Inn (ECRI). This collaboration plays an important role in advancing joint projects, academic cooperation, and technological development.",
+    "text1a":"The key points of this cooperation include",
+    "text2a": "Strategic Partnership",
     "text2": "ChipGlobe works in a three-way cooperation with Infineon and DIT. The shared goal is to develop and promote secure IoT solutions, especially based on the Infineon Optiga™ Trust X system.",
-    "text3a": "Focus on Embedded Systems:",
+    "text3a": "Focus on Embedded Systems",
     "text3": "The collaboration centers around the ChipGlobe Sensorbox, a prototype system designed for secure, hardware-encrypted communication in IoT environments.",
-    "text4a": "Academic Integration:",
+    "text4a": "Academic Integration",
      "text4": "ChipGlobe offers internships as well as Bachelor’s and Master’s thesis opportunities for DIT students, particularly in the fields of Embedded Systems and Digitalization.",
-      "text5a": "Events & Recruiting:",
+      "text5a": "Events & Recruiting",
     "text5": "Joint events such as career fairs at the European Campus Rottal-Inn have provided opportunities for ChipGlobe to actively recruit students for projects and final theses."
   },
   "industry": {
@@ -38,6 +39,7 @@
     "flexibility": "High flexibility",
     "years": "More than 15 years of proven partnership",
     "mentor": "Mentor Questa Vanguard Partner: SystemVerilog, UVM, AMS verification are important components in ASIC verification. Due to our many years of experience with Mentor tools and methodologies, we can pass these on effectively supported by our partnership with Mentor. Our experts focus on defining the test bench architecture and performing the necessary tests based on constraint random and coverage-driven verification.",
-    "dmc": "Partnership with dmc-smartsystems GmbH: dmc-smartsystems GmbH has been a service provider in embedded systems for decades, including firmware development for BMCs for Fujitsu and embedded automotive solutions. Recently, they have expanded into intelligent image processing and artificial intelligence. Together with ChipGlobe, they offer clear, holistic, and modern solutions — from sensor to cloud — and conduct joint cross-divisional practical workshops. This setup is a win-win for customers, ChipGlobe, and dmc-smartsystems."
+    "dmc": "Partnership with dmc-smartsystems GmbH: dmc-smartsystems GmbH has been a service provider in embedded systems for decades, including firmware development for BMCs for Fujitsu and embedded automotive solutions. Recently, they have expanded into intelligent image processing and artificial intelligence. Together with ChipGlobe, they offer clear, holistic, and modern solutions — from sensor to cloud — and conduct joint cross-divisional practical workshops. This setup is a win-win for customers, ChipGlobe, and dmc-smartsystems.",
+    "carenuity":"Carenuity is actually a brand / business unit of ChipGlobe GmbH, which means their partnership is more of a structural integration than a collaboration between two independent companies. ChipGlobe, a semiconductor and embedded-systems engineering company, develops Carenuity's IoT sensor platforms, such as the SQ-Panel and the C3-Mini development board. Through this relationship, ChipGlobe leverages its hardware design and embedded systems expertise to bring Carenuity's mission to life — providing modular, customizable smart-home and health-tech solutions that monitor vital signs and indoor air quality."
   }
 }

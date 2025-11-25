@@ -17,14 +17,15 @@
   },
   "dit": {
   "title": "Kooperation mit der Technischen Hochschule Deggendorf, insbesondere mit dem European Campus Rottal-Inn (ECRI)",
-  "text1": "ChipGlobe pflegt eine enge Zusammenarbeit mit der Technischen Hochschule Deggendorf, insbesondere mit dem European Campus Rottal-Inn (ECRI). Die wichtigsten Punkte dieser Kooperation sind:",
-  "text2a": "Strategische Partnerschaft:",
+"text1": "ChipGlobe hat eine tief verwurzelte Partnerschaft mit der Technischen Hochschule Deggendorf aufgebaut, insbesondere mit ihrem European Campus Rottal-Inn (ECRI). Diese Zusammenarbeit spielt eine wichtige Rolle bei der Förderung gemeinsamer Projekte, der akademischen Kooperation und der technologischen Weiterentwicklung.",
+"text1a": "Zu den wichtigsten Punkten dieser Zusammenarbeit gehören",
+  "text2a": "Strategische Partnerschaft",
   "text2": "ChipGlobe arbeitet in einer Dreierkooperation mit Infineon und der TH Deggendorf zusammen. Ziel ist die Entwicklung und Förderung sicherer IoT-Lösungen, insbesondere auf Basis des Infineon Optiga™ Trust X Systems.",
-  "text3a": "Fokus auf Embedded Systeme:",
+  "text3a": "Fokus auf Embedded Systeme",
   "text3": "Die Zusammenarbeit konzentriert sich auf die ChipGlobe Sensorbox, ein prototypisches System für sichere, hardware-verschlüsselte Kommunikation in IoT-Umgebungen.",
-  "text4a": "Akademische Einbindung:",
+  "text4a": "Akademische Einbindung",
   "text4": "ChipGlobe bietet Studierenden der TH Deggendorf Praktika sowie Bachelor- und Masterarbeiten an, insbesondere in den Bereichen Embedded Systems und Digitalisierung.",
-  "text5a": "Veranstaltungen & Recruiting:",
+  "text5a": "Veranstaltungen & Recruiting",
   "text5": "Gemeinsame Veranstaltungen wie Karrieremessen am Campus Rottal-Inn boten ChipGlobe die Möglichkeit, aktiv Studierende für Projekte und Abschlussarbeiten zu rekrutieren."
 },
 
@@ -39,6 +40,7 @@
     "flexibility": "Hohe Flexibilität",
     "years": "Über 15 Jahre bewährte Partnerschaft",
     "mentor": "Mentor Questa Vanguard Partner: SystemVerilog, UVM und AMS-Verifikation sind wichtige Bestandteile der ASIC-Verifikation. Aufgrund unserer langjährigen Erfahrung mit Mentor-Tools und -Methodiken können wir dieses Wissen im Rahmen unserer Partnerschaft gezielt weitergeben. Unsere Experten konzentrieren sich auf die Definition der Testbench-Architektur und führen die notwendigen Tests mit Constraint Random- und Coverage-Driven-Verifikation durch.",
-    "dmc": "Partnerschaft mit dmc-smartsystems GmbH: dmc-smartsystems GmbH ist seit Jahrzehnten Dienstleister im Bereich Embedded Systems – z. B. bei der Firmware-Entwicklung für BMCs von Fujitsu und Embedded Automotive für große Tier-1-Zulieferer. In den letzten Jahren kamen Bildverarbeitung und Künstliche Intelligenz hinzu. Gemeinsam mit ChipGlobe bieten sie moderne, ganzheitliche Lösungen – von der Sensor-zu-Cloud-Verschlüsselung bis hin zu Data-Management und KI-Analyse. Beide Unternehmen führen auch gemeinsame Workshops durch. Eine Win-win-Situation für alle Beteiligten."
+    "dmc": "Partnerschaft mit dmc-smartsystems GmbH: dmc-smartsystems GmbH ist seit Jahrzehnten Dienstleister im Bereich Embedded Systems – z. B. bei der Firmware-Entwicklung für BMCs von Fujitsu und Embedded Automotive für große Tier-1-Zulieferer. In den letzten Jahren kamen Bildverarbeitung und Künstliche Intelligenz hinzu. Gemeinsam mit ChipGlobe bieten sie moderne, ganzheitliche Lösungen – von der Sensor-zu-Cloud-Verschlüsselung bis hin zu Data-Management und KI-Analyse. Beide Unternehmen führen auch gemeinsame Workshops durch. Eine Win-win-Situation für alle Beteiligten.",
+    "carenuity":"Carenuity ist eigentlich eine Marke bzw. Geschäftseinheit der ChipGlobe GmbH, was bedeutet, dass ihre Partnerschaft eher eine strukturelle Integration als eine Zusammenarbeit zweier unabhängiger Unternehmen ist. ChipGlobe, ein Unternehmen für Halbleiter- und Embedded-Systems-Engineering, entwickelt Carenuitys IoT-Sensorplattformen wie das SQ-Panel und das C3-Mini-Entwicklungsboard. Durch diese Beziehung nutzt ChipGlobe seine Expertise im Hardwaredesign und in eingebetteten Systemen, um die Mission von Carenuity zu verwirklichen – modulare, anpassbare Smart-Home- und Health-Tech-Lösungen bereitzustellen, die Vitalparameter und die Innenraumluftqualität überwachen."
   }
 }
