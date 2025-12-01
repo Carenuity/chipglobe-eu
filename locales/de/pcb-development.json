@@ -1,0 +1,43 @@
+{
+  "hero.title": "Umfassende Embedded-System-Erfahrung",
+  "hero.subtitle": "Alles, was für eine erfolgreiche und effiziente Embedded-System-Entwicklung erforderlich ist",
+
+  "pcb.heading": "PCB-Entwicklung im Zusammenhang mit Embedded Systems",
+  "pcb.text1": "Die Entwicklung von Leiterplatten (PCB) bildet die wesentliche Grundlage jedes Embedded Systems. Sie stellt die physische Struktur bereit, auf der alle Komponenten montiert werden, und bildet das Rückgrat, das Mikrocontroller, Sensoren, Leistungsbausteine und Kommunikationsschnittstellen miteinander verbindet. Ohne ein korrekt entwickeltes PCB kann ein Embedded System weder die nötige Stabilität noch die erforderliche Konnektivität oder Zuverlässigkeit erreichen.",
+  "pcb.text2": "Während Embedded Systems Hard- und Software kombinieren, sorgt das PCB dafür, dass beide Elemente nahtlos zusammenarbeiten. Ein gut gestaltetes PCB verbessert die Signalintegrität, erhöht die elektrische Zuverlässigkeit und unterstützt eine effiziente Stromverteilung. Es trägt auch wesentlich zur Systemleistung bei, indem es elektromagnetische Störungen reduziert, das thermische Management verbessert und die langfristige Stabilität sicherstellt.",
+
+  "role.heading": "Rolle der PCB-Entwicklung in Embedded Systems",
+  "role.intro": "Im Bereich der Embedded Systems erfüllt das PCB mehrere entscheidende Funktionen:",
+
+  "role.item1.title": "Die strukturelle Grundlage",
+  "role.item1.text": "Das PCB bietet mechanische Stabilität und Halt für Mikrocontroller, Sensoren, Leistungsbausteine sowie analoge und digitale Komponenten. Es stellt sicher, dass alle Hardwareelemente über den gesamten Lebenszyklus eines Geräts hinweg sicher positioniert und korrekt verbunden bleiben.",
+
+  "role.item2.title": "Die elektrische Verbindungsschicht",
+  "role.item2.text": "Durch Kupferleiterbahnen, Vias, Masseflächen und Versorgungsebenen ermöglicht das PCB eine zuverlässige elektrische Verbindung und Stromverteilung. Es gewährleistet eine stabile Spannungsversorgung, hohe Signalintegrität und eine wirksame Unterdrückung von Störungen zwischen Komponenten, die mit unterschiedlichen Signalpegeln oder Kommunikationsprotokollen arbeiten.",
+
+  "role.item3.title": "Der Performance-Enabler",
+  "role.item3.text": "Die Leistungsfähigkeit eines Embedded Systems hängt maßgeblich von der Qualität des PCBs ab. Signalintegrität, thermisches Verhalten, elektromagnetische Verträglichkeit (EMV) und die Zuverlässigkeit schneller Kommunikationsschnittstellen hängen stark von einem sauberen Layout, einer präzisen Leiterführung und einer guten Erdung ab. Fehlerhafte PCB-Designs können zu Instabilität, Datenfehlern, Überhitzung oder sogar zum vollständigen Ausfall des Geräts führen.",
+
+  "stages.heading": "Wichtige Phasen der PCB-Entwicklung",
+
+  "stages.item1.title": "Anforderungen und Systemspezifikation",
+  "stages.item1.text": "In dieser Phase wird die gesamte Systemarchitektur definiert. Dazu gehören die Auswahl des Mikrocontrollers oder Prozessors, die Festlegung von Sensoren, Aktuatoren, Speicher und Kommunikationsschnittstellen sowie die Definition der Leistungsanforderungen, Umgebungsbedingungen und Größenbeschränkungen. Diese Entscheidungen bilden die Grundlage für das gesamte PCB- und Embedded-System-Design.",
+
+  "stages.item2.title": "Schaltplanentwurf",
+  "stages.item2.text": "Beim Schaltplanentwurf wird die Systemarchitektur in einen vollständigen elektrischen Schaltkreis umgesetzt. Ingenieure ordnen die Pins des Mikrocontrollers zu, definieren die Stromversorgung, integrieren Sensoren sowie Kommunikationsbusse wie I²C, SPI, UART, CAN und USB und implementieren Taktgeber, Reset-Schaltungen, Programmier- und Debugging-Schnittstellen.",
+
+  "stages.item3.title": "PCB-Layout-Design",
+  "stages.item3.text": "In dieser Phase erfolgt die Platzierung aller Komponenten und die Leiterbahnenführung. Hochgeschwindigkeitsschnittstellen wie USB, Ethernet, SPI oder DDR erfordern kontrollierte Impedanzen, symmetrische Leiterbahnen und exaktes Längenmatching. Ingenieure trennen analoge, digitale und Leistungsebenen, berücksichtigen die Wärmeverteilung und entwickeln Erdungs- und Abschirmkonzepte für maximale Zuverlässigkeit.",
+
+  "stages.item4.title": "Simulation und Validierung",
+  "stages.item4.text": "Vor der Fertigung werden umfangreiche Simulationen durchgeführt, um das elektrische und thermische Verhalten des PCBs zu überprüfen. Power-Integrity-Analysen stellen eine stabile Spannungsversorgung sicher, Signalintegritätssimulationen überprüfen die Qualität schneller Signalleitungen, thermische Simulationen identifizieren Wärme-Hotspots und EMV-Analysen helfen, potenzielle Störquellen frühzeitig zu erkennen.",
+
+  "stages.item5.title": "PCB-Fertigung",
+  "stages.item5.text": "Während der Fertigung werden geeignete Materialien und der Board-Stack-up entsprechend den Leistungsanforderungen des Embedded Systems ausgewählt. Obwohl viele Designs FR4 verwenden, benötigen anspruchsvollere Geräte möglicherweise hochtemperaturbeständige Materialien, flexible Substrate oder HF-optimierte Laminatstrukturen. Mehrlagige Leiterplatten ermöglichen eine hohe Bauteildichte und eine verbesserte Signalleistung.",
+
+  "stages.item6.title": "Montage und Test",
+  "stages.item6.text": "Nach der Fertigung wird das PCB mittels SMT- oder Through-Hole-Technologien bestückt. Anschließend wird Firmware aufgespielt, um Funktionstests durchzuführen. Schnittstellen wie JTAG oder SWD werden verwendet, um die Konnektivität und den korrekten Betrieb zu prüfen. Je nach Einsatzbereich können zusätzliche Umwelt-, Vibrations- oder Belastungstests erforderlich sein, um die Zuverlässigkeit sicherzustellen.",
+
+  "conclusion.heading": "Fazit",
+  "conclusion.text": "Die PCB-Entwicklung ist untrennbar mit dem Embedded-System-Engineering verbunden. Das PCB ist weit mehr als ein physischer Träger – es beeinflusst direkt die Leistung, Zuverlässigkeit, Sicherheit und Herstellbarkeit eines Systems. Erfolgreiche Embedded-Lösungen erfordern ein harmonisches Zusammenspiel aus Hardwarearchitektur, PCB-Design, Komponentenwahl und Firmware-Integration."
+}

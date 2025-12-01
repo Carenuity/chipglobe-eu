@@ -1,0 +1,18 @@
+{
+    
+  "hero4": {
+    "title": "Umfassende Embedded-System-Erfahrung",
+    "subtitle": "Alles rund um eine erfolgreiche und effektive Embedded-System-Entwicklung"
+  },
+
+
+  "edge": {
+    "heading": "Edge AI Entwicklung in Bezug auf Embedded Systems",
+
+    "p1": "Die Edge-AI-Entwicklung verändert die Fähigkeiten eingebetteter Systeme, indem Geräte Daten verarbeiten und intelligente Entscheidungen direkt am Edge treffen können – ohne auf Cloud-Server angewiesen zu sein. In traditionellen Embedded-Systemen erfassen Sensoren Daten und leiten sie an einen zentralen Prozessor oder einen entfernten Server weiter. Mit Edge AI wird das eingebettete Gerät selbst zur Verarbeitungseinheit und integriert Machine-Learning-Modelle, die Daten in Echtzeit analysieren. Dieser Ansatz verbessert die Leistung erheblich, reduziert die Latenz und erhöht die Autonomie moderner eingebetteter Anwendungen.",
+
+    "p2": "Im Kern basiert Edge AI auf der Kombination aus Embedded-Hardware, optimierten Algorithmen und On-Device-Machine-Learning-Frameworks. Mikrocontroller, Embedded-Prozessoren, GPUs und spezielle KI-Beschleuniger ermöglichen komplexe Berechnungen wie Bilderkennung, Anomalieerkennung, Sprachverarbeitung und prädiktive Analytik. Durch die lokale Verarbeitung reduzieren Edge-AI-Systeme den Bandbreitenverbrauch, verbessern den Datenschutz und ermöglichen sofortige Reaktionen, selbst in Umgebungen mit instabiler Konnektivität. Dies macht sie ideal für kritische Anwendungen wie industrielle Automatisierung, Smart Cities, Gesundheitsüberwachung, Robotik und Automobiltechnik.",
+
+    "p3": "In Embedded-Systemen umfasst die Edge-AI-Entwicklung das Design effizienter Modelle, ihre Optimierung für hardwarebeschränkte Geräte und die Integration in die Softwarearchitektur des Systems. Techniken wie Modellkompression, Quantisierung, Hardwarebeschleunigung und effizientes Speichermanagement stellen sicher, dass KI-Workloads auch in ressourcenbeschränkten Umgebungen zuverlässig laufen. Das Ergebnis ist eine neue Generation intelligenter Geräte, die schneller, reaktionsfähiger und in der Lage sind, Entscheidungen direkt am Entstehungspunkt der Daten zu treffen – was Zuverlässigkeit, Sicherheit und die Gesamtleistung erheblich verbessert."
+  }
+}

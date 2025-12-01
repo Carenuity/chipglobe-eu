@@ -1,0 +1,18 @@
+{
+    
+  "hero4": {
+    "title": "Extensive Embedded System Experience",
+    "subtitle": "Everything around a successful and effective Embedded System Development"
+  },
+
+
+  "edge": {
+    "heading": "Edge AI Development in Relation to Embedded Systems",
+
+    "p1": "Edge AI development is transforming the capabilities of embedded systems by enabling devices to process data and make intelligent decisions directly at the edge—without relying on cloud servers. In traditional embedded systems, sensors collect data and forward it to a central processor or remote server. With Edge AI, the embedded device itself becomes the processing unit, integrating machine learning models that analyze data in real time. This shift significantly improves performance, reduces latency, and enhances the autonomy of modern embedded applications.",
+
+    "p2": "At the core of Edge AI is the combination of embedded hardware, optimized algorithms, and on-device machine learning frameworks. Microcontrollers, embedded processors, GPUs, and dedicated AI accelerators allow advanced computation such as image recognition, anomaly detection, speech processing, and predictive analytics. By performing these tasks locally, Edge AI systems reduce bandwidth usage, improve data privacy, and enable instant responses even in environments with unreliable connectivity. This makes them ideal for critical applications such as industrial automation, smart cities, healthcare monitoring, robotics, and automotive systems.",
+
+    "p3": "In embedded systems, Edge AI development involves designing efficient models, optimizing them for low-power hardware, and integrating them into the system’s software architecture. Techniques such as model compression, quantization, hardware acceleration, and efficient memory management ensure that AI workloads run smoothly within constrained embedded environments. The result is a new generation of intelligent devices that are faster, more responsive, and capable of decision-making at the point of data generation—enhancing reliability, security, and overall system performance."
+  }
+}

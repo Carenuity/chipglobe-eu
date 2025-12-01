@@ -42,18 +42,105 @@
       
     },
     
-        
-      
-      
-    "about": {
-      "title": "Über uns",
-"description1": "Die ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und geschäftsführenden Mitglieder der frobas GmbH, deren Expertenteam seit 2003 in globalen Projekten aktiv ist. ChipGlobe ist ein unabhängiges Unternehmen, das sich der Aufgabe widmet, Kunden bei der Entwicklung umfassender Chips (ASICS, FPGAs und eingebettete Systeme (Firmware)) von der Idee über die erste Spezifikation bis zum Prototyp zu unterstützen und dabei von der Expertise hochrangiger Experten während des gesamten Prozesses zu profitieren.      ",
-"description": " ChipGlobe GmbH wurde Anfang 2014 von Volker Frisch gegründet, einem der Initiatoren und führenden Mitglieder der frobas GmbH. Gemeinsam mit einem erfahrenen Team, das bereits seit 2003 an internationalen Halbleiterprojekten beteiligt war, legte er den Grundstein für das heutige Unternehmen. Aufbauend auf diesem umfassenden Know-how entstand ChipGlobe als unabhängige, hochspezialisierte Organisation mit dem Ziel, Kunden weltweit bei der Entwicklung innovativer und zuverlässiger Halbleiterlösungen zu unterstützen.",
-      "description2":"ChipGlobe ist auf die Entwicklung komplexer Chips spezialisiert – darunter ASICs, FPGAs und Embedded Systems (Firmware). Das Unternehmen bietet umfassende Unterstützung über den gesamten Produktlebenszyklus hinweg: von der ersten Idee und Spezifikation über Design, Prototyping und Verifikation bis hin zur Produktionsreife. Kunden profitieren dabei nicht nur von einer strukturierten technischen Methodik, sondern insbesondere von der direkten Einbindung erfahrener Experten, die mit ihrer Fachkenntnis jeden Schritt des Entwicklungsprozesses begleiten.",
-      "description3":"Dank der Kombination aus tiefgreifendem technischem Wissen, einem partnerschaftlichen Ansatz und hoher Qualitätsorientierung liefert ChipGlobe maßgeschneiderte Lösungen, die exakt auf die Anforderungen seiner Kunden abgestimmt sind – und ermöglicht so eine schnellere und effizientere Markteinführung ihrer Produkte.",
-     
-      
-      "learn_more": "Mehr erfahren"
+       
+  "whyChipGlobe": {
+    "title": "Warum ChipGlobe",
+    "text1": "Wir glauben, dass großartige Technologie mit großartiger Zusammenarbeit beginnt. Mit flexiblen Engagement-Modellen und End-to-End-Expertise stellen wir sicher, dass jedes Projekt seine Ziele effizient, transparent und termingerecht erreicht.",
+    "text2": "Gestalten wir gemeinsam die Zukunft der Elektronik."
+  },
+ 
+  "testimonials": {
+    "title": "Kundenmeinungen",
+    "intro": "",
+    "slide1": {
+      "text": "Die Zusammenarbeit mit ChipGlobe hat unsere Chip-Entwicklung beschleunigt – ihre erfahrenen Experten haben unsere Erwartungen übertroffen.",
+      "name": "Jessica Martinez",
+      "position": "VP Engineering"
+    },
+    "slide2": {
+      "text": "Das Embedded-Systems-Team von ChipGlobe half uns, Firmware und Hardware nahtlos zu integrieren und unseren neuen IoT-Produktlaunch zu ermöglichen.",
+      "name": "David Rodriguez",
+      "position": "Direktor Produktentwicklung"
+    },
+    "slide3": {
+      "text": "Von RTL bis zur GDS-Implementierung leitete uns ChipGlobe Schritt für Schritt mit klarer Kommunikation und qualitativ hochwertigen Ergebnissen.",
+      "name": "Priya Kumar",
+      "position": "ASIC-Programmmanagerin"
+    },
+    "slide4": {
+      "text": "Ihre technische Anleitung und kollaborative Herangehensweise gaben uns während der gesamten Verifikationsphase Vertrauen – ein herausragender Partner.",
+      "name": "David Abrams",
+      "position": "Senior Verification Lead"
     }
+  },
+  
+  "blogs": {
+    "title": "Kürzlich hinzugefügte Blogs",
+    "intro": "Entdecken Sie Fachartikel und Geschichten vom ChipGlobe-Team.",
+    "learn_more": "Mehr erfahren",
+    "blog1": {
+      "title": "Verwendung des BGT60LTR11 Radar Shield2Go mit ESP32 für KI-Anwendungen",
+      "description": "Dieser Leitfaden erklärt Funktionen, Einrichtung und Anwendungsmöglichkeiten."
+    },
+    "blog2": {
+      "title": "Einführung des SQ Panels: Der neue beste Freund Ihres Smart Homes",
+      "description": "Sind Sie bereit, Ihre Heimüberwachung mit dem SQ Panel auf die nächste Stufe zu heben?"
+    },
+    "blog3": {
+      "title": "Erstellen Ihrer ersten YAML-Datei in Home Assistant",
+      "description": "Home Assistant ist eine leistungsstarke Open-Source-Plattform für Heimautomation. Lernen Sie, Ihre erste YAML-Datei zu erstellen."
+    },
+    "blog4": {
+      "title": "Optimierung von Sensordaten für verbesserte KI-Leistung",
+      "description": "Erfahren Sie, wie Sensordaten für eine bessere KI-Leistung in IoT-Anwendungen optimiert werden können."
+    }
+  },
+
+
+      
+      
+    
+  "about.heading": "Über uns",
+  "about.p1": "Wir sind ein vertrauenswürdiger Engineering-Partner, spezialisiert auf Halbleiter- und Embedded-System-Lösungen.",
+  "about.p2": "Bei ChipGlobe entwickeln und bauen wir die Chips und Systeme von morgen. Mit tiefem technischen Know-how und Innovation unterstützen wir Kunden bei der Bereitstellung erstklassiger Halbleiterlösungen.",
+  "about.p3": "Mit Spezialisierung auf ASICs, FPGAs und Embedded Systems unterstützt ChipGlobe jede Phase des Produktlebenszyklus – von Konzept und Design bis hin zu Prototyping und Verifizierung.",
+  "about.p4": "Unsere bewährten Methoden und die Erfahrung unserer Senior Engineers sorgen für nahtlose Entwicklung und zuverlässige Ergebnisse.",
+  "about.learnmore": "Mehr erfahren",
+
+  "core.heading": "Unsere Kernkompetenzen",
+  "core.text": "Unsere Kernkompetenzen bilden die Grundlage unserer technischen Exzellenz.",
+  "core.c1.title": "Chip-Design und Verifikation",
+  "core.c1.text": "Innovatives ASIC- und FPGA-Design mit robuster Verifikation für erstklassige Ergebnisse.",
+  "core.c2.title": "Embedded Systems Engineering",
+  "core.c2.text": "End-to-End-Firmware- und Embedded-Entwicklung für intelligente, vernetzte und effiziente Systeme.",
+  "core.c3.title": "RTL2GDS Implementierung",
+  "core.c3.text": "Nahtloser RTL-zu-GDSII-Flow für optimierte, produktionsreife Silizium-Layouts.",
+  "core.c4.title": "Co-Working und technische Beratung",
+  "core.c4.text": "Kollaborative technische Unterstützung und Experten-Mentoring zur Beschleunigung Ihrer Halbleiterprojekte.",
+
+  "why.heading": "Warum ChipGlobe",
+  "why.p1": "Wir glauben, dass großartige Technologie mit großartiger Zusammenarbeit beginnt. Mit flexiblen Engagement-Modellen und End-to-End-Expertise stellen wir sicher, dass jedes Projekt seine Ziele effizient, transparent und pünktlich erreicht.",
+  "why.p2": "Gestalten wir gemeinsam die Zukunft der Elektronik.",
+
+  "blogs.heading": "Neu hinzugefügte Blogs",
+  "blogs.text": "Entdecken Sie Fachartikel und Geschichten des ChipGlobe-Teams.",
+  "blogs.learnmore": "Mehr erfahren",
+
+  "partners.heading": "Unsere Partner",
+  "partners.text": "Partnerschaften vereinen einzigartige Stärken, um Ergebnisse zu schaffen, die keiner alleine erreichen könnte. Sie schaffen Vertrauen, gemeinsame Visionen und nachhaltige Wirkung durch Zusammenarbeit.",
+  "partners.c1.title": "Carenuity",
+  "partners.c1.p1": "Carenuity ist eine Marke bzw. Geschäftseinheit der ChipGlobe GmbH, wodurch ihre Partnerschaft eher eine strukturelle Integration als eine Zusammenarbeit zweier unabhängiger Unternehmen ist.",
+  "partners.c1.p2": "ChipGlobe, ein Unternehmen für Halbleiter- und Embedded-Engineering, entwickelt Carenuitys IoT-Sensorplattformen wie das SQ-Panel und das C3-Mini-Board.",
+  "partners.c1.p3": "Durch diese Beziehung nutzt ChipGlobe seine Expertise in Hardwaredesign und Embedded Systems, um Carenuitys Mission zu verwirklichen – modulare, anpassbare Smart-Home- und Health-Tech-Lösungen.",
+  "partners.visit": "Besuchen Sie Carenuity.com",
+  "partners.learnmore": "Mehr erfahren",
+
+  "testimonials.heading": "Referenzen",
+  "testimonials.t1": "Die Zusammenarbeit mit ChipGlobe hat unsere Entwicklungszeiten drastisch verbessert – ihre Senior-Experten haben unsere Erwartungen übertroffen.",
+  "testimonials.t2": "Das Embedded-Systems-Team von ChipGlobe half uns, Firmware und Hardware nahtlos zu integrieren und unser neues IoT-Produkt erfolgreich zu starten.",
+  "testimonials.t3": "Von RTL bis GDS hat ChipGlobe uns in jeder Phase unterstützt – mit klarer Kommunikation und hochwertigen Ergebnissen.",
+  "testimonials.t4": "Ihre technische Beratung und kooperative Arbeitsweise gaben uns Sicherheit während der gesamten Verifikationsphase – ein herausragender Partner."
+
+
   }
   

@@ -1,0 +1,43 @@
+{
+  "hero.title": "Extensive Embedded System Experience",
+  "hero.subtitle": "Everything required for successful and efficient embedded system development",
+
+  "pcb.heading": "PCB Development in Relation to Embedded Systems",
+  "pcb.text1": "Printed Circuit Board (PCB) development is a critical foundation of any embedded system. It provides the physical structure on which all components are mounted, forming the backbone that connects microcontrollers, sensors, power modules, and communication interfaces. Without a properly designed PCB, an embedded system cannot achieve the stability, connectivity, or reliability required for dependable operation.",
+  "pcb.text2": "While embedded systems combine hardware and software to perform specific functions, the PCB ensures that these elements work together seamlessly. A well-designed PCB improves signal integrity, enhances electrical reliability, and supports efficient power distribution. It also contributes significantly to overall system performance by reducing electromagnetic noise, improving thermal management, and ensuring long-term operational stability.",
+
+  "role.heading": "Role of PCB Development in Embedded Systems",
+  "role.intro": "In embedded systems, the PCB serves as a crucial foundation in the following ways:",
+
+  "role.item1.title": "The Structural Backbone",
+  "role.item1.text": "The PCB provides mechanical support and stability for microcontrollers, sensors, power modules, analog and digital components, and communication chips. It ensures that all hardware elements remain securely aligned and properly connected throughout the lifecycle of the embedded device.",
+
+  "role.item2.title": "The Electrical Interconnect Layer",
+  "role.item2.text": "Through copper traces, vias, ground planes, and power layers, the PCB enables reliable electrical routing and distribution. It ensures stable power delivery, signal integrity, and effective noise suppression for components that operate across different voltage levels and communication protocols.",
+
+  "role.item3.title": "The Performance Enabler",
+  "role.item3.text": "System performance in embedded applications is directly linked to PCB quality. Signal integrity, thermal behavior, electromagnetic compatibility (EMC), and high-speed communication reliability depend on proper layout, routing, and grounding. Poor PCB design can lead to instability, data corruption, overheating, or complete device failure.",
+
+  "stages.heading": "Key Stages in PCB Development for Embedded Systems",
+
+  "stages.item1.title": "Requirements & System Specification",
+  "stages.item1.text": "This stage defines the overall embedded system architecture by selecting the appropriate microcontroller or processor, determining sensors, actuators, memory, and communication interfaces, and establishing power, environmental, and form-factor requirements. These decisions set the foundation for the entire PCB and embedded system design.",
+
+  "stages.item2.title": "Schematic Design",
+  "stages.item2.text": "During schematic design, the embedded system architecture is converted into an electrical circuit. Engineers map microcontroller pins, define power supply topologies, integrate sensors and communication buses such as I²C, SPI, UART, CAN, and USB, and implement clocks, oscillators, reset logic, programming ports, and debugging interfaces.",
+
+  "stages.item3.title": "PCB Layout Design",
+  "stages.item3.text": "In this phase, components are placed on the board and routing is performed. High-speed interfaces such as USB, Ethernet, SPI, or DDR require controlled trace impedance, symmetrical routing, and precise length matching. Engineers also separate analog, digital, and power domains, address heat distribution, and design shielding and grounding strategies to ensure optimal system reliability.",
+
+  "stages.item4.title": "Simulation & Validation",
+  "stages.item4.text": "Before manufacturing, simulations validate the electrical and thermal behavior of the PCB. Power integrity checks ensure stable voltage levels, signal integrity simulations verify the performance of high-speed lines, thermal modeling identifies heat concentration points, and EMC analysis predicts potential interference risks. This reduces costly design failures later in the process.",
+
+  "stages.item5.title": "PCB Fabrication",
+  "stages.item5.text": "During fabrication, an appropriate board stack-up and material selection are determined based on the embedded system’s performance requirements. While many applications use FR4, advanced designs may require high-temperature laminates, flexible substrates, or RF-optimized materials. Multi-layer boards support high component density, controlled impedance routing, and improved signal performance.",
+
+  "stages.item6.title": "Assembly & Testing",
+  "stages.item6.text": "After fabrication, the PCB is assembled using surface-mount (SMT) or through-hole technology. Once assembled, firmware is loaded for functional testing, and interfaces such as JTAG or SWD are used to verify connectivity and correct operation. Additional environmental, vibration, or stress testing may be performed depending on the application's reliability requirements.",
+
+  "conclusion.heading": "Conclusion",
+  "conclusion.text": "PCB development is inseparable from embedded system engineering. The PCB is not just a physical carrier—it directly affects performance, reliability, safety, and manufacturability. Successful embedded solutions require seamless coordination between hardware architecture, PCB design, component selection, and firmware integration."
+}
