@@ -1,0 +1,28 @@
+{
+  "footer": {
+    "mailAddressTitle": "Mail Address Only:",
+    "mailAddress": "ChipGlobe GmbH\nCincinnatistrasse 60\n81549 Munich, Germany",
+    "phone": "Phone:",
+    "fax": "Fax:",
+
+    "officeAddressTitle": "Office Address:",
+    "officeAddress": "ChipGlobe GmbH\nProfessor-Messerschmitt-Strasse 1, 3rd floor\n85579 Neubiberg / Munich\nGermany",
+    "email": "Email:",
+
+    "ceoTitle": "CEO / overall responsible for this website and its content:",
+    "ceoName": "Volker Frisch",
+    "ceoPosition": "CEO",
+
+    "copyright": "© 2025 ChipGlobe GmbH   ChipGlobe is a registered Trademark ® of ChipGlobe GmbH",
+
+    "legalNotice": "Legal notice",
+    "privacyPolicy": "Privacy policy",
+
+    "social": {
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram",
+      "youtube": "YouTube",
+      "facebook": "Facebook"
+    }
+  }
+}

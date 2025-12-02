@@ -42,5 +42,27 @@
     "mentor": "Mentor Questa Vanguard Partner: SystemVerilog, UVM und AMS-Verifikation sind wichtige Bestandteile der ASIC-Verifikation. Aufgrund unserer langjährigen Erfahrung mit Mentor-Tools und -Methodiken können wir dieses Wissen im Rahmen unserer Partnerschaft gezielt weitergeben. Unsere Experten konzentrieren sich auf die Definition der Testbench-Architektur und führen die notwendigen Tests mit Constraint Random- und Coverage-Driven-Verifikation durch.",
     "dmc": "Partnerschaft mit dmc-smartsystems GmbH: dmc-smartsystems GmbH ist seit Jahrzehnten Dienstleister im Bereich Embedded Systems – z. B. bei der Firmware-Entwicklung für BMCs von Fujitsu und Embedded Automotive für große Tier-1-Zulieferer. In den letzten Jahren kamen Bildverarbeitung und Künstliche Intelligenz hinzu. Gemeinsam mit ChipGlobe bieten sie moderne, ganzheitliche Lösungen – von der Sensor-zu-Cloud-Verschlüsselung bis hin zu Data-Management und KI-Analyse. Beide Unternehmen führen auch gemeinsame Workshops durch. Eine Win-win-Situation für alle Beteiligten.",
     "carenuity":"Carenuity ist eigentlich eine Marke bzw. Geschäftseinheit der ChipGlobe GmbH, was bedeutet, dass ihre Partnerschaft eher eine strukturelle Integration als eine Zusammenarbeit zweier unabhängiger Unternehmen ist. ChipGlobe, ein Unternehmen für Halbleiter- und Embedded-Systems-Engineering, entwickelt Carenuitys IoT-Sensorplattformen wie das SQ-Panel und das C3-Mini-Entwicklungsboard. Durch diese Beziehung nutzt ChipGlobe seine Expertise im Hardwaredesign und in eingebetteten Systemen, um die Mission von Carenuity zu verwirklichen – modulare, anpassbare Smart-Home- und Health-Tech-Lösungen bereitzustellen, die Vitalparameter und die Innenraumluftqualität überwachen."
+  },
+
+  
+  "bsfz": {
+    "head":"Ausgezeichnet mit dem BSFZ-Siegel 2025 für Forschung & Entwicklung",
+    "text": "Ausgezeichnet mit dem BSFZ-Siegel 2025 (rot) für unternehmensinterne Forschung und Entwicklung. Dieses offizielle Qualitätsmerkmal bestätigt unsere unabhängigen F&E-Leistungen bei der Entwicklung des SQ-Panels.",
+    "title": "BSFZ-Siegel 2025 – Forschung & Entwicklung Anerkennung",
+    "intro": "Das BSFZ-Siegel (ausgestellt vom Deutschen Zertifizierungsamt für Forschungsförderung) ist ein offizielles Qualitätssiegel der Bundesrepublik Deutschland, das bestätigt, dass ein Produkt oder Projekt auf Forschung und Entwicklung basiert. Es stärkt das Vertrauen bei Kunden, Partnern und Investoren, indem es offizielle Anerkennung von Innovation und Glaubwürdigkeit signalisiert.",
+    "keyAdvantages": {
+      "title": "Hauptvorteile",
+      "li1": "Dient als Vertrauenssignal und zeigt staatliche Anerkennung.",
+      "li2": "Verbessert das Innovationsimage des Unternehmens.",
+      "li3": "Vermittelt Seriosität – insbesondere in technischen oder medizinischen Kontexten wie dem SQ-Panel.",
+      "li4": "Unterstützt die Kommunikation von forschungsbasierten Leistungen im Marketing und in der PR."
+    },
+    "redSeal": {
+      "title": "Bedeutung des roten BSFZ-Siegels",
+      "text": "Das rote BSFZ-Siegel zertifiziert speziell interne Forschung und Entwicklung und beweist, dass das Unternehmen eigene F&E durchführt und keine Auftragsarbeit erledigt.",
+      "link": "Mehr über das BSFZ-Siegel erfahren"
+
+    }
   }
+
 }
