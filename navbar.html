@@ -94,12 +94,20 @@
 
     <header id="header" class="fixed-top">
       <div class="container d-flex align-items-center justify-content-between">
-        <a href="#home-anchor" class="logo">
+         <!-- Mobile Toggle (SAFE: No overlap) -->
+        <i class="bi bi-list mobile-nav-toggle"></i>
+        <!-- <a href="#home-anchor" class="logo">
           <img src="assets/img/logo.png" alt="" class="img-fluid" />
-        </a>
+        </a> -->
+        
+        <a href="#" class="logo" onclick="window.location.reload();">
+        <img src="assets/img/logo.png" alt="" class="img-fluid" />
+      </a>
 
+        
         <!-- Navigation -->
         <nav id="navbar" class="navbar">
+          
           <ul>
             <li><a class="nav-link scrollto" href="index.html">Home</a></li>
 
@@ -172,8 +180,7 @@
           </ul>
         </li>
       </ul>
-       <!-- Mobile Toggle (SAFE: No overlap) -->
-        <i class="bi bi-list mobile-nav-toggle"></i>
+      
     </nav>
 
     
