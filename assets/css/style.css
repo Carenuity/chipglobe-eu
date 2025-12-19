@@ -183,6 +183,7 @@ h6 {
   padding: 1px 0;
   top: 20px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
+   position: relative;
 }
 
 #header.header-scrolled {
@@ -204,8 +205,15 @@ h6 {
 } */
 
 #header .logo img {
-  max-height: 100px;
+  max-height: 100px; /* desktop default */
 }
+
+@media (max-width: 768px) {
+  #header .logo img {
+    max-height: 50px; /* mobile */
+  }
+}
+
 
 /**
 * Appointment Button *
@@ -378,10 +386,11 @@ h6 {
   font-size: 28px;
   cursor: pointer;
   display: none;
-  line-height: 0;
+  line-height: 1;
   transition: 0.5s;
    z-index: 9999 !important;
   position: relative;
+   pointer-events: auto;
 }
 
 .mobile-nav-toggle.bi-x {
@@ -397,7 +406,9 @@ h6 {
     display: none;
   }
 }
-
+.navbar {
+  flex-grow: 0;
+}
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -408,6 +419,26 @@ h6 {
   background: rgba(28, 47, 65, 0.9);
   transition: 0.3s;
   z-index: 999;
+}
+/* Desktop */
+.language-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Mobile navbar */
+@media (max-width: 991px) {
+  #navbar.navbar-mobile .language-item {
+    justify-content: center;
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,0.15);
+    margin-top: 10px;
+  }
+
+  #navbar.navbar-mobile .language-item a {
+    font-size: 16px;
+  }
 }
 
 .navbar-mobile .mobile-nav-toggle {
