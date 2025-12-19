@@ -60,7 +60,7 @@
     <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   </head>
 
-  <body>
+  <body data-page="edge-ai-development">
     <!-- ======= Navbar ======= -->
 
     <div id="navbar-container"></div>
@@ -136,13 +136,13 @@
     <!-- footer -->
     <div id="footer-container"></div>
 
-    <script>
+    <!-- <script>
       fetch("footer.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer-container").innerHTML = data;
         });
-    </script>
+    </script> -->
     <div id="preloader"></div>
     <a
       href="#"
@@ -164,8 +164,10 @@
     <script src="assets/js/nav.js"></script>
 
     <!-- Translate -->
+      <script src="assets/js/footer-i18n.js"></script>
+      <script src="assets/js/footer-loader.js"></script>
 
-    <script>
+    <!-- <script>
       i18next.use(i18nextHttpBackend).init(
         {
           lng: localStorage.getItem("selectedLanguage") || "en", // Load saved language or default to 'en'
@@ -209,6 +211,6 @@
         const savedLang = localStorage.getItem("selectedLanguage") || "en";
         changeLanguage(savedLang);
       });
-    </script>
+    </script> -->
   </body>
 </html>

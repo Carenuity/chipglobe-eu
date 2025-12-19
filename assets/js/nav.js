@@ -1,26 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//   const mobileToggle = document.querySelector(".mobile-nav-toggle");
-//   const navbar = document.querySelector("#navbar");
 
-//   // ✅ Handle mobile menu toggle (hamburger button)
-//   if (mobileToggle && navbar) {
-//     mobileToggle.addEventListener("click", function () {
-//       navbar.classList.toggle("navbar-mobile");
-//       mobileToggle.classList.toggle("bi-list");
-//       mobileToggle.classList.toggle("bi-x");
-//     });
-//   }
-
-//   // ✅ Handle dropdown menu toggle on mobile
-//   document.querySelectorAll(".navbar .dropdown > a").forEach(el => {
-//     el.addEventListener("click", function (e) {
-//       if (navbar.classList.contains("navbar-mobile")) {
-//         e.preventDefault(); // Prevent link from navigating
-//         this.nextElementSibling.classList.toggle("dropdown-active");
-//       }
-//     });
-//   });
-// }); 
 
 
   function initToggle(toggleEl) {
@@ -91,4 +69,36 @@
       }
     });
   });
+
+  // ===============================
+// Language switch (EN / DE)
+// ===============================
+
+function setActiveLang(lang) {
+  document.getElementById("lang-en")?.classList.remove("active");
+  document.getElementById("lang-de")?.classList.remove("active");
+
+  const active = document.getElementById("lang-" + lang);
+  if (active) {
+    active.classList.add("active");
+  }
+}
+
+function changeLanguage(lang) {
+  if (!window.i18next) return;
+
+  i18next.changeLanguage(lang);
+  localStorage.setItem("selectedLanguage", lang);
+  setActiveLang(lang);
+}
+
+// expose to inline HTML onclick
+window.changeLanguage = changeLanguage;
+window.setActiveLang = setActiveLang;
+
+// set highlight on initial load
+document.addEventListener("DOMContentLoaded", () => {
+  const savedLang = localStorage.getItem("selectedLanguage") || "en";
+  setActiveLang(savedLang);
+});
 

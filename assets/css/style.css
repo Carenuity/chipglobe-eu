@@ -35,6 +35,18 @@ h6 {
   font-weight: bold;
 }
 
+.lang-switch a {
+  color: #999;
+  text-decoration: none;
+}
+
+.lang-switch a.active {
+  color: #2ecc71;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/

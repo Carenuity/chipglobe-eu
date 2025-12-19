@@ -61,7 +61,7 @@
     <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   </head>
 
-  <body>
+  <body data-page="co-working">
     <!-- ======= Navbar ======= -->
 
     <div id="navbar-container"></div>
@@ -74,14 +74,7 @@
         });
     </script>
 
-    <!-- ======= Hero Section ======= -->
-    <!-- <section id="hero2" class="d-flex align-items-center">
-    <div class="container">
-      <h1>Your knowledge and ideas are<br> just as essential as our input</h1>
-      <h2>We're working hand in hand and we never lose sight of <br>your objectives throughout the entire process</h2>
-      
-    </div>
-  </section> -->
+   
 
     <section id="hero2" class="d-flex align-items-center">
       <div class="container">
@@ -299,13 +292,13 @@
     <!-- footer -->
     <div id="footer-container"></div>
 
-    <script>
+    <!-- <script>
       fetch("footer.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("footer-container").innerHTML = data;
         });
-    </script>
+    </script> -->
 
     <div id="preloader"></div>
     <a
@@ -329,8 +322,10 @@
     <script src="assets/js/nav.js"></script>
 
     <!-- Translate -->
+      <script src="assets/js/footer-i18n.js"></script>
+      <script src="assets/js/footer-loader.js"></script>
 
-    <script>
+    <!-- <script>
       i18next.use(i18nextHttpBackend).init(
         {
           lng: localStorage.getItem("selectedLanguage") || "en", // Load saved language or default to 'en'
@@ -374,6 +369,6 @@
         const savedLang = localStorage.getItem("selectedLanguage") || "en";
         changeLanguage(savedLang);
       });
-    </script>
+    </script> -->
   </body>
 </html>
