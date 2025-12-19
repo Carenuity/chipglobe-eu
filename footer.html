@@ -16,48 +16,50 @@
         </div>
 
         <div class="col-lg-4 col-md-6 footer-links">
-          <h4 data-i18n="footer:office"></h4>
-          
+          <h4>Office Address:</h4>
           <p>
-            ChipGlobe GmbH<br/>
-            Professor-Messerschmitt-Strasse 1, 3rd floor<br/>
-            85579 Neubiberg / Munich<br/>
+            ChipGlobe GmbH<br />
+            Professor-Messerschmitt-Strasse 1, 3rd floor<br />
+            85579 Neubiberg / Munich<br />
             Germany<br />
-            <strong>Email:</strong> info@chipglobe.com<br/>
+            <strong>Email:</strong> info@chipglobe.com<br />
           </p>
         </div>
 
         <div class="col-lg-4 col-md-6 footer-links">
-         <h4 data-i18n="footer:ceo"></h4>
+          <h4>
+            CEO / overall responsible for<br />
+            this website and its content:
+          </h4>
 
           <p>
             Volker Frisch<br />
             CEO <br /><br />
-            <strong>Phone:</strong> +49 89 1222 469 00<br/>
-            <strong>Email:</strong> volker.frisch@chipglobe.com<br/>
+            <strong>Phone:</strong> +49 89 1222 469 00<br />
+            <strong>Email:</strong> volker.frisch@chipglobe.com<br />
           </p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container d-md-flex py-">
-    <div class="me-md-auto text-center text-md-start">
-      <div class="copyright">
-        © 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp; ChipGlobe is a registered
-        Trademark ® of ChipGlobe GmbH
+      <div class="container d-md-flex py-">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            © 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp; ChipGlobe is a registered
+            Trademark ® of ChipGlobe GmbH
 
-        <div class="row">
-          <div class="col-lg-3">
-            <a href="legal.html"><u>Legal notice</u></a>
+            <div class="row">
+              <div class="col-lg-3">
+                <a href="legal.html"><u>Legal notice</u></a>
+              </div>
+              <div class="col-lg-4">
+                <a href="privacy.html"><u>Privacy policy</u></a>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <a href="privacy.html"><u>Privacy policy</u></a>
-          </div>
+          <div class="credits"></div>
         </div>
-      </div>
-      <div class="credits"></div>
-    </div>
 
     <div class="social-links text-center text-md-right pt-3 pt-md-0">
       <a
@@ -89,51 +91,42 @@
 
 
 
- <!-- <script>
-      i18next.use(i18nextHttpBackend).init(
-        {
-          lng: localStorage.getItem("selectedLanguage") || "en", // Load saved language or default to 'en'
-          fallbackLng: "de",
-          backend: {
-            loadPath: "/locales/{{lng}}/foot.json",
-          },
-        },
-        function (err, t) {
-          updateContent();
-          setActiveLang(i18next.language);
-        }
-      );
 
-      function updateContent() {
-        document.querySelectorAll("[data-i18n]").forEach(function (el) {
-          const key = el.getAttribute("data-i18n");
-          el.textContent = i18next.t(key);
-        });
-      }
+<script>
+  i18next.use(i18nextHttpBackend).init(
+    {
+      lng: localStorage.getItem("selectedLanguage") || "en",
+      fallbackLng: "de",
+      backend: {
+        loadPath: "assets/locales/{{lng}}/footer.json", 
+      },
+    },
+    function (err, t) {
+      updateContent();
+    }
+  );
 
-      function setActiveLang(lang) {
-        document.getElementById("lang-en").classList.remove("active");
-        document.getElementById("lang-de").classList.remove("active");
-        const langElement = document.getElementById("lang-" + lang);
-        if (langElement) {
-          langElement.classList.add("active");
-        }
-      }
+  function updateContent() {
+    document.querySelectorAll("[data-i18n]").forEach(function (el) {
+      const key = el.getAttribute("data-i18n");
+      el.textContent = i18next.t(key);
+    });
+  }
 
-      function changeLanguage(lang) {
-        i18next.changeLanguage(lang, function () {
-          updateContent();
-          setActiveLang(lang);
-          localStorage.setItem("selectedLanguage", lang);
-        });
-      }
+  function changeLanguage(lang) {
+    i18next.changeLanguage(lang, function () {
+      updateContent();
+      localStorage.setItem("selectedLanguage", lang);
+    });
+  }
 
-      // Optional: re-set on page load
-      document.addEventListener("DOMContentLoaded", function () {
-        const savedLang = localStorage.getItem("selectedLanguage") || "en";
-        changeLanguage(savedLang);
-      });
-    </script> -->
+  document.addEventListener("DOMContentLoaded", function () {
+    const savedLang = localStorage.getItem("selectedLanguage") || "en";
+    changeLanguage(savedLang);
+  });
+</script>
 
+      </body>
+</html>
 
-     
+<!-- End Footer -->
