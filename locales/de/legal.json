@@ -1,0 +1,43 @@
+ {
+  "legal_notice_heading": "Rechtliche Hinweise",
+
+  "dispute_resolution_heading": "Streitbeilegung",
+  "dispute_resolution_text_1": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:",
+  "dispute_resolution_text_2": "Unsere E-Mail-Adresse finden Sie im Impressum.",
+  "dispute_resolution_text_3": "Wir nehmen nicht an Online-Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teil.",
+
+  "liability_contents_heading": "Haftung für Inhalte",
+  "liability_contents_text_1": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.",
+  "liability_contents_text_2": "Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+
+  "liability_links_heading": "Haftung für Links",
+  "liability_links_text_1": "Unser Angebot enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich.",
+  "liability_links_text_2": "Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+
+  "copyright_heading": "Urheberrecht",
+  "copyright_text_1": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet.",
+  "copyright_text_2": "Eine kommerzielle Nutzung unserer Inhalte ohne Zustimmung des Urhebers ist untersagt.",
+  "copyright_text_3": "Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Inhalte Dritter werden als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+    
+  
+  "imprint_heading": "Angaben gemäß § 5 Telemediengesetz (TMG):",
+    "imprint_company_name": "CHIPGLOBE GmbH",
+  "imprint_address_line1": "Cincinnatistrasse 60",
+  "imprint_address_line2": "81549 München, Deutschland",
+  "imprint_tel": "Tel: +49 89 1222 469 00",
+  "imprint_fax": "Fax: +49 89 1222 469 69",
+  "imprint_email": "E-Mail: info@chipglobe.com",
+
+  "imprint_register_court": "Handelsregister: Amtsgericht München",
+  "imprint_register_number": "Handelsregisternummer: HRB 209414",
+  "imprint_vat_number": "Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: DE293062415",
+  "imprint_weee_number": "Registriert unter der WEEE-Reg.-Nr.: DE 53301452",
+
+  "imprint_ceo_heading": "Geschäftsführer / Verantwortlich gemäß Pressegesetz",
+  "imprint_ceo_name": "Volker Frisch",
+  "imprint_ceo_phone": "Telefon: +49 89 1222 469 00",
+  "imprint_ceo_email": "E-Mail: volker.frisch@chipglobe.com",
+
+  "imprint_rstv_heading": "Verantwortlich für den Inhalt gemäß § 55 Abs. 2 Rundfunkstaatsvertrag (RStV):",
+  "imprint_rstv_person": "Volker Frisch"
+}

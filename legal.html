@@ -56,9 +56,11 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+     <script src="https://unpkg.com/i18next@21.6.14/dist/umd/i18next.min.js"></script>
+    <script src="https://unpkg.com/i18next-http-backend@1.4.1/i18nextHttpBackend.min.js"></script>
   </head>
 
-  <body>
+  <body data-page="legal">
     <!-- ======= Header ======= -->
     <div id="navbar-container"></div>
 
@@ -85,7 +87,45 @@
         <div class="section-title">
           <div class="row">
             <div class="col-lg-8">
-              <div>
+            <div>
+            <h4 data-i18n="legal_notice_heading"></h4>
+
+            <div class="policy">
+              <strong data-i18n="dispute_resolution_heading"></strong>
+              <p>
+                <span data-i18n="dispute_resolution_text_1"></span>
+                <a
+                  href="https://ec.europa.eu/consumers/odr"
+                  target="_blank"
+                >
+                  https://ec.europa.eu/consumers/odr
+                </a>.
+                <span data-i18n="dispute_resolution_text_2"></span>
+              </p>
+              <p data-i18n="dispute_resolution_text_3"></p>
+            </div>
+
+            <div class="policy">
+              <strong data-i18n="liability_contents_heading"></strong>
+              <p data-i18n="liability_contents_text_1"></p>
+              <p data-i18n="liability_contents_text_2"></p>
+            </div>
+
+            <div class="policy">
+              <strong data-i18n="liability_links_heading"></strong>
+              <p data-i18n="liability_links_text_1"></p>
+              <p data-i18n="liability_links_text_2"></p>
+            </div>
+
+            <div class="policy">
+              <strong data-i18n="copyright_heading"></strong>
+              <p data-i18n="copyright_text_1"></p>
+              <p data-i18n="copyright_text_2"></p>
+              <p data-i18n="copyright_text_3"></p>
+            </div>
+          </div>
+
+              <!-- <div>
                 <h4>Legal Notice</h4>
                 <div class="policy">
                   <strong>Dispute resolution</strong>
@@ -169,9 +209,40 @@
                     removed immediately.
                   </p>
                 </div>
+              </div> -->
+            </div>
+              <div class="col-lg-4 bg" style="padding: 10px;">
+              <strong data-i18n="imprint_heading"></strong>
+
+              <address>
+                <p data-i18n="imprint_company_name"></p>
+                <p data-i18n="imprint_address_line1"></p>
+                <p data-i18n="imprint_address_line2"></p>
+                <p data-i18n="imprint_tel"></p>
+                <p data-i18n="imprint_fax"></p>
+                <p data-i18n="imprint_email"></p>
+              </address>
+              <hr />
+              <div>
+                <p data-i18n="imprint_register_court"></p>
+                <p data-i18n="imprint_register_number"></p>
+                <p data-i18n="imprint_vat_number"></p>
+                <p data-i18n="imprint_weee_number"></p>
+              </div>
+              <hr />
+              <div class="section">
+                <strong data-i18n="imprint_ceo_heading"></strong>
+                <p data-i18n="imprint_ceo_name"></p>
+                <p data-i18n="imprint_ceo_phone"></p>
+                <p data-i18n="imprint_ceo_email"></p>
+              </div>
+              <hr />
+              <div class="section">
+                <strong data-i18n="imprint_rstv_heading"></strong>
+                <p data-i18n="imprint_rstv_person"></p>
               </div>
             </div>
-            <div class="col-lg-4 bg">
+            <!-- <div class="col-lg-4 bg">
               <strong>
                 Information pursuant to Section 5 of the German Telemedia Act
                 (TMG):
@@ -224,101 +295,19 @@
                   Volker Frisch
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
     </main>
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Mail Address Only:</h4>
-              <p>
-                ChipGlobe GmbH<br />
-                Cincinnatistrasse 60<br />
-                81549 Munich, Germany <br /><br />
-                <strong>Phone:</strong> +49 89 1222 469 00<br />
-                <strong>Fax:</strong> +49 89 1222 469 69<br />
-              </p>
-            </div>
+   
+   
 
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Office Address:</h4>
-              <p>
-                ChipGlobe GmbH<br />
-                Professor-Messerschmitt-Strasse 1, 3rd floor<br />
-                85579 Neubiberg / Munich<br />
-                Germany<br />
-                <strong>Email:</strong> info@chipglobe.com<br />
-              </p>
-            </div>
 
-            <div class="col-lg-4 col-md-6 footer-links">
-              <h4>
-                CEO / overall responsible for<br />
-                this website and its content:
-              </h4>
 
-              <p>
-                Volker Frisch<br />
-                CEO <br /><br />
-                <strong>Phone:</strong> +49 89 1222 469 00<br />
-                <strong>Email:</strong> volker.frisch@chipglobe.com<br />
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="container d-md-flex py-">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            © 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp; ChipGlobe is a registered
-            Trademark ® of ChipGlobe GmbH
-
-            <div class="row">
-              <div class="col-lg-3">
-                <a href="legal.html"><u>Legal notice</u></a>
-              </div>
-              <div class="col-lg-4">
-                <a href="privacy.html"><u>Privacy policy</u></a>
-              </div>
-            </div>
-          </div>
-          <div class="credits"></div>
-        </div>
-
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a
-            href="https://www.linkedin.com/company/chipglobe-gmbh"
-            class="linkedin"
-            target="_blank"
-            ><i class="bx bxl-linkedin"></i
-          ></a>
-          <a
-            href="https://www.instagram.com/carenuity"
-            class="instagram"
-            target="_blank"
-            ><i class="bx bxl-instagram"></i
-          ></a>
-          <a
-            href="https://www.youtube.com/@carenuity"
-            class="youtube"
-            target="_blank"
-            ><i class="bx bxl-youtube"></i
-          ></a>
-          <a
-            href="https://www.facebook.com/profile.php?id=100086691917641"
-            class="facebook"
-            ><i class="bx bxl-facebook"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-    <!-- End Footer -->
-
+     <!--  Footer -->
+       <div id="footer-container"></div>
+    
     <div id="preloader"></div>
     <a
       href="#"
@@ -338,5 +327,11 @@
     <script src="assets/js/main.js"></script>
     <!-- mobile nav -->
     <script src="assets/js/nav.js"></script>
+     <!-- translate -->
+      <script src="assets/js/footer-i18n.js"></script>
+      <script src="assets/js/footer-loader.js"></script>
+      
+      
+      
   </body>
 </html>
