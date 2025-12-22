@@ -523,6 +523,21 @@ h6 {
   display: block;
 }
 
+/* career button */
+@media (max-width: 991px) {
+  .appointment-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 30px;
+  }
+
+  .appointment-btn span {
+    white-space: nowrap;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
