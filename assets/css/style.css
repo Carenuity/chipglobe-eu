@@ -179,11 +179,11 @@ h6 {
 #header {
   background: #fff;
   transition: all 0.5s;
-  z-index: 997;
+  /* z-index: 997; */
   padding: 1px 0;
   top: 20px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
-   position: relative;
+   /* position: relative; */
 }
 
 #header.header-scrolled {
@@ -383,7 +383,7 @@ h6 {
 */
 
 
-.mobile-nav-toggle {
+/* .mobile-nav-toggle {
  width: 40px;
   height: 40px;
   color: #00815a;
@@ -397,7 +397,39 @@ h6 {
   justify-content: center;
   position: relative;
    pointer-events: auto;
+} */
+ 
+.mobile-nav-toggle {
+  width: 40px;
+  height: 40px;
+  color: #00815a;
+  font-size: 28px;
+  cursor: pointer;
+  display: flex;               
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: 0.5s;
+  position: relative;
+  z-index: 10000;
+  pointer-events: auto;
 }
+
+/* Show ONLY on mobile */
+@media (min-width: 992px) {
+  .mobile-nav-toggle {
+    display: none;
+  }
+}
+
+.navbar-mobile .dropdown > ul {
+  display: none;
+}
+
+.navbar-mobile .dropdown > ul.dropdown-active {
+  display: block;
+}
+
 
 .mobile-nav-toggle.bi-x {
   color: #fff;
