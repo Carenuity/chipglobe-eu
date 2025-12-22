@@ -1,188 +1,243 @@
 (function () {
+  if (window.__mobileNavInstalled) return;
+  window.__mobileNavInstalled = true;
+
   const navbarSelector = '#navbar';
   const toggleSelector = '.mobile-nav-toggle';
 
-  function openNav(toggle, navbar) {
-    navbar.classList.add('navbar-mobile');
-    toggle.classList.remove('bi-list');
-    toggle.classList.add('bi-x');
-    document.body.classList.add('mobile-nav-active');
-  }
-
-  function closeNav(toggle, navbar) {
-    navbar.classList.remove('navbar-mobile');
-    toggle.classList.remove('bi-x');
-    toggle.classList.add('bi-list');
-    document.body.classList.remove('mobile-nav-active');
-  }
-
-  // ✅ SINGLE delegated toggle handler
   document.addEventListener('click', function (e) {
-  const toggle = e.target.closest('.mobile-nav-toggle');
-  if (!toggle) return;
-
-  e.preventDefault(); // 🔥 REQUIRED FOR INDEX
-
-  const navbar = document.querySelector('#navbar');
-  if (!navbar) return;
-
-  navbar.classList.toggle('navbar-mobile');
-
-  toggle.classList.toggle('bi-list');
-  toggle.classList.toggle('bi-x');
-
-  document.body.classList.toggle(
-    'mobile-nav-active',
-    navbar.classList.contains('navbar-mobile')
-  );
-});
-
-
-  // ✅ Outside click close
-  document.addEventListener('click', function (e) {
+    const toggle = e.target.closest(toggleSelector);
     const navbar = document.querySelector(navbarSelector);
-    if (!navbar || !navbar.classList.contains('navbar-mobile')) return;
+    if (!navbar) return;
 
-    if (
-      e.target.closest(toggleSelector) ||
-      e.target.closest(navbarSelector)
-    ) {
+    /* ===== TOGGLE CLICK ===== */
+    if (toggle) {
+      e.preventDefault();
+
+      const open = navbar.classList.contains('navbar-mobile');
+
+      // reset
+      navbar.classList.remove('navbar-mobile');
+      document.body.classList.remove('mobile-nav-active');
+      toggle.classList.remove('bi-x');
+      toggle.classList.add('bi-list');
+
+      if (!open) {
+        navbar.classList.add('navbar-mobile');
+        document.body.classList.add('mobile-nav-active');
+        toggle.classList.remove('bi-list');
+        toggle.classList.add('bi-x');
+      }
       return;
     }
 
-    closeNav(
-      document.querySelector(toggleSelector),
-      navbar
-    );
+    /* ===== DROPDOWNS ===== */
+    const dropdownLink = e.target.closest('.dropdown > a');
+    if (
+      dropdownLink &&
+      navbar.classList.contains('navbar-mobile')
+    ) {
+      e.preventDefault();
+      dropdownLink.nextElementSibling?.classList.toggle('dropdown-active');
+      return;
+    }
+
+    /* ===== OUTSIDE CLICK CLOSE ===== */
+    if (
+      navbar.classList.contains('navbar-mobile') &&
+      !e.target.closest(navbarSelector)
+    ) {
+      navbar.classList.remove('navbar-mobile');
+      document.body.classList.remove('mobile-nav-active');
+      document
+        .querySelector(toggleSelector)
+        ?.classList.remove('bi-x');
+      document
+        .querySelector(toggleSelector)
+        ?.classList.add('bi-list');
+    }
   });
 
-  // ✅ Mobile dropdowns
-  document.addEventListener('click', function (e) {
-    const navbar = document.querySelector(navbarSelector);
-    const link = e.target.closest('.dropdown > a');
-
-    if (!navbar || !link) return;
-    if (!navbar.classList.contains('navbar-mobile')) return;
-
-    e.preventDefault();
-    link.nextElementSibling?.classList.toggle('dropdown-active');
+  /* ===== BACK/FORWARD FIX ===== */
+  window.addEventListener('pageshow', () => {
+    document.querySelector(navbarSelector)?.classList.remove('navbar-mobile');
+    document.body.classList.remove('mobile-nav-active');
+    document
+      .querySelector(toggleSelector)
+      ?.classList.remove('bi-x');
+    document
+      .querySelector(toggleSelector)
+      ?.classList.add('bi-list');
   });
-
 })();
 
 
 
-//   function initToggle(toggleEl) {
-//     const navbar = document.querySelector('#navbar');
-//     if (!toggleEl || !navbar) return;
+// (function () {
+//   const navbarSelector = '#navbar';
+//   const toggleSelector = '.mobile-nav-toggle';
 
-//     function openNav() {
-//       navbar.classList.add('navbar-mobile');
-//       toggleEl.classList.remove('bi-list');
-//       toggleEl.classList.add('bi-x');
-//     }
-
-//     function closeNav() {
-//       navbar.classList.remove('navbar-mobile');
-//       toggleEl.classList.remove('bi-x');
-//       toggleEl.classList.add('bi-list');
-//     }
-
-//     function toggleNav(e) {
-//       // stop other click handlers interfering
-//       e.stopPropagation();
-//       if (navbar.classList.contains('navbar-mobile')) {
-//         closeNav();
-//       } else {
-//         openNav();
-//       }
-//     }
-
-//     // attach listener if not already attached
-//     if (!toggleEl.dataset.listenerAttached) {
-//       toggleEl.addEventListener('click', toggleNav);
-//       toggleEl.dataset.listenerAttached = 'true';
-//     }
-
-//     // close when clicking outside the mobile nav
-//     document.addEventListener('click', function (evt) {
-//       if (!navbar.classList.contains('navbar-mobile')) return;
-//       // if click target is the toggle or inside navbar, ignore
-//       if (toggleEl.contains(evt.target) || navbar.contains(evt.target)) return;
-//       closeNav();
-//     });
-    
-// // document.addEventListener('click', function (evt) {
-// //   if (!navbar.classList.contains('navbar-mobile')) return;
-
-// //   if (
-// //     evt.target.closest('.mobile-nav-toggle') ||
-// //     evt.target.closest('#navbar')
-// //   ) {
-// //     return;
-// //   }
-
-// //   closeNav();
-// // });
-
-//     // dropdown handlers inside mobile nav
-//     document.querySelectorAll('.navbar .dropdown > a').forEach(el => {
-//       el.addEventListener('click', function (e) {
-//         if (navbar.classList.contains('navbar-mobile')) {
-//           e.preventDefault();
-//           this.nextElementSibling.classList.toggle('dropdown-active');
-//         }
-//       });
-//     });
+//   function openNav(toggle, navbar) {
+//     navbar.classList.add('navbar-mobile');
+//     toggle.classList.remove('bi-list');
+//     toggle.classList.add('bi-x');
+//     document.body.classList.add('mobile-nav-active');
 //   }
 
-//   document.addEventListener('DOMContentLoaded', function () {
-//     const toggle = document.querySelector('.mobile-nav-toggle');
+//   function closeNav(toggle, navbar) {
+//     navbar.classList.remove('navbar-mobile');
+//     toggle.classList.remove('bi-x');
+//     toggle.classList.add('bi-list');
+//     document.body.classList.remove('mobile-nav-active');
+//   }
 
-//     // normal init
-//     initToggle(toggle);
+//   // ✅ SINGLE delegated toggle handler
+  
+//   if (!window.__mobileNavClickBound) {
+//   window.__mobileNavClickBound = true;
 
-//     // fallback: if the toggle gets replaced dynamically later, delegate to document
-//     document.addEventListener('click', function (e) {
-//       const t = e.target.closest && e.target.closest('.mobile-nav-toggle');
-//       if (t) {
-//         // ensure init runs if needed
-//         initToggle(t);
-//         // trigger the click handler we just ensured exists
-//         // (the handler will run via the click the browser already processed)
-//       }
-//     });
+//   document.addEventListener('click', function (e) {
+//     const toggle = e.target.closest('.mobile-nav-toggle');
+//     if (!toggle) return;
+
+//     e.preventDefault();
+
+//     const navbar = document.querySelector('#navbar');
+//     if (!navbar) return;
+
+//     const open = navbar.classList.contains('navbar-mobile');
+
+//     navbar.classList.remove('navbar-mobile');
+//     document.body.classList.remove('mobile-nav-active');
+//     toggle.classList.remove('bi-x');
+//     toggle.classList.add('bi-list');
+
+//     if (!open) {
+//       navbar.classList.add('navbar-mobile');
+//       document.body.classList.add('mobile-nav-active');
+//       toggle.classList.remove('bi-list');
+//       toggle.classList.add('bi-x');
+//     }
 //   });
+// }
+  
+//   // Keep a reference to the handler
 
 //   // ===============================
-// // Language switch (EN / DE)
+// // MOBILE NAV — SINGLE SOURCE
 // // ===============================
 
-// function setActiveLang(lang) {
-//   document.getElementById("lang-en")?.classList.remove("active");
-//   document.getElementById("lang-de")?.classList.remove("active");
+// if (!window.__mobileNavInitialized) {
+//   window.__mobileNavInitialized = true;
 
-//   const active = document.getElementById("lang-" + lang);
-//   if (active) {
-//     active.classList.add("active");
+//   function mobileNavHandler(e) {
+//     const toggle = e.target.closest('.mobile-nav-toggle');
+//     if (!toggle) return;
+
+//     e.preventDefault();
+
+//     const navbar = document.querySelector('#navbar');
+//     if (!navbar) return;
+
+//     const isOpen = navbar.classList.contains('navbar-mobile');
+
+//     // normalize state
+//     navbar.classList.remove('navbar-mobile');
+//     document.body.classList.remove('mobile-nav-active');
+//     toggle.classList.remove('bi-x');
+//     toggle.classList.add('bi-list');
+
+//     if (!isOpen) {
+//       navbar.classList.add('navbar-mobile');
+//       document.body.classList.add('mobile-nav-active');
+//       toggle.classList.remove('bi-list');
+//       toggle.classList.add('bi-x');
+//     }
 //   }
+
+//   document.addEventListener('click', mobileNavHandler, { passive: false });
 // }
 
-// function changeLanguage(lang) {
-//   if (!window.i18next) return;
+  
+// //   document.addEventListener('click', function (e) {
+// //   const toggle = e.target.closest('.mobile-nav-toggle');
+// //   if (!toggle) return;
 
-//   i18next.changeLanguage(lang);
-//   localStorage.setItem("selectedLanguage", lang);
-//   setActiveLang(lang);
-// }
+// //   e.preventDefault(); // 🔥 REQUIRED FOR INDEX
 
-// // expose to inline HTML onclick
-// window.changeLanguage = changeLanguage;
-// window.setActiveLang = setActiveLang;
+// //   const navbar = document.querySelector('#navbar');
+// //   if (!navbar) return;
 
-// // set highlight on initial load
-// document.addEventListener("DOMContentLoaded", () => {
-//   const savedLang = localStorage.getItem("selectedLanguage") || "en";
-//   setActiveLang(savedLang);
+// //   navbar.classList.toggle('navbar-mobile');
+
+// //   toggle.classList.toggle('bi-list');
+// //   toggle.classList.toggle('bi-x');
+// // a
+// //   document.body.classList.toggle(
+// //     'mobile-nav-active',
+// //     navbar.classList.contains('navbar-mobile')
+// //   );
+// // });
+
+// window.addEventListener('pageshow', function () {
+//   document.querySelector('#navbar')?.classList.remove('navbar-mobile');
+//   document.querySelector('.mobile-nav-toggle')?.classList.remove('bi-x');
+//   document.querySelector('.mobile-nav-toggle')?.classList.add('bi-list');
+//   document.body.classList.remove('mobile-nav-active');
 // });
+
+
+
+//   // ✅ Outside click close
+//   document.addEventListener('click', function (e) {
+//     const navbar = document.querySelector(navbarSelector);
+//     if (!navbar || !navbar.classList.contains('navbar-mobile')) return;
+
+//     if (
+//       e.target.closest(toggleSelector) ||
+//       e.target.closest(navbarSelector)
+//     ) {
+//       return;
+//     }
+
+//     closeNav(
+//       document.querySelector(toggleSelector),
+//       navbar
+//     );
+//   });
+
+//   // ✅ Mobile dropdowns
+//   document.addEventListener('click', function (e) {
+//     const navbar = document.querySelector(navbarSelector);
+//     const link = e.target.closest('.dropdown > a');
+
+//     if (!navbar || !link) return;
+//     if (!navbar.classList.contains('navbar-mobile')) return;
+
+//     e.preventDefault();
+//     link.nextElementSibling?.classList.toggle('dropdown-active');
+//   });
+
+// })();
+
+// // ===============================
+// // Mobile navbar async init (INDEX FIX)
+// // ===============================
+// document.addEventListener("DOMContentLoaded", () => {
+//   const observer = new MutationObserver(() => {
+//     const toggle = document.querySelector(".mobile-nav-toggle");
+//     if (toggle) {
+//       initToggle(toggle);
+//       observer.disconnect(); // run once
+//     }
+//   });
+
+//   observer.observe(document.body, {
+//     childList: true,
+//     subtree: true,
+//   });
+// });
+
+
+
 

@@ -66,14 +66,29 @@
     <!-- ======= Navbar ======= -->
    
      <div id="navbar-container"></div>
-
-    <script>
+     
+      <script>
       fetch("navbar.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("navbar-container").innerHTML = data;
         });
     </script>
+
+   <!-- <script>
+  fetch("navbar.html")
+    .then((response) => response.text())
+    .then((data) => {
+      document.getElementById("navbar-container").innerHTML = data;
+
+      // ✅ INIT NAV TOGGLE AFTER INSERTION
+      const toggle = document.querySelector(".mobile-nav-toggle");
+      if (toggle && window.initToggle) {
+        initToggle(toggle);
+      }
+    });
+</script> -->
+
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
@@ -754,6 +769,7 @@
     <!-- Translate -->
       <script src="assets/js/footer-i18n.js"></script>
       <script src="assets/js/footer-loader.js"></script>
+        <script src="assets/js/nav.js"></script>
 
     <!-- <script>
       i18next.use(i18nextHttpBackend).init(
