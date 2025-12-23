@@ -635,6 +635,43 @@ width: 100%;
   font-size: 24px;
 }
 
+/* =========================
+   HERO – MOBILE FONT SIZES
+   ========================= */
+@media (max-width: 768px) {
+  #hero1 {
+    height: 60vh;
+  }
+
+  #hero1 h1 {
+    margin-top: 90px;
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  #hero1 h2 {
+    font-size: 16px;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 480px) {
+  #hero1 {
+    height: 55vh;
+  }
+
+  #hero1 h1 {
+    margin-top: 70px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  #hero1 h2 {
+    font-size: 14px;
+  }
+}
+
+
 /* hero2 */
 #hero2 {
   width: 100%;
