@@ -4,6 +4,9 @@
     "office": "Office Address:",
     "ceo": "CEO / overall responsible for this website and its content:",
     "legal":"Legal notice",
-     "privacy":"Privacy policy"
+     "privacy":"Privacy policy",
+     "phone":"Phone:",
+     "location":"Professor-Messerschmitt-Strasse 1, 3rd floor",
+     "location2":"85579 Neubiberg / Munich"
      
 }
