@@ -2,6 +2,8 @@
 
     "mail": "Mail Address Only:",
     "office": "Office Address:",
-    "ceo": "CEO / overall responsible for this website and its content:"
+    "ceo": "CEO / overall responsible for this website and its content:",
+    "legal":"Legal notice",
+     "privacy":"Privacy policy"
      
 }

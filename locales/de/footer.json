@@ -2,5 +2,7 @@
   
     "mail": "Nur Postadresse:",
     "office": "Büroadresse:",
-    "ceo": "Geschäftsführer / Gesamtverantwortlicher für diese Website und deren Inhalte:"
+    "ceo": "Geschäftsführer / Gesamtverantwortlicher für diese Website und deren Inhalte:",
+    "legal":"Impressum",
+     "privacy":"Datenschutz"
  }
