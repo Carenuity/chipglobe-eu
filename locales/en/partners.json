@@ -40,7 +40,8 @@
     "years": "More than 15 years of proven partnership",
     "mentor": "Mentor Questa Vanguard Partner: SystemVerilog, UVM, AMS verification are important components in ASIC verification. Due to our many years of experience with Mentor tools and methodologies, we can pass these on effectively supported by our partnership with Mentor. Our experts focus on defining the test bench architecture and performing the necessary tests based on constraint random and coverage-driven verification.",
     "dmc": "Partnership with dmc-smartsystems GmbH: dmc-smartsystems GmbH has been a service provider in embedded systems for decades, including firmware development for BMCs for Fujitsu and embedded automotive solutions. Recently, they have expanded into intelligent image processing and artificial intelligence. Together with ChipGlobe, they offer clear, holistic, and modern solutions — from sensor to cloud — and conduct joint cross-divisional practical workshops. This setup is a win-win for customers, ChipGlobe, and dmc-smartsystems.",
-    "carenuity":"Carenuity is actually a brand / business unit of ChipGlobe GmbH, which means their partnership is more of a structural integration than a collaboration between two independent companies. ChipGlobe, a semiconductor and embedded-systems engineering company, develops Carenuity's IoT sensor platforms, such as the SQ-Panel and the C3-Mini development board. Through this relationship, ChipGlobe leverages its hardware design and embedded systems expertise to bring Carenuity's mission to life — providing modular, customizable smart-home and health-tech solutions that monitor vital signs and indoor air quality."
+    "carenuity":"Carenuity is actually a brand / business unit of ChipGlobe GmbH, which means their partnership is more of a structural integration than a collaboration between two independent companies. ChipGlobe, a semiconductor and embedded-systems engineering company, develops Carenuity's IoT sensor platforms, such as the SQ-Panel and the C3-Mini development board. Through this relationship, ChipGlobe leverages its hardware design and embedded systems expertise to bring Carenuity's mission to life — providing modular, customizable smart-home and health-tech solutions that monitor vital signs and indoor air quality.",
+    "carenuity2":"Learn more on carenuity"
   },
   
   "bsfz": {
@@ -58,7 +59,8 @@
     "redSeal": {
       "title": "Red BSFZ Seal Meaning",
       "text": "The red BSFZ Seal specifically certifies in-house research and development, proving that the company performs its own R&D rather than contract work.",
-      "link":"Learn more about the BSFZ Seal"
+      "link":"Learn more about the SQ-Panel",
+      "image":"/assets/img/partners/sq-panel-award.jpeg"
     }
   }
 

@@ -194,6 +194,8 @@
       faqItem.parentNode.classList.toggle('faq-active');
     });
   });
+//  image
+// document.getElementById("Image").src = i18next.t("bsfz.redSeal.image");
 
 
   /**
