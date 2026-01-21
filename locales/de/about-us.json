@@ -118,11 +118,11 @@
       "title": "Design Center (ODC) Ho-Chi-Minh-Stadt / Vietnam",
       "focus": "RTL2GDS, DFT, Funktionale Verifikation, TLM, Firmware, Embedded Systems"
     },
-     "kenya": {
-      "title": "2nd  floor Cliff Heights Galleria Likoni – Ukunda Rd;",
-      "box": "P.o.Box 1088-80400 || Ukunda, Kwale-Kenya || Tell: +254715326414",
-       "place": "",
-        "tel": ""
+    "kenya": {
+      "title": "Design Center (ODC) Kenya",
+       "address":"2nd  floor Cliff Heights Galleria Likoni – Ukunda Rd;",
+      "box": "P.o.Box 1088-80400 / Ukunda, Kwale-Kenya / Tell: +254715326414"
+       
       
     }
   }
