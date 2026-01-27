@@ -1108,6 +1108,7 @@ select:focus {
   padding: 10px 12px;
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
+  
 }
 
 .custom-option:hover {
@@ -1119,6 +1120,15 @@ select:focus {
   background-color: #00815a;
   color: white;
 }
+.form-control {
+  border-color: #00815a;
+}
+
+.form-control:focus {
+  border-color: #00815a;
+  box-shadow: 0 0 0 0.2rem rgba(0, 129, 90, 0.25);
+}
+
 
 .search-container {
   display: flex;
@@ -1157,12 +1167,14 @@ select:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 100%;
+  height: 280px;
   margin-top: 10px;
   margin-left: 0px;
   font-size: 12px;
   padding: 20px;
   
 }
+
 
 .card2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1181,6 +1193,22 @@ select:focus {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+
+.job-card {
+  height: 100%;
+}
+
+.job-card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.learn-more {
+  margin-top: auto; /* pushes link to bottom */
+  font-size: 16px;
+}
+
 
 .container {
   padding: 5px 26px;
