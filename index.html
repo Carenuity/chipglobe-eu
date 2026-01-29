@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -64,10 +64,10 @@
 
   <body data-page="index">
     <!-- ======= Navbar ======= -->
-   
-     <div id="navbar-container"></div>
-     
-      <script>
+
+    <div id="navbar-container"></div>
+
+    <script>
       fetch("navbar.html")
         .then((response) => response.text())
         .then((data) => {
@@ -75,7 +75,7 @@
         });
     </script>
 
-   <!-- <script>
+    <!-- <script>
   fetch("navbar.html")
     .then((response) => response.text())
     .then((data) => {
@@ -88,7 +88,6 @@
       }
     });
 </script> -->
-
 
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex align-items-center">
@@ -294,31 +293,35 @@
         </div>
       </section>
 
-      
-  
       <section style="background-color: rgb(233, 236, 236); padding: 30px">
-  <div class="container" data-aos="fade-up">
-    <div class="row" style="display: flex; align-items: center; justify-content: center;">
-      
-      <div class="col-lg-6">
-        <div class="section-title">
-          <h2 data-i18n="about.heading"></h2>
-          <p data-i18n="about.p1"></p>
-        </div>
-        <p data-i18n="about.p2"></p>
-        <p data-i18n="about.p3"></p>
-        <p data-i18n="about.p4"></p>
-        <a href="about-us.html" class="button" data-i18n="about.learnmore"></a>
-      </div>
+        <div class="container" data-aos="fade-up">
+          <div
+            class="row"
+            style="display: flex; align-items: center; justify-content: center"
+          >
+            <div class="col-lg-6">
+              <div class="section-title">
+                <h2 data-i18n="about.heading"></h2>
+                <p data-i18n="about.p1"></p>
+              </div>
+              <p data-i18n="about.p2"></p>
+              <p data-i18n="about.p3"></p>
+              <p data-i18n="about.p4"></p>
+              <a
+                href="about-us.html"
+                class="button"
+                data-i18n="about.learnmore"
+              ></a>
+            </div>
 
-      <div class="col-lg-6 mb-6 container-image">
-        <div class="about-image">
-          <img src="assets/img/circuit-board.jpg" alt="" />
+            <div class="col-lg-6 mb-6 container-image">
+              <div class="about-image">
+                <img src="assets/img/circuit-board.jpg" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <!-- Our Core Competencies -->
       <section id="services" class="services section light-background">
@@ -329,50 +332,66 @@
           </div>
         </div>
 
-  <div class="container">
-    <div class="row gy-4">
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item position-relative">
-          <div class="icon" style="color: #00815a">
-            <i class="bi bi-patch-check-fill"></i>
-          </div>
-          <h4 data-i18n="core.c1.title"></h4>
-          <p data-i18n="core.c1.text"></p>
-        </div>
-      </div>
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item position-relative">
+                <div class="icon" style="color: #00815a">
+                  <i class="bi bi-patch-check-fill"></i>
+                </div>
+                <h4 data-i18n="core.c1.title"></h4>
+                <p data-i18n="core.c1.text"></p>
+              </div>
+            </div>
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item position-relative">
-          <div class="icon" style="color: #00815a">
-            <i class="bi bi-cpu-fill"></i>
-          </div>
-          <h4 data-i18n="core.c2.title"></h4>
-          <p data-i18n="core.c2.text"></p>
-        </div>
-      </div>
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="service-item position-relative">
+                <div class="icon" style="color: #00815a">
+                  <i class="bi bi-cpu-fill"></i>
+                </div>
+                <h4 data-i18n="core.c2.title"></h4>
+                <p data-i18n="core.c2.text"></p>
+              </div>
+            </div>
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item position-relative">
-          <div class="icon" style="color: #00815a">
-            <i class="bi bi-tools"></i>
-          </div>
-          <h4 data-i18n="core.c3.title"></h4>
-          <p data-i18n="core.c3.text"></p>
-        </div>
-      </div>
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item position-relative">
+                <div class="icon" style="color: #00815a">
+                  <i class="bi bi-tools"></i>
+                </div>
+                <h4 data-i18n="core.c3.title"></h4>
+                <p data-i18n="core.c3.text"></p>
+              </div>
+            </div>
 
-      <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="icon" style="color: #00815a">
-            <i class="bi bi-people-fill icon"></i>
+            <div
+              class="col-xl-3 col-md-6 d-flex"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="service-item position-relative">
+                <div class="icon" style="color: #00815a">
+                  <i class="bi bi-people-fill icon"></i>
+                </div>
+                <h4 data-i18n="core.c4.title"></h4>
+                <p data-i18n="core.c4.text"></p>
+              </div>
+            </div>
           </div>
-          <h4 data-i18n="core.c4.title"></h4>
-          <p data-i18n="core.c4.text"></p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <!-- Why ChipGlobe -->
       <section style="background-color: rgb(233, 236, 236); padding: 30px">
@@ -765,14 +784,13 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
-    
-     <!-- mobile nav -->
-        <script src="assets/js/nav.js"></script>
+
+    <!-- mobile nav -->
+    <script src="assets/js/nav.js"></script>
 
     <!-- Translate -->
-      <script src="assets/js/footer-i18n.js"></script>
-      <script src="assets/js/footer-loader.js"></script>
-      
+    <script src="assets/js/footer-i18n.js"></script>
+    <script src="assets/js/footer-loader.js"></script>
 
     <!-- <script>
       i18next.use(i18nextHttpBackend).init(

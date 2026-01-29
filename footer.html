@@ -1,5 +1,3 @@
-
-
 <footer id="footer">
   <div class="footer-top">
     <div class="container">
@@ -19,47 +17,45 @@
           <h4 data-i18n="footer:office"></h4>
           <p>
             ChipGlobe GmbH<br />
-           <span data-i18n="footer:location"></span> <br />
-           <span data-i18n="footer:location2"></span> <br />
-           
+            <span data-i18n="footer:location"></span> <br />
+            <span data-i18n="footer:location2"></span> <br />
+
             <!-- Germany<br /> -->
             <strong>Email:</strong> info@chipglobe.com<br />
           </p>
         </div>
 
         <div class="col-lg-4 col-md-6 footer-links">
-          <h4 data-i18n="footer:ceo">
-            
-          </h4>
+          <h4 data-i18n="footer:ceo"></h4>
 
           <p>
             Volker Frisch<br />
             CEO <br /><br />
-            <strong  data-i18n="footer:phone"></strong> +49 89 1222 469 00<br />
-            <strong  >Email:</strong> volker.frisch@chipglobe.com<br />
+            <strong data-i18n="footer:phone"></strong> +49 89 1222 469 00<br />
+            <strong>Email:</strong> volker.frisch@chipglobe.com<br />
           </p>
         </div>
       </div>
     </div>
   </div>
 
-      <div class="container d-md-flex py-">
-        <div class="me-md-auto text-center text-md-start">
-          <div class="copyright">
-            © 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp; ChipGlobe is a registered
-            Trademark ® of ChipGlobe GmbH
+  <div class="container d-md-flex py-">
+    <div class="me-md-auto text-center text-md-start">
+      <div class="copyright">
+        © 2025 ChipGlobe GmbH &nbsp;&nbsp;&nbsp; ChipGlobe is a registered
+        Trademark ® of ChipGlobe GmbH
 
-            <div class="row">
-              <div class="col-lg-3">
-                <a href="legal.html"><u data-i18n="footer:legal"></u></a>
-              </div>
-              <div class="col-lg-4">
-                <a href="privacy.html"><u data-i18n="footer:privacy"></u></a>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <a href="legal.html"><u data-i18n="footer:legal"></u></a>
           </div>
-          <div class="credits"></div>
+          <div class="col-lg-4">
+            <a href="privacy.html"><u data-i18n="footer:privacy"></u></a>
+          </div>
         </div>
+      </div>
+      <div class="credits"></div>
+    </div>
 
     <div class="social-links text-center text-md-right pt-3 pt-md-0">
       <a
@@ -89,21 +85,18 @@
   </div>
 </footer>
 
-
-
-
 <script>
   i18next.use(i18nextHttpBackend).init(
     {
       lng: localStorage.getItem("selectedLanguage") || "en",
       fallbackLng: "de",
       backend: {
-        loadPath: "assets/locales/{{lng}}/footer.json", 
+        loadPath: "assets/locales/{{lng}}/footer.json",
       },
     },
     function (err, t) {
       updateContent();
-    }
+    },
   );
 
   function updateContent() {
@@ -125,8 +118,5 @@
     changeLanguage(savedLang);
   });
 </script>
-
-      </body>
-</html>
 
 <!-- End Footer -->
