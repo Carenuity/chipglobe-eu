@@ -17,14 +17,13 @@
   const loading = document.querySelector(".loading");
   const errorMsg = document.querySelector(".error-message");
   const successMsg = document.querySelector(".sent-message");
-  const popup = document.getElementById("popup-message");
 
   loading.style.display = "block";
   errorMsg.innerText = "";
   successMsg.innerText = "";
 
   try {
-    const response = await fetch('https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Contacts', {
+    const response = await fetch(`${SHAREPOINT_API_BASE}/Contacts/items`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

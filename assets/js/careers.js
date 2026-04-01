@@ -1,5 +1,4 @@
-const API_URL =
-  "https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Jobs";
+const API_URL = `${SHAREPOINT_API_BASE}/Jobs/items?top=200`;
 
 let allJobs = [];
 
@@ -8,9 +7,7 @@ let allJobs = [];
  */
 function truncateText(text, maxLength = 300) {
   if (!text) return "";
-  return text.length > maxLength
-    ? text.substring(0, maxLength) + "..."
-    : text;
+  return text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
 }
 
 /**
@@ -45,7 +42,7 @@ function renderJobs(jobs) {
 
   container.innerHTML = "";
 
-  jobs.forEach(job => {
+  jobs.forEach((job) => {
     container.innerHTML += `
       <div class="col-lg-4">
         <div class="card job-card h-100">
@@ -74,10 +71,16 @@ function renderJobs(jobs) {
  */
 function applyFilters() {
   const type = document.getElementById("jobType").value.trim().toLowerCase();
-  const location = document.getElementById("location").value.trim().toLowerCase();
-  const search = document.getElementById("searchInput").value.trim().toLowerCase();
+  const location = document
+    .getElementById("location")
+    .value.trim()
+    .toLowerCase();
+  const search = document
+    .getElementById("searchInput")
+    .value.trim()
+    .toLowerCase();
 
-  const filtered = allJobs.filter(job => {
+  const filtered = allJobs.filter((job) => {
     const jobType = (job.Kind || "").toLowerCase();
     const jobLocation = (job.Country || "").toLowerCase();
     const title = (job.Title || "").toLowerCase();
@@ -86,16 +89,13 @@ function applyFilters() {
     const matchType = !type || jobType === type;
     const matchLocation = !location || jobLocation === location;
     const matchSearch =
-      !search ||
-      title.includes(search) ||
-      description.includes(search);
+      !search || title.includes(search) || description.includes(search);
 
     return matchType && matchLocation && matchSearch;
   });
 
   renderJobs(filtered);
 }
-
 
 /**
  * Events
@@ -116,100 +116,12 @@ const trigger = document.querySelector(".custom-select-trigger");
 const options = document.querySelector(".custom-options");
 
 trigger.addEventListener("click", () => {
-  options.style.display =
-    options.style.display === "block" ? "none" : "block";
+  options.style.display = options.style.display === "block" ? "none" : "block";
 });
 
-document.querySelectorAll(".custom-option").forEach(option => {
+document.querySelectorAll(".custom-option").forEach((option) => {
   option.addEventListener("click", () => {
     trigger.textContent = option.textContent;
     options.style.display = "none";
   });
 });
-
-
-
-
-
-// const API_URL =
-//   "https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Jobs";
-
-// /**
-//  * Truncate text to 300 characters and add ...
-//  */
-// function truncateText(text, maxLength = 300) {
-//   if (!text) return "";
-//   return text.length > maxLength
-//     ? text.substring(0, maxLength) + "..."
-//     : text;
-// }
-
-// /**
-//  * Fetch jobs from SharePoint
-//  */
-// async function fetchJobs() {
-//   try {
-//     const response = await fetch(API_URL);
-
-//     if (!response.ok) {
-//       throw new Error(`HTTP error: ${response.status}`);
-//     }
-
-//     const result = await response.json();
-//     console.log("API RESULT:", result);
-
-//     // ✅ THIS IS THE IMPORTANT LINE
-//     const jobs = result?.data?.items || [];
-
-//     renderJobs(jobs);
-//   } catch (error) {
-//     console.error("Failed to fetch jobs:", error);
-//   }
-// }
-
-// /**
-//  * Render job cards
-//  */
-// function renderJobs(jobs) {
-//   const container = document.getElementById("jobsContainer");
-
-//   if (!container) {
-//     console.error("jobsContainer not found");
-//     return;
-//   }
-
-//   if (!jobs.length) {
-//     container.innerHTML = "<p>No jobs available.</p>";
-//     return;
-//   }
-
-//   container.innerHTML = "";
-
-//   jobs.forEach(job => {
-//     container.innerHTML += `
-//       <div class="col-lg-4">
-//   <div class="card job-card">
-//     <div class="card-body job-card-body">
-//       <h6><strong>${job.Title}</strong></h6>
-//       <hr />
-//       <strong>Job description</strong>
-//       <p>${truncateText(job.Description)}</p>
-
-//       <a
-//         href="job-details.html?id=${job.Id}"
-//         class="learn-more"
-//       >
-//         <u>Learn More</u> →
-//       </a>
-//     </div>
-//   </div>
-// </div>
-
-//     `;
-//   });
-// }
-
-// /**
-//  * Init
-//  */
-// document.addEventListener("DOMContentLoaded", fetchJobs);

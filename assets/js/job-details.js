@@ -1,25 +1,14 @@
 
-const API_URL =
-  "https://sharepoint-dot-solution-builder-421307.ew.r.appspot.com/v1/records?listName=Jobs";
-
 // Get job ID from URL
-const params = new URLSearchParams(window.location.search);
-const jobId = parseInt(params.get("id"), 10);
-console.log("Job ID from URL:", jobId); // ✅ Debug
+const jobId = new URLSearchParams(window.location.search).get("id");
 
 async function fetchJobDetails() {
   try {
-    const response = await fetch(API_URL);
+    const response = await fetch(`${SHAREPOINT_API_BASE}/Jobs/items/${jobId}`);
     if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
 
     const data = await response.json();
-    console.log("API Response:", data); // ✅ Debug
-
-    // Get jobs array
-    const jobs = data.data?.items || [];
-
-    // Find job by Id
-    const job = jobs.find(j => j.Id === jobId);
+    const job = data.data;
 
     if (!job) {
       document.getElementById("jobTitle").textContent = "Job not found";
