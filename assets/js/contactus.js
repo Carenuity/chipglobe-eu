@@ -28,7 +28,7 @@
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(data)
+      body: JSON.stringify({ fields: data })
     });
 
     loading.style.display = "none";
