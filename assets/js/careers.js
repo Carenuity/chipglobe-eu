@@ -47,7 +47,7 @@ function renderJobs(jobs) {
       <div class="col-lg-4">
         <div class="card job-card h-100">
           <div class="card-body d-flex flex-column">
-            <h6><strong>${job.Title}</strong></h6>
+            <h6><strong>${job.Title || "Untitled Position"}</strong></h6>
             <hr />
             <strong>Job description</strong>
             <p>${truncateText(job.Description)}</p>

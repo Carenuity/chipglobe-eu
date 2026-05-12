@@ -811,7 +811,7 @@ width: 100%;
 #hero6 h2 {
   color: #eeeeee;
   margin: 10px 0 0 0;
-  font-ssize: 24px;
+  font-size: 24px;
 }
 
 /* hero7 */
@@ -1027,7 +1027,8 @@ padding-top: 10px;
 }
 
 select {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   padding: 10px;
   border: 2px solid #00815a;
   border-radius: 8px;
@@ -1146,7 +1147,7 @@ select:focus {
   border: none;
   border-radius: 8px 0 0 8px;
   outline: none;
-  width: 350px;
+  width: 100%;
 }
 
 #search-button {
@@ -1167,12 +1168,12 @@ select:focus {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 100%;
-  height: 280px;
+  height: auto;
+  min-height: 280px;
   margin-top: 10px;
   margin-left: 0px;
   font-size: 12px;
   padding: 20px;
-  
 }
 
 
@@ -1394,10 +1395,8 @@ section {
 .img {
   border-radius: 50%;
   border: 5px solid #00815a;
-
   width: 300px;
-  
-  
+  max-width: 100%;
 }
 
 .team .team-member .pic {
@@ -2264,18 +2263,24 @@ section {
 }
 
 .testimonials .testimonial-slider .swiper-wrapper {
-  height: auto !important;
+  align-items: flex-start;
+}
+
+.testimonials .testimonial-slider .swiper-slide {
+  height: auto;
+  display: flex;
 }
 
 .testimonials .testimonial-item {
   background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--surface-color), var(--accent-color) 2%) 100%);
   border-radius: 20px;
   padding: 0;
-  height: 100%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.4s ease;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .testimonials .testimonial-item::before {
@@ -2311,16 +2316,17 @@ section {
 .testimonials .testimonial-header {
   position: relative;
   text-align: center;
-  padding: 30px 30px 20px;
+  padding: 0px 30px 10px;
   background: linear-gradient(135deg, color-mix(in srgb, var(--surface-color), var(--accent-color) 3%) 0%, var(--surface-color) 100%);
 }
 
 .testimonials .testimonial-header img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   object-fit: cover;
   border: 4px solid color-mix(in srgb, var(--accent-color), transparent 70%);
+  margin-top: 5px;
   margin-bottom: 15px;
   transition: all 0.3s ease;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -2338,7 +2344,7 @@ section {
 }
 
 .testimonials .testimonial-body {
-  padding: 0 30px 20px;
+  padding: 0 30px 16px;
 }
 
 .testimonials .testimonial-body p {
@@ -2367,12 +2373,12 @@ section {
 }
 
 .testimonials .testimonial-body p::after {
-  bottom: -20px;
+  bottom: -5px;
   right: -5px;
 }
 
 .testimonials .testimonial-footer {
-  padding: 20px 30px 30px;
+  padding: 8px 30px 55px;
   text-align: center;
   position: relative;
 }
@@ -2395,8 +2401,9 @@ section {
   position: absolute;
   bottom: 15px;
   right: 25px;
-  color: color-mix(in srgb, var(--accent-color), transparent 60%);
-  font-size: 1.5rem;
+  color: #00815a;
+  font-size: 2rem;
+  opacity: 0.75;
   transition: all 0.3s ease;
 }
 
@@ -2462,8 +2469,8 @@ section {
   }
 
   .testimonials .testimonial-item .testimonial-header img {
-    width: 70px;
-    height: 70px;
+    width: 105px;
+    height: 105px;
   }
 
   .testimonials .testimonial-item .testimonial-body,
@@ -2485,8 +2492,8 @@ section {
   }
 
   .testimonials .testimonial-item .testimonial-header img {
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
   }
 
   .testimonials .testimonial-item .testimonial-header .rating i {
@@ -2542,8 +2549,8 @@ section {
   }
 
   .testimonials .testimonial-item .testimonial-header img {
-    width: 55px;
-    height: 55px;
+    width: 80px;
+    height: 80px;
   }
 
   .testimonials .testimonial-item .testimonial-body {
@@ -2962,6 +2969,7 @@ section {
   color: #444444;
   font-size: 10px;
   background: #f1f7fd;
+  margin-top: 80px;
 }
 
 #footer .footer-top {
@@ -3109,4 +3117,146 @@ section {
   background: #00815a;
   color: #fff;
   text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Global Responsive Overrides
+--------------------------------------------------------------*/
+
+/* ── Hero sections 2–8: tablet (≤992px) ── */
+@media (max-width: 992px) {
+  #hero2, #hero3, #hero4, #hero5, #hero6, #hero7, #hero8 {
+    height: 60vh;
+  }
+
+  #hero2 h1, #hero3 h1, #hero4 h1,
+  #hero5 h1, #hero6 h1, #hero7 h1, #hero8 h1 {
+    margin-top: 90px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  #hero2 h2, #hero3 h2, #hero4 h2,
+  #hero5 h2, #hero6 h2, #hero7 h2, #hero8 h2 {
+    font-size: 18px;
+  }
+}
+
+/* ── Hero sections 2–8: mobile (≤768px) ── */
+@media (max-width: 768px) {
+  #hero2, #hero3, #hero4, #hero5, #hero6, #hero7, #hero8 {
+    height: 55vh;
+  }
+
+  #hero2 h1, #hero3 h1, #hero4 h1,
+  #hero5 h1, #hero6 h1, #hero7 h1, #hero8 h1 {
+    margin-top: 70px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero2 h2, #hero3 h2, #hero4 h2,
+  #hero5 h2, #hero6 h2, #hero7 h2, #hero8 h2 {
+    font-size: 15px;
+  }
+}
+
+/* ── Hero sections 2–8: small phones (≤480px) ── */
+@media (max-width: 480px) {
+  #hero2, #hero3, #hero4, #hero5, #hero6, #hero7, #hero8 {
+    height: 50vh;
+  }
+
+  #hero2 h1, #hero3 h1, #hero4 h1,
+  #hero5 h1, #hero6 h1, #hero7 h1, #hero8 h1 {
+    margin-top: 60px;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  #hero2 h2, #hero3 h2, #hero4 h2,
+  #hero5 h2, #hero6 h2, #hero7 h2, #hero8 h2 {
+    font-size: 13px;
+  }
+}
+
+/* ── Why-us / Services sidebar ── */
+@media (max-width: 768px) {
+  .why-us .content {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .why-us .content h3 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+}
+
+/* ── Careers filter row ── */
+@media (max-width: 768px) {
+  .careers-filters,
+  .careers-filters .row,
+  .careers-filters .col-md-4 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  select {
+    max-width: 100%;
+  }
+}
+
+/* ── Search container ── */
+@media (max-width: 576px) {
+  .search-container {
+    width: 100%;
+  }
+
+  #search-input {
+    font-size: 14px;
+  }
+}
+
+/* ── Cards: allow natural height on mobile ── */
+@media (max-width: 768px) {
+  .card {
+    min-height: unset;
+  }
+}
+
+/* ── Footer: reduce margin-top on small screens ── */
+@media (max-width: 768px) {
+  #footer {
+    margin-top: 40px;
+  }
+}
+
+/* ── General images: never overflow container ── */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ── Tables: horizontal scroll on small screens ── */
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* ── Section padding reduction on mobile ── */
+@media (max-width: 768px) {
+  section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+/* ── Prevent horizontal scroll site-wide ── */
+body {
+  overflow-x: hidden;
 }

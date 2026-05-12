@@ -36,6 +36,11 @@ function applyTranslations() {
     // Support \n line breaks from JSON
     el.innerHTML = value.replace(/\n/g, "<br>");
   });
+
+  // Recalculate Swiper heights after text is injected
+  document.querySelectorAll(".swiper.init-swiper, .testimonial-slider.swiper").forEach(el => {
+    if (el.swiper) el.swiper.update();
+  });
 }
 
 // Make global (footer injection, etc.)
