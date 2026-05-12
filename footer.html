@@ -85,38 +85,4 @@
   </div>
 </footer>
 
-<script>
-  i18next.use(i18nextHttpBackend).init(
-    {
-      lng: localStorage.getItem("selectedLanguage") || "en",
-      fallbackLng: "de",
-      backend: {
-        loadPath: "assets/locales/{{lng}}/footer.json",
-      },
-    },
-    function (err, t) {
-      updateContent();
-    },
-  );
-
-  function updateContent() {
-    document.querySelectorAll("[data-i18n]").forEach(function (el) {
-      const key = el.getAttribute("data-i18n");
-      el.textContent = i18next.t(key);
-    });
-  }
-
-  function changeLanguage(lang) {
-    i18next.changeLanguage(lang, function () {
-      updateContent();
-      localStorage.setItem("selectedLanguage", lang);
-    });
-  }
-
-  document.addEventListener("DOMContentLoaded", function () {
-    const savedLang = localStorage.getItem("selectedLanguage") || "en";
-    changeLanguage(savedLang);
-  });
-</script>
-
 <!-- End Footer -->
