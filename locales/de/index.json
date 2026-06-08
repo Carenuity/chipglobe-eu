@@ -139,8 +139,25 @@
   "testimonials.t1": "Die Zusammenarbeit mit ChipGlobe hat unsere Entwicklungszeiten drastisch verbessert – ihre Senior-Experten haben unsere Erwartungen übertroffen.",
   "testimonials.t2": "Das Embedded-Systems-Team von ChipGlobe half uns, Firmware und Hardware nahtlos zu integrieren und unser neues IoT-Produkt erfolgreich zu starten.",
   "testimonials.t3": "Von RTL bis GDS hat ChipGlobe uns in jeder Phase unterstützt – mit klarer Kommunikation und hochwertigen Ergebnissen.",
-  "testimonials.t4": "Ihre technische Beratung und kooperative Arbeitsweise gaben uns Sicherheit während der gesamten Verifikationsphase – ein herausragender Partner."
+  "testimonials.t4": "Ihre technische Beratung und kooperative Arbeitsweise gaben uns Sicherheit während der gesamten Verifikationsphase – ein herausragender Partner.",
 
-
+  "trusted.title": "Branchenanerkennung & strategische Partnerschaften",
+  "trusted.group1.title": "Von der Industrie vertraut",
+  "trusted.infineon.title": "Infineon ASIC- & Verifikationsreferenz",
+  "trusted.infineon.text": "Nachgewiesene Expertise im ASIC-Design und in der Verifikation durch erfolgreiche Zusammenarbeit mit Infineon.",
+  "trusted.odc.title": "ODC-Erfolgsgeschichte",
+  "trusted.odc.text": "Nachgewiesene Exzellenz bei der Bereitstellung leistungsstarker Offshore-Development-Center-(ODC)-Modelle.",
+  "trusted.security.title": "Security-Partner-Netzwerk",
+  "trusted.security.text": "Starke Partnerschaften mit führenden Sicherheitsanbietern für robuste und zukunftssichere Lösungen.",
+  "trusted.group2.title": "Bekannt aus",
+  "trusted.featured.title": "Forbes Asia & Presse & Medien",
+  "trusted.featured.text": "Von Forbes Asia für Innovation, Wachstum und Wirkung im Technologiesektor ausgezeichnet und in internationalen Medien für wegweisende Fortschritte und Branchenführerschaft hervorgehoben.",
+  "trusted.group3.title": "Innovation & akademische Partnerschaften",
+  "trusted.universities.title": "Technische Universitäten",
+  "trusted.universities.text": "Aktive Zusammenarbeit mit führenden technischen Universitäten zur Förderung von Innovation und Talententwicklung.",
+  "trusted.iot.title": "Sicheres IoT-Prototyping",
+  "trusted.iot.text": "Gemeinsame Initiativen zur Entwicklung sicherer IoT-Lösungen und Prototypen der nächsten Generation.",
+  "trusted.internship.title": "Praktikums- & Forschungsprogramme",
+  "trusted.internship.text": "Umfassende Programme zur Förderung von Forschung, Innovation und praxisnaher Branchenerfahrung für Studierende und Absolventen."
   }
   

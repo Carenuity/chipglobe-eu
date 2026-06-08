@@ -577,182 +577,250 @@
         </div>
       </section>
 
-      <!-- Testimonials -->
-      <section style="background-color: rgb(233, 236, 236); padding: 30px">
-        <div class="container">
+      <!-- Industry Recognition & Strategic Partnerships -->
+      <section
+        class="trusted-by section"
+        style="background-color: rgb(233, 236, 236); padding: 30px 0"
+      >
+        <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2 data-i18n="testimonials.title"></h2>
-            <p data-i18n="testimonials.intro"></p>
+            <h2 data-i18n="trusted.title">
+              Industry Recognition &amp; Strategic Partnerships
+            </h2>
           </div>
 
-          <div id="testimonials" class="testimonials section">
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-              <div class="testimonial-slider swiper init-swiper">
-                <script type="application/json" class="swiper-config">
-                  {
-                    "loop": true,
-                    "speed": 600,
-                    "autoplay": { "delay": 4000 },
-                    "slidesPerView": 1,
-                    "spaceBetween": 30,
-                    "navigation": {
-                      "nextEl": ".swiper-button-next",
-                      "prevEl": ".swiper-button-prev"
-                    },
-                    "breakpoints": {
-                      "768": { "slidesPerView": 2 },
-                      "1200": { "slidesPerView": 3 }
-                    }
-                  }
-                </script>
-
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div
-                      class="testimonial-item"
-                      data-aos="zoom-in"
-                      data-aos-delay="200"
-                    >
-                      <div class="testimonial-header">
-                        <img
-                          src="assets/img/person/thomas.jfif"
-                          alt="Thomas Ruehlicke"
-                          class="img-fluid"
-                          loading="lazy"
-                        />
-                        <div class="rating">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                      <div class="testimonial-body">
-                        <p data-i18n="testimonials.slide1.text"></p>
-                      </div>
-                      <div class="testimonial-footer">
-                        <h5 data-i18n="testimonials.slide1.name"></h5>
-                        <span data-i18n="testimonials.slide1.position"></span>
-                        <div class="quote-icon">
-                          <i class="bi bi-chat-quote-fill"></i>
-                        </div>
-                      </div>
-                    </div>
+          <!-- Trusted by Industry -->
+          <div class="trusted-group" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="trusted-group-title" data-i18n="trusted.group1.title">
+              Trusted by Industry
+            </h3>
+            <div class="row gy-4">
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img trusted-card-img--contain">
+                    <img
+                      src="assets/img/trusted/infineon-logo.png"
+                      alt="Infineon logo"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
                   </div>
-
-                  <!-- <div class="swiper-slide">
-                    <div
-                      class="testimonial-item"
-                      data-aos="zoom-in"
-                      data-aos-delay="300"
-                    >
-                      <div class="testimonial-header">
-                        <img
-                          src="assets/img/person/person-m-8.webp"
-                          alt=""
-                          class="img-fluid"
-                          loading="lazy"
-                        />
-                        <div class="rating">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                      <div class="testimonial-body">
-                        <p data-i18n="testimonials.slide2.text"></p>
-                      </div>
-                      <div class="testimonial-footer">
-                        <h5 data-i18n="testimonials.slide2.name"></h5>
-                        <span data-i18n="testimonials.slide2.position"></span>
-                        <div class="quote-icon">
-                          <i class="bi bi-chat-quote-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-
-                  <div class="swiper-slide">
-                    <div
-                      class="testimonial-item"
-                      data-aos="zoom-in"
-                      data-aos-delay="400"
-                    >
-                      <div class="testimonial-header">
-                        <img
-                          src="assets/img/person/person-f-6.webp"
-                          alt=""
-                          class="img-fluid"
-                          loading="lazy"
-                        />
-                        <div class="rating">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                      <div class="testimonial-body">
-                        <p data-i18n="testimonials.slide3.text"></p>
-                      </div>
-                      <div class="testimonial-footer">
-                        <h5 data-i18n="testimonials.slide3.name"></h5>
-                        <span data-i18n="testimonials.slide3.position"></span>
-                        <div class="quote-icon">
-                          <i class="bi bi-chat-quote-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="swiper-slide">
-                    <div
-                      class="testimonial-item"
-                      data-aos="zoom-in"
-                      data-aos-delay="500"
-                    >
-                      <div class="testimonial-header">
-                        <img
-                          src="assets/img/person/person-m-12.webp"
-                          alt=""
-                          class="img-fluid"
-                          loading="lazy"
-                        />
-                        <div class="rating">
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i
-                          ><i class="bi bi-star-fill"></i>
-                        </div>
-                      </div>
-                      <div class="testimonial-body">
-                        <p data-i18n="testimonials.slide4.text"></p>
-                      </div>
-                      <div class="testimonial-footer">
-                        <h5 data-i18n="testimonials.slide4.name"></h5>
-                        <span data-i18n="testimonials.slide4.position"></span>
-                        <div class="quote-icon">
-                          <i class="bi bi-chat-quote-fill"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  <h5 data-i18n="trusted.infineon.title">
+                    Infineon ASIC &amp; Verification Reference
+                  </h5>
+                  <p data-i18n="trusted.infineon.text">
+                    Proven expertise in ASIC design and verification through
+                    successful collaborations with Infineon.
+                  </p>
                 </div>
+              </div>
 
-                <div class="swiper-navigation">
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/odc.png"
+                      alt="ChipGlobe Offshore Development Center team"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.odc.title">ODC Success Story</h5>
+                  <p data-i18n="trusted.odc.text">
+                    Demonstrated excellence in delivering high-performance
+                    Offshore Development Center (ODC) models.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/security1.png"
+                      alt="ChipGlobe security partner network"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.security.title">
+                    Security Partner Network
+                  </h5>
+                  <p data-i18n="trusted.security.text">
+                    Strong partnerships with leading security providers to
+                    ensure robust and future-ready solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Featured In -->
+          <div class="trusted-group" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="trusted-group-title" data-i18n="trusted.group2.title">
+              Featured In
+            </h3>
+            <div class="row gy-4 justify-content-center">
+              <div class="col-lg-8 d-flex">
+                <div class="trusted-card trusted-card--wide">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/featured-in.png"
+                      alt="ChipGlobe featured in Forbes Asia and international press"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.featured.title">
+                    Forbes Asia &amp; Press &amp; Media
+                  </h5>
+                  <p data-i18n="trusted.featured.text">
+                    Recognized by Forbes Asia for innovation, growth, and impact
+                    in the technology sector, and highlighted across
+                    international media outlets for cutting-edge advancements and
+                    industry leadership.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Innovation & Academic Partnerships -->
+          <div class="trusted-group" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="trusted-group-title" data-i18n="trusted.group3.title">
+              Innovation &amp; Academic Partnerships
+            </h3>
+            <div class="row gy-4">
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/innovation.png"
+                      alt="Collaboration with technical universities"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.universities.title">
+                    Technical Universities
+                  </h5>
+                  <p data-i18n="trusted.universities.text">
+                    Active collaboration with top-tier technical universities to
+                    drive innovation and talent development.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/security.png"
+                      alt="Secure IoT prototyping starter kit"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.iot.title">Secure IoT Prototyping</h5>
+                  <p data-i18n="trusted.iot.text">
+                    Joint initiatives focused on developing secure,
+                    next-generation IoT solutions and prototypes.
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 d-flex">
+                <div class="trusted-card">
+                  <div class="trusted-card-img">
+                    <img
+                      src="assets/img/trusted/internship.png"
+                      alt="ChipGlobe internship and research programs"
+                      class="img-fluid"
+                      loading="lazy"
+                    />
+                  </div>
+                  <h5 data-i18n="trusted.internship.title">
+                    Internship &amp; Research Programs
+                  </h5>
+                  <p data-i18n="trusted.internship.text">
+                    Comprehensive programs designed to foster research,
+                    innovation, and real-world industry experience for students
+                    and graduates.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <style>
+        .trusted-by .trusted-group {
+          margin-top: 40px;
+        }
+        .trusted-by .trusted-group:first-of-type {
+          margin-top: 10px;
+        }
+        .trusted-by .trusted-group-title {
+          font-size: 24px;
+          font-weight: 700;
+          color: #00815a;
+          margin-bottom: 24px;
+          padding-bottom: 10px;
+          border-bottom: 2px solid rgba(0, 129, 90, 0.2);
+        }
+        .trusted-by .trusted-card {
+          background: #fff;
+          border-radius: 10px;
+          overflow: hidden;
+          box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .trusted-by .trusted-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        }
+        .trusted-by .trusted-card-img {
+          width: 100%;
+          height: 200px;
+          overflow: hidden;
+          background: #f4f6f6;
+        }
+        .trusted-by .trusted-card-img img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        .trusted-by .trusted-card-img--contain {
+          background: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 24px;
+        }
+        .trusted-by .trusted-card-img--contain img {
+          object-fit: contain;
+        }
+        .trusted-by .trusted-card--wide .trusted-card-img {
+          height: 340px;
+        }
+        .trusted-by .trusted-card h5 {
+          font-size: 18px;
+          font-weight: 700;
+          color: #222;
+          margin: 18px 20px 8px;
+        }
+        .trusted-by .trusted-card p {
+          font-size: 15px;
+          color: #555;
+          margin: 0 20px 20px;
+          line-height: 1.6;
+        }
+      </style>
     </main>
 
     <!-- ======= Footer ======= -->

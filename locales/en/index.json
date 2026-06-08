@@ -137,8 +137,25 @@
   "testimonials.t1": "Working with ChipGlobe transformed our chip development turnaround — their senior experts delivered beyond our expectations.",
   "testimonials.t2": "ChipGlobe's embedded-systems team helped us integrate firmware and hardware seamlessly, enabling our new IoT product launch.",
   "testimonials.t3": "From RTL to GDS implementation, ChipGlobe guided us every step of the way with clear communication and high-quality results.",
-  "testimonials.t4": "Their technical guidance and collaborative approach gave us confidence throughout our verification phase — outstanding partner."
+  "testimonials.t4": "Their technical guidance and collaborative approach gave us confidence throughout our verification phase — outstanding partner.",
 
-
+  "trusted.title": "Industry Recognition & Strategic Partnerships",
+  "trusted.group1.title": "Trusted by Industry",
+  "trusted.infineon.title": "Infineon ASIC & Verification Reference",
+  "trusted.infineon.text": "Proven expertise in ASIC design and verification through successful collaborations with Infineon.",
+  "trusted.odc.title": "ODC Success Story",
+  "trusted.odc.text": "Demonstrated excellence in delivering high-performance Offshore Development Center (ODC) models.",
+  "trusted.security.title": "Security Partner Network",
+  "trusted.security.text": "Strong partnerships with leading security providers to ensure robust and future-ready solutions.",
+  "trusted.group2.title": "Featured In",
+  "trusted.featured.title": "Forbes Asia & Press & Media",
+  "trusted.featured.text": "Recognized by Forbes Asia for innovation, growth, and impact in the technology sector, and highlighted across international media outlets for cutting-edge advancements and industry leadership.",
+  "trusted.group3.title": "Innovation & Academic Partnerships",
+  "trusted.universities.title": "Technical Universities",
+  "trusted.universities.text": "Active collaboration with top-tier technical universities to drive innovation and talent development.",
+  "trusted.iot.title": "Secure IoT Prototyping",
+  "trusted.iot.text": "Joint initiatives focused on developing secure, next-generation IoT solutions and prototypes.",
+  "trusted.internship.title": "Internship & Research Programs",
+  "trusted.internship.text": "Comprehensive programs designed to foster research, innovation, and real-world industry experience for students and graduates."
   }
   
