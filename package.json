@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write \"**/*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carenuity/chipglobe-eu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Carenuity/chipglobe-eu/issues"
+  },
+  "homepage": "https://github.com/Carenuity/chipglobe-eu#readme",
+  "dependencies": {
+    "prettier": "^3.8.4"
+  }
+}
