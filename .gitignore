@@ -1,1 +1,40 @@
+# Claude AI
+.claude/
+
+# Editor & IDE
+# .vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Node (if ever used locally)
+node_modules/
+package-lock.json
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
 assets/js/contact.js
+
+# Archives & temp files
+*.rar
+*.zip
+*.tar.gz
+*.tmp
+*.bak
+
+# Build output
+dist/
+build/
