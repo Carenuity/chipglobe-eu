@@ -100,7 +100,8 @@
     },
     "greece": {
       "title": "Design Center (ODC) Chipglobe Greece Monoprosopi IKE Greece / Thessaloniki",
-      "address": "Karatasou 7, 54626 Thessaloniki, Greece"
+      "address": "Karatasou 7, 2nd floor, 54626 Thessaloniki, Greece",
+      "focus": "RTL Design, Functional Verification, Embedded Systems, Embedded AI"
     },
     "serbia": {
       "title": "Design Center Chipglobe d.o.o. (ODC) Serbia / Belgrade",

@@ -3260,3 +3260,98 @@ img {
 body {
   overflow-x: hidden;
 }
+
+/* ── Click-to-copy address blocks ── */
+.copyable-address {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding-left: 1.5em;
+  transition: color 0.2s ease;
+}
+
+/* Persistent copy icon so the address always looks clickable */
+.copyable-address::before {
+  font-family: "bootstrap-icons";
+  content: "\f290";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  font-size: 0.9em;
+  opacity: 0.75;
+}
+
+.copyable-address.address-copied::before {
+  content: "\f28b";
+  color: #00815a;
+  opacity: 1;
+}
+
+.copyable-address:hover {
+  color: #00815a;
+}
+
+.copyable-address:hover::before {
+  opacity: 1;
+}
+
+.copyable-address::after {
+  content: "Click to copy";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  margin-bottom: 6px;
+  padding: 3px 8px;
+  font-size: 12px;
+  line-height: 1.2;
+  white-space: nowrap;
+  color: #fff;
+  background: #00815a;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(4px);
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.copyable-address:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.copyable-address.address-copied::after {
+  content: "Copied!";
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Imprint blocks sit on a green (.bg) background — keep the address white
+   so it never disappears, and give the icon/tooltip a contrasting style. */
+.bg .copyable-address,
+.bg .copyable-address:hover {
+  color: #ffffff;
+}
+
+.bg .copyable-address.address-copied::before {
+  color: #ffffff;
+}
+
+.bg .copyable-address::after {
+  color: #00815a;
+  background: #ffffff;
+}
+
+/* ── About-image: prevent overflow on small phones ── */
+@media (max-width: 575.98px) {
+  .about-image {
+    min-width: 0;
+    flex-basis: auto;
+    width: 100%;
+  }
+}
